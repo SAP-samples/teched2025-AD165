@@ -1,8 +1,8 @@
-# Session ID - Session Title
+# AD165 - Build It Yourself: Your Modern Digital Workplace
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called Session ID - Session Title.  
+Bring your digital workplace vision to life with SAP Build Work Zone. Discover how to design intuitive workspaces, connect business content, and leverage AI-enabled features within the product to deliver smarter, more engaging user experiences.
 
 ## Overview
 
@@ -10,24 +10,22 @@ This session introduces attendees to...
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+There are no specific requirements to follow the exercises in this repository.
 
 ## Exercises
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 1 - Build your Center of Excellence workspace](exercises/ex1/)
+    - [Exercise 1.1 - Create a public workspace from a template](exercises/ex1#exercise-11-sub-exercise-1-description)
+    - [Exercise 1.2 - Create a catchy start page fo the workspace](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Exercise 1.3 - Add ??](exercises/ex1#exercise-12-sub-exercise-2-description)
+- [Exercise 2 - Add a guided experience to your workspace](exercises/ex2/)
+    - [Exercise 2.1 - Create a guided experience using a guided process from SAP Build Process Automation](exercises/ex2#exercise-21-sub-exercise-1-description)
+    - [Exercise 2.2 - Configuring the steps of the guided experience](exercises/ex2#exercise-22-sub-exercise-2-description)
 
-  
-**OR** Link to the Tutorial Navigator for example...
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
 
 **IMPORTANT**
 

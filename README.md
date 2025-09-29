@@ -19,8 +19,8 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Build your Center of Excellence workspace](exercises/ex1/)
     - [Exercise 1.1 - Create a public workspace from a template](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Create a catchy start page fo the workspace](exercises/ex1#exercise-12-sub-exercise-2-description)
-    - [Exercise 1.3 - Add ??](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Exercise 1.2 - Enhance the start page of the workspace with pre-configured widgets and images](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Exercise 1.3 - Add a forums page for workspace users to share ideas, questions, and discussions](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - Add a guided experience to your workspace](exercises/ex2/)
     - [Exercise 2.1 - Create a guided experience using a guided process from SAP Build Process Automation](exercises/ex2#exercise-21-sub-exercise-1-description)
     - [Exercise 2.2 - Configuring the steps of the guided experience](exercises/ex2#exercise-22-sub-exercise-2-description)
@@ -28,8 +28,8 @@ Provide the exercise content here directly in README.md using [markdown](https:/
     - [Exercise 3.1 - Work with SAP Joule and experience Document Grounding](exercises/ex3#exercise-31-sub-exercise-1-description)
     - [Exercise 3.2 - Be more efficient with Text Summarization](exercises/ex3#exercise-32-sub-exercise-2-description)
 - [Exercise 4 (optional) - Create a private workspace from scratch with S/4HANA content](exercises/ex4/)
-    - [Exercise 2.1 - Create a private workspace](exercises/ex4#exercise-41-sub-exercise-1-description)
-    - [Exercise 2.2 - Add tiles and cards from SAP S/4HANA public cloud edition](exercises/ex4#exercise-42-sub-exercise-2-description)
+    - [Exercise 4.1 - Create a private workspace](exercises/ex4#exercise-41-sub-exercise-1-description)
+    - [Exercise 4.2 - Add tiles and cards from SAP S/4HANA public cloud edition](exercises/ex4#exercise-42-sub-exercise-2-description)
  
   
 **IMPORTANT**

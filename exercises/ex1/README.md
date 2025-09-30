@@ -1,39 +1,55 @@
-# Exercise 1 - Exercise 1 Description
+# Exercise 1 - Build your Center of Excellence workspace
 
-In this exercise, we will create...
+In this exercise, we will create a public workspace from a template that you first upload to your SAP Build Work Zone tenant. As you will be working in a shared environment, it is important that you give all objects you create easily identifiable names, e.g. containing your 3-digit user ID which you can also find on your desktop.
 
-## Exercise 1.1 Sub Exercise 1 Description
 
-After completing these steps you will have created...
+## Exercise 1.1 Uploading a workspace template to SAP Build Work Zone
 
-1. Click here.
-<br>![](/exercises/ex1/images/01_01_0010.png)
+After completing these steps you will have uploaded a Center of Excellence workspace template to SAP Build Work Zone, so you can use it for creating a workspace that will serve as an AI Center of Excellence.
 
-2.	Insert this line of code.
+1. To launch SAP Build Work Zone, go to the [Build Lobby](https://ad165-m3ep4xn0.eu10.build.cloud.sap/lobby) and login with the user that is available on your desk and password **Acce$$teched25**.
+<br>![Build Lobby](/exercises/ex1/images/01_01_0010.png)
+
+
+
+3. to be completed
+
+4. <br>![(/exercises/ex1/images/01_01_0010.png)
+
+5.	Insert this line of code.
 ```abap
 response->set_text( |Hello World! | ). 
 ```
 
 
 
-## Exercise 1.2 Sub Exercise 2 Description
+## Exercise 1.2 Create a workspace from your template
 
-After completing these steps you will have...
+After completing these steps you will have created a Center of Excellence workspace and made some initial settings. This step does not need to be done by an administrator, but according to your preferences, you might allow every user or only a specific group of key users to create workspaces to share knowledge and collaborate with colleagues.
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
+1.	In the menu bar, navigate to *Workspaces > New Workspace*.
+<br>![New workspace](/exercises/ex1/images/01_02_0010.png)
 
-```
+2.	Click the left tile to create a public workspace.
+<br>![Public workspace](/exercises/ex1/images/01_02_0020.png)
 
-2.	Click here.
-<br>![](/exercises/ex1/images/01_02_0010.png)
+3. Enter name: **AI Center of Excellence** and a description of your choice.
+4. Select the Center of Excellence abc workspace template that you just uploaded.
+5. Remove the checkmark next to *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
+<br>![Workspace creation wizard](/exercises/ex1/images/01_02_0030.png)
+
+6. You can leave the *Member Participation* settings as is. Simply click **Next**.
+<br>![Member settings](/exercises/ex1/images/01_02_0040.png)   
+
+7. On the *Non-Member Participation* page, set *Collaboration Level* to **None: All collaboration tools and member details are hidden** and click **Finish**.
+<br>![Non-member settings](/exercises/ex1/images/01_02_0050.png)
+
+
+## Exercise 1.3 Edit the Overview page of your workspace
+
+After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace.
+
+1. The workspace has been created and you automatically navigate to it. You can now start editing it.
 
 
 ## Summary

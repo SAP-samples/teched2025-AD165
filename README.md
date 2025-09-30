@@ -6,8 +6,9 @@ Bring your digital workplace vision to life with SAP Build Work Zone. Discover h
 
 ## Overview
 
-This session introduces attendees to...
+This session introduces attendees to SAP Build Work Zone which is a tool that empowers business users to build and personalize digital workspaces. It provides secure, centralized access to SAP and external apps, processes, and data on any device, helping to drive productivity and engagement. Engage with both internal teams and external stakeholders using interactive workspaces, guided experiences, and knowledge sharing to maximize efficiency.
 
+In this session, 
 ## Requirements
 
 There are no specific requirements to follow the exercises in this repository.
@@ -16,7 +17,7 @@ There are no specific requirements to follow the exercises in this repository.
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-- [Getting Started](exercises/ex0/)
+- [Getting Started (Optional)](exercises/ex0/) - Learn about SAP Build Work Zone
 - [Exercise 1 - Build your Center of Excellence workspace](exercises/ex1/)
     - [Exercise 1.1 - Create a public workspace from a template](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Exercise 1.2 - Enhance the start page of the workspace with pre-configured widgets and images](exercises/ex1#exercise-12-sub-exercise-2-description)

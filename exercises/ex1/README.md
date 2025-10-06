@@ -8,8 +8,6 @@ In this exercise, we will create a public workspace from a template that you fir
 1. To launch SAP Build Work Zone, go to the [Build Lobby](https://ad165-m3ep4xn0.eu10.build.cloud.sap/lobby) and login with the user that is available on your desk and password **Acce$$teched25**.
 <br>![Build Lobby](/exercises/ex1/images/01_01_0010.png)
 
-2. 
-
 3. to be completed
 
 4. <br>![(/exercises/ex1/images/01_01_0010.png)
@@ -47,7 +45,15 @@ After completing these steps you will have created a Center of Excellence worksp
 
 After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
 
-1. The workspace has been created and you automatically navigate to it. You can now start editing it.
+The workspace has been created and you automatically navigate to it. You can now start editing it, but before you do this, you should download some images and files you can use during the exercise.
+
+2. Right-click the link [exercises/ex1/samples](https://github.com/SAP-samples/teched2025-AD165/tree/main/exercises/ex1/samples) and open the folder in a new browser tab.
+3. Click the content.zip file and use the download button to download the zip file to your local computer.
+4. Extract the zip file into a folder of your choice.
+
+### Exercise 1.3.1 Exchanging the cover photo
+
+As a first step, you will change the cover photo to something more personal. 
 
 
 ## Summary

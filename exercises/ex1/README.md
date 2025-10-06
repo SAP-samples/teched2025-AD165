@@ -3,14 +3,12 @@
 In this exercise, we will create a public workspace from a template that you first upload to your SAP Build Work Zone tenant. As you will be working in a shared environment, it is important that you give all objects you create easily identifiable names, e.g. containing your 3-digit user ID which you can also find on your desktop.
 
 
-## Exercise 1.1 Uploading a workspace template to SAP Build Work Zone
-
-After completing these steps you will have uploaded a Center of Excellence workspace template to SAP Build Work Zone, so you can use it for creating a workspace that will serve as an AI Center of Excellence.
+## Exercise 1.1 Open the SAP Build Lobby and navigate to SAP Build Work Zone
 
 1. To launch SAP Build Work Zone, go to the [Build Lobby](https://ad165-m3ep4xn0.eu10.build.cloud.sap/lobby) and login with the user that is available on your desk and password **Acce$$teched25**.
 <br>![Build Lobby](/exercises/ex1/images/01_01_0010.png)
 
-
+2. 
 
 3. to be completed
 
@@ -47,7 +45,7 @@ After completing these steps you will have created a Center of Excellence worksp
 
 ## Exercise 1.3 Edit the Overview page of your workspace
 
-After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace.
+After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
 
 1. The workspace has been created and you automatically navigate to it. You can now start editing it.
 

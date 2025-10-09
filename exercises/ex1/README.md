@@ -41,7 +41,7 @@ After completing these steps you will have created a Center of Excellence worksp
 <br>![Non-member settings](/exercises/ex1/images/01_02_0050.png)
 
 
-## Exercise 1.3 Edit the Overview page of your workspace
+## Exercise 1.3 Edit your workspace header
 
 After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
 
@@ -53,7 +53,33 @@ The workspace has been created and you automatically navigate to it. You can now
 
 ### Exercise 1.3.1 Exchanging the cover photo
 
-As a first step, you will change the cover photo to something more personal. 
+As a first step, you will change the cover photo to something that fits the purpose of the workspace.
+
+### Exercise 1.3.2 Change the avatar of the workspace
+
+
+
+## Exercise 1.4 Edit the overview page of your workspace
+
+After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
+
+### Exercise 1.4.1 Add some images to the overview page
+
+
+### Exercise 1.4.2 Remove an unneeded section
+
+
+### Exercise 1.4.3 Edit the News section
+
+
+### Exercise 1.4.4 Exchange the video
+
+
+
+
+
+
+1. 
 
 
 ## Summary

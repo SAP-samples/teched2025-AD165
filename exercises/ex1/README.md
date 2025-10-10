@@ -24,7 +24,7 @@ response->set_text( |Hello World! | ).
 After completing these steps you will have created a Center of Excellence workspace and made some initial settings. This step does not need to be done by an administrator, but according to your preferences, you might allow every user or only a specific group of key users to create workspaces to share knowledge and collaborate with colleagues.
 
 1.	In the menu bar, navigate to *Workspaces > New Workspace*.
-<br>![New workspace](/exercises/ex1/images/01_02_0010.png)
+<br>![New workspace](/exercises/ex1/images/01_03_0010.png)
 
 2.	Click the left tile to create a public workspace.
 <br>![Public workspace](/exercises/ex1/images/01_02_0020.png)

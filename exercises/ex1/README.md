@@ -27,7 +27,7 @@ After completing these steps you will have created a Center of Excellence worksp
 <br>![New workspace](/exercises/ex1/images/01_03_0010.png)
 
 2.	Click the left tile to create a public workspace.
-<br>![Public workspace](/exercises/ex1/images/01_02_0020.png)
+<br>![Public workspace](/exercises/ex1/images/01_04_0010.png)
 
 3. Enter name: **AI Center of Excellence** and a description of your choice.
 4. Select the Center of Excellence abc workspace template that you just uploaded.

@@ -51,7 +51,7 @@ The workspace has been created and you automatically navigate to it. You can now
 3. Click the content.zip file and use the download button to download the zip file to your local computer.
 4. Extract the zip file into a folder of your choice.
 
-### Exercise 1.3.1 Exchanging the cover photo
+#### Exercise 1.3.1 Exchanging the cover photo
 
 As a first step, you will change the cover photo to something that fits the purpose of the workspace.
 
@@ -65,7 +65,7 @@ As a first step, you will change the cover photo to something that fits the purp
 <br>![Zoom reposition & Save](/exercises/ex1/images/01_03_0050.png)
 
 
-### Exercise 1.3.2 Change the avatar of the workspace
+#### Exercise 1.3.2 Change the avatar of the workspace
 
 You will now change the avatar of the workspace, so you can recognize it more easily in the list of workspaces.
 
@@ -84,8 +84,8 @@ You will now change the avatar of the workspace, so you can recognize it more ea
 ## Exercise 1.4 Edit the overview page of your workspace
 
 After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
-
-### Exercise 1.4.1 Add some images to the overview page
+<br><br>
+#### Exercise 1.4.1   Add some images to the overview page
 
 1. First, open the workpage editor by clicking the pencil icon on the right of the screen.
 <br>![Go to workpage editor](/exercises/ex1/images/01_04_0010.png)
@@ -112,14 +112,15 @@ After completing these steps you will have designed a beautiful entry page for y
 <br>![Added Image](/exercises/ex1/images/01_04_0090.png)
 
 
-### Exercise 1.4.2 Remove an unneeded section
+<br><br>
+#### Exercise 1.4.2   Remove an unneeded section
 
 You do not need the next section, so you are now going to delete it.
 Hover the section till you see the grey section frame and select the **Delete section** icon.
 <br>![Delete section](/exercises/ex1/images/01_04_100.png)
 
-
-### Exercise 1.4.3 Edit the News section
+<br><br>
+#### Exercise 1.4.3   Edit the News section
 
 1. In the **News** section, change the title to **Current News**.
 <br>![Delete section](/exercises/ex1/images/01_04_110.png)
@@ -131,21 +132,66 @@ Hover the section till you see the grey section frame and select the **Delete se
 
 Wait for the text to be generated, then accept or discard (to enter a new prompt) or retry with the same prompt and finally share the news.
 
+<br><br>
+#### Exercise 1.4.4   Add a Feed widget to the page
 
+1. Hover the **News** section again until an **Add section** button appears below it. Click the button and select **Freestyle** in the pop-up window.
+<br>![Add section](/exercises/ex1/images/01_04_122.png)
 
-### Exercise 1.4.4 Exchange the video
+2. Click the **Add Content** button in the new section.
+<br>![Add section](/exercises/ex1/images/01_04_124.png)
+  
+3. Select the **Feed** widget.
+<br>![Add section](/exercises/ex1/images/01_04_122.png)
+
+4. In the Feed widget properties, select **Workspace Status Only** in the *Filter By* field. Change the *Widget Title* to **Workspace Feed**. Then click **Save**.
+<br>![Widget properties](/exercises/ex1/images/01_04_126.png)
+
+<br><br>
+#### Exercise 1.4.5   Exchange the video
 
 You would like to exchange the video for an AI related one. 
 
+1. Hover the video and click the **Edit widget** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
+
+2. Paste the following URL into the input field beneath **Paste URL**: 
+```
+https://www.youtube.com/embed/A77g1LKqjFg?si=GVW6OK9tdWip_7n6
+```
+
+Then click **Save**.
+<br>![Paste URL](/exercises/ex1/images/01_04_130.png)
+
+
+<br><br>
+#### Exercise 1.4.6   Move a widget to a new cell
+
+You would like to move the two elements (text and pink cell) to the right of the video.
+
+1. Hover the section with the video until you see a plus sign to the right of the video. Click the plus icon to add another column to the section.
+<br>![Add column](/exercises/ex1/images/01_04_140.png)
+
+2. Drag and drop the content from the left column to the new column. The empty column on the left is automatically deleted.
+<br>![Move content](/exercises/ex1/images/01_04_150.png)
+
+<br><br>
+#### Exercise 1.4.7  Publish the workpage
+
+1. To make your changes available to users accessing the workspace, click **Publish** on top of the page.
+<br>![Publish](/exercises/ex1/images/01_04_160.png)
+2. In the publishing pop-up, keep all settings and click **Publish** again. Your changes are now visible to all users of the workspace
+<br>![Result Workpage Editing](/exercises/ex1/images/01_04_170.png)
 
 
 
-1. 
-
+## Exercise 1.5  Add a discussion topic to the Forum
+DO with Text Generation
 
 ## Summary
 
-You've now ...
+You've now created a first version of a Center of Excellence workspace for AI topics based on a template. Now you can enhance it with a guided experience in Exercise 2.
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+
+
+Continue to - [Exercise 2 - Add a Guided Experience to your workspace](../ex2/README.md)
 

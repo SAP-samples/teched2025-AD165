@@ -55,9 +55,22 @@ The workspace has been created and you automatically navigate to it. You can now
 
 As a first step, you will change the cover photo to something that fits the purpose of the workspace.
 
+1. Click **Edit Cover Photo**, then select **Upload Photo** from the dropdown list.
+<br>![Edit Cover Photo](/exercises/ex1/images/01_03_0030.png)   
+
+2. Select the AI_Banner.jpg from the folder to which you extracted the image files.
+<br>![Select AI_Banner](/exercises/ex1/images/01_03_0040.png)   
+
+3. If you want, you can zoom into the image by using the slider. Select a beautiful display window by dragging the image up and down or left and right. Then click **Save**.
+<br>![Zoom reposition & Save](/exercises/ex1/images/01_03_0050.png)
+
+
 ### Exercise 1.3.2 Change the avatar of the workspace
 
+You will now change the avatar of the workspace, so you can recognize it more easily in the list of workspaces.
 
+1. Hover the little image next to the workspace titel, then click the **Upload workspace avatar** icon that appears.
+2. Upload any image from the images folder 
 
 ## Exercise 1.4 Edit the overview page of your workspace
 

@@ -122,13 +122,20 @@ Hover the section till you see the grey section frame and select the **Delete se
 ### Exercise 1.4.3 Edit the News section
 
 1. In the **News** section, change the title to **Current News**.
+<br>![Delete section](/exercises/ex1/images/01_04_110.png)
 
 2. In the leftmost text widget, you will now change the text to announce some AI related news. You can use the text generation capability of SAP Build Work Zone to help you generate a text quickly. 
+<br>![Delete section](/exercises/ex1/images/01_04_120.png)
+
+3. Enter a prompt, e.g. Share some exciting news about AI usage at ACME Corp.
+
+Wait for the text to be generated, then accept or discard (to enter a new prompt) or retry with the same prompt and finally share the news.
+
 
 
 ### Exercise 1.4.4 Exchange the video
 
-
+You would like to exchange the video for an AI related one. 
 
 
 

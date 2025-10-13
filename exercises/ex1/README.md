@@ -78,7 +78,7 @@ You will now change the avatar of the workspace, so you can recognize it more ea
 
 5. Zoom into the uploaded image and select a nice detail by dragging the image to the right position.
 6. Click **Save changes**.
-<br>![Zoom reposition & Save](/exercises/ex1/images/01_03_0050.png)
+<br>![Zoom reposition & Save](/exercises/ex1/images/01_03_0080.png)
 
 
 ## Exercise 1.4 Edit the overview page of your workspace
@@ -87,11 +87,43 @@ After completing these steps you will have designed a beautiful entry page for y
 
 ### Exercise 1.4.1 Add some images to the overview page
 
+1. First, open the workpage editor by clicking the pencil icon on the right of the screen.
+<br>![Go to workpage editor](/exercises/ex1/images/01_04_0010.png)
+
+2. Hover the workpage to see the structure according to which the widgets on the page are arranged. You can see that there are several sections in this page. Some of the sections have several (up to 8) columns which themselves can hold several cells.
+<br>![Hover structure](/exercises/ex1/images/01_04_0020.png)
+
+4. In the first step, you will add a banner image to the upmost section of the workpage. To do this, you can either drag and drop the banner.png onto the **Drop an image here to upload it** are or click **Or click here to upload an image** and select the banner.png for upload.
+<br>![Hover structure](/exercises/ex1/images/01_04_0030.png)
+
+5. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
+<br>![Edit cell settings](/exercises/ex1/images/01_04_0050.png)
+
+6. Change **Padding Bottom (px)** to 20 and set all switches to *On*, so the section is collapsible and open by default and to extend the background to full width. Add **#05f8ff** as background color. Then click **Save**.
+<br>![Change cell settings](/exercises/ex1/images/01_04_0060.png)
+
+7. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
+<br>![Change cell settings](/exercises/ex1/images/01_04_0070.png)
+
+8. Turn **Background** on to get a white frame around the image and click **Save**.
+<br>![Background ON](/exercises/ex1/images/01_04_0080.png)
+
+9. Add the image vertical.jpg between the *Welcome* and *How to get started* text widgets in the same way.
+<br>![Added Image](/exercises/ex1/images/01_04_0090.png)
+
 
 ### Exercise 1.4.2 Remove an unneeded section
 
+You do not need the next section, so you are now going to delete it.
+Hover the section till you see the grey section frame and select the **Delete section** icon.
+<br>![Delete section](/exercises/ex1/images/01_04_100.png)
+
 
 ### Exercise 1.4.3 Edit the News section
+
+1. In the **News** section, change the title to **Current News**.
+
+2. In the leftmost text widget, you will now change the text to announce some AI related news. You can use the text generation capability of SAP Build Work Zone to help you generate a text quickly. 
 
 
 ### Exercise 1.4.4 Exchange the video

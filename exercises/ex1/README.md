@@ -99,7 +99,7 @@ After completing these steps you will have designed a beautiful entry page for y
 5. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
 <br>![Edit cell settings](/exercises/ex1/images/01_04_0050.png)
 
-6. Change **Padding Bottom (px)** to 20 and set all switches to *On*, so the section is collapsible and open by default and to extend the background to full width. Add **#05f8ff** as background color. Then click **Save**.
+6. Change **Padding Bottom (px)** to 20 and set all switches to *On*, so the section is collapsible and open by default and to extend the background to full width. Add **#21275B** as background color. Then click **Save**.
 <br>![Change cell settings](/exercises/ex1/images/01_04_0060.png)
 
 7. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).

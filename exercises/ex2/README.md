@@ -62,32 +62,41 @@ Below, you can see a preview of the Stages and Steps that will be part of the ne
 
 After completing these steps you will have assigned widgets to allow users to execute all steps in the first stage.
 
-1. In your workspace, navigate to the page Use-Case Repository
-<br>![](/exercises/ex2/images/02_01_0010.png)
+1. In the **Persona and Problem Description** step, click **Add widget**.
+<br>![Add widget](/exercises/ex2/images/02_04_0010.png)
 
+2. Select the **Cards** tile and choose card **Refine Problem Statement**.
+3. You do not need to make any additional settings, just click **Save**.
 
+> **&#9432;** SAP UI Integration cards can easily be created and made available for usage in SAP Build Work Zone with SAP Business Application Studio.
 
-## Exercise 2.2 Sub Exercise 2 Description
+4. Now move on to the next step. Click **Review Matching Proposals**. In this step, the users should check if their proposal is really a new idea or if something very similar or identical has already been submitted or maybe even implemented. To support this step, we created a card that uses AI to identify such duplicate ideas.
 
-After completing these steps you will have...
+5. Add the card  **Matching Solutions** in the same way as before.
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
+> Don't worry about the error message about an undefined problem statement. This will not happen during runtime, as the first step was defined as a mandatory step, so users cannot reach this step without having entered a description of the problem.
 
-```
+6. Move on to step **Define the AI based solution** and add the **Refined solution** card to is as before. This card also uses generative AI to suggest a solution that could then be adapted by the user.
 
-2.	Click here.
+7. Navigate to step **Review and Publish Idea** and add the **Publish idea** card to it.
+8. Navigate to the last step of this stage **Done**. No need to do anything here, as it has already been populated.
+   
+
+## Exercise 2.5 Edit steps in stage Idea to Implementation
+
+After completing these steps you will have completed and published the full guided experience wizard.
+
+1.	In the same way as before, fill the steps of this stage as well. First, add the card **Define MVP Scope** to the step with the same name.
+2.	Next, add the card **Implementation Plan** to the second step.
+3.	Finally, add the card **Initiate MVP** to the step **Initiate MVP implementation**.
+
+Now, you are done. The wizard is completely configured. You might of course add further cards or widgets to the different steps, for example to provide the users with additional help and information like how-to videos and instructions.
+
+6.	Click **Publish** to make your new page available to workspace users. Permissions??? In the pop-up, click **Publish** again.
 <br>![](/exercises/ex2/images/02_02_0010.png)
 
 ## Summary
 
-You've now ...
+You've now added a **Use case repository** page to your workspace that contains a wizard that guides users throught he process of submitting an idea for an AI use case at ACME Corp, defining the MVP, and initiating the implementation. In the next exercise, you will experience your workspace from a user perspective.
 
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)

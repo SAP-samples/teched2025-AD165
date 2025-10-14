@@ -2,7 +2,7 @@
 
 In this exercise, you will create a new page Use Case Repository and a wizard (also known as Guided Experience) that supports users in submitting their ideas for AI use cases in ACME Corp. 
 
-> **&#9432;** Wizards allow administrators or key users to simplify complex workflows and processes by guiding their users through tasks in a clear and sequential way. Each wizard consists of one or more stages; each stage is composed of one or more steps.
+> **&#9432;** Guided experiences are designed to simplify multi-step business processes and complex workflows by breaking them down into manageable and intuitive steps. Each step can be enriched with various types of content, including videos, documents, forms, tasks, UI cards, and apps to provide users with all the necessary information to complete each step. Steps can be classified as optional or mandatory, ensuring critical tasks are completed while allowing flexibility for other actions. Users don't need to worry about finishing all the steps at once as the progress is saved within Work Zone, enabling them to resume from where they left off.  
 
 
 ## Exercise 2.1 Create a new page in your workspace
@@ -47,20 +47,23 @@ After completing these steps you will have created the skeleton for your wizard 
 
 1. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
 
-2. 
+> **&#9432;** You can either create a wizard from scratch by defining stages and steps manually or you can model a complex multi-step process as a *Guided Process* in SAP Build Process Automation and use it as a basis for your wizard. This accelerates the entire process from building to rolling out the experience for production.
+
+2. Select the **IdeaMgmtGuidedProcess** that has been preconfigured in SAP Build Process Automation.
+3. Select *Display Option* **Embedded in Workpage**.
+4. As you would like to allow users to submit additional ideas while waiting for approval of already submitted ones, check both checkboxes for **Allow wizard to be used multiple times** and **Run the wizard multiple times in parallel**.
+
+Below, you can see a preview of the Stages and Steps that will be part of the new wizard and of the wizard cover.
+
+5. Click **Save** to create the wizard.
 
 
-## Exercise 2.3 Create a wizard based on a Guided Process from SAP Build Process Automation
+## Exercise 2.4 Edit steps in stage Idea Generation & Refinement
 
-After completing these steps you will have created the skeleton for your wizard with some pre-defined stages and steps.
+After completing these steps you will have assigned widgets to allow users to execute all steps in the first stage.
 
 1. In your workspace, navigate to the page Use-Case Repository
 <br>![](/exercises/ex2/images/02_01_0010.png)
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
 
 
 

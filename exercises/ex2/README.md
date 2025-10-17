@@ -13,11 +13,27 @@ After completing these steps you will have downloaded a sample static card from 
 ](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html)that gathers all information about UI integration cards and navigate to the **Explore** tab. Here you can test various card types with sample data and download them. 
 <br>![Explore UI Cards](/exercises/ex2/images/02_01_0010.png)
 2. In the menu on the left, select the *Declarative Card Type* **Analytical**. Then use the Dropdown on the top of the window to select the **Popover Extension Actions** card.
+
+> **&#9432;** NOTE: This is just an example card with a different scenario that does not 100% fit this AI use case. We use it here to show how you can easily use the Card Explorer to understand different types of UI integration cards. In a productive scenario you would create a card based on a template consuming data from a backend system or a BTP service. You can learn more about this in exercise 5.
+
 <br>![Select Card Type](/exercises/ex2/images/02_01_0020.png)
-4. To adapt the card to the use case of an AI Use case repository, let us adjust its *manifest.json* file to change the static data displayed on the card.
-In the coding on the left, change the header title in the sap.card section to **Status of AI Projects**. You can see the change immediately on the card preview.
+4. To adapt the card, you can adjust its *manifest.json* file on the left. First modify the card's **ID** and the **title** and **subtitle** settings in the *sap.app* section. Make sure to add your user number to the id and title to make it unique and easier to identify later.
+The version property is mandatory. Without it the card will not be accepted by Work Zone.
+
+````
+	"sap.app": {
+		"id": "card.explorer.actions.chartActions_<your user number>",
+		"type": "card",
+		"title": "AI Project Status <your user number>",
+		"subTitle": "Simple Donut Chart",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+````
+
+5. Next, you change the *header title* in the *sap.card* section of the manifest.json to **Status of AI Projects**. You can see the change immediately on the card preview.
 <br>![Change title](/exercises/ex2/images/02_01_0030.png)
-5. Now you can change the meaning of the three colors to different statuses. Scroll down to the content - data part of the sap.card section and simply change the three store names. Change *24-Seven* to **Live**, change *A&A* to **Implementation**, and change *Alexei's Specialities* to **Definition**.
+5. Finally, change the meaning of the three colors to different statuses. Scroll down to the content - data part of the sap.card section and simply change the three store names. Change *24-Seven* to **Live**, change *A&A* to **Implementation**, and change *Alexei's Specialities* to **Definition**.
 <br>![Change title](/exercises/ex2/images/02_01_0030.png)
 
 The "data" section starting in lines 52 till 73 should look like this now:
@@ -58,12 +74,16 @@ After completing these steps you will have added the card to SAP Build Work Zone
 
 1. Go back to the tab with Work Zone still open. If you closed it, you can access it [here](https://ad165-m3ep4xn0.workzone.cfapps.eu10.hana.ondemand.com/site#workzone-home&/home).
 2. Now you need to navigate to the Administration environment. Click the User icon on the top right and select **Administration Console**.
-3. In the menu on the left, open **External Integrations** > ** Business Content** and click the **Content Manager** button. This takes you to the Content Manager where you can manage your business content. In this table you can find all business content entities (like apps, pages, spaces, roles etc.) that have been made available from various sources. In the fourth column for example, you see the Content Channel via which the content was created. Besides local content, some roles from SAP S/4HANA have been integrated with their assigned apps, spaces, and pages
-4. Move the *Text placement* to the **Top Left**
-5. Then click the **+Slide** button on the upper left side of the *Rotating Banner Widget* pop-up.
-6. Upload the **answer.jpg** image to the rotating banner and enter **Step 2** as *Title* and **Answer the questions with your best knowledge** as *Description*. Select *Text placement* as **Top Left** again.
-7. Finally, add another slide in the same way, upload the **IT.jpg** image to the rotating banner and enter **Step 3** as *Title* and **Wait for IT to approve / come back at your idea and see it represented down below** as *Description*.
-8. Now click **Save**.
+3. In the menu on the left, open **External Integrations** > ** Business Content** and click the **Content Manager** button.
+
+> **&#9432;** In the Content Manager administrators can manage business content. The table contains all business content entities (like apps, pages, spaces, roles etc.) that have been made available from various sources. In the fourth column for example, you see the Content Channel via which the content was provided. Besides local content, some roles from SAP S/4HANA have been integrated with their assigned apps, spaces, and pages. You can use the filter to only display a specific content entity type like apps.
+
+6. A card is one visualization type of an app, so you will now create an app. Click the **Create** button and select **App** from the dropdown.
+7. Click **Visualization** to go directly to the Visualization tab.
+8. In the field *Visualization Type* select **UI Integration Card**. Then click the **Upload Card** button.
+9. Select the zip file you just downloaded from your *Downloads* folder. 
+
+11. Click **Save**. 
    
 
 ## Exercise 2.3 Create a wizard based on a Guided Process from SAP Build Process Automation

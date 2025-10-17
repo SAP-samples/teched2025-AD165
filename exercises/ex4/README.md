@@ -5,62 +5,44 @@ In this exercise, you will submit an AI use case using the wizard you just creat
 > **&#9432;** Comment
 
 
-## Exercise 3.1 Use generative AI to create a status update
+## Exercise 4.1 Use generative AI to create a status update
 
 After completing these steps you will have sent a status update to all users.
 
 1. Navigate back to the Home page of SAP Build Work Zone by clicking Home in the Work Zone menu.
 <br>![Go to Home](/exercises/ex3/images/03_01_0010.png)
-2. In the middle of the Home page there is a 
+2. On the right side of the Home page beneath the banner, there is a feed widget where users with the required permission can share an update with the whole company. 
 <br>![Workpage tile](/exercises/ex3/images/03_01_0020.png)
-3. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as *Tab Name*, and click **Add**.
+3. Click the **Generate text with AI** icon to get some help with writing your feed.
 <br>![Create Page](/exercises/ex3/images/03_01_0030.png)
 
-The new page is created and you can now start populating it with content. Before you add, the wizard, add a text widget to explain what the use case repository is about.
-
-4. In the middle of the page, click **Add**. This way a freestyle section with one cell is created. You could also click the dropdown link and select **Freestyle** there.
+4. Enter a prompt of your choice into the Ask AI field, e.g. "write a short announcement that SAP TechEd has started in Berlin and virtually and there are amazing sessions to be followed online" and click the **Send** icon. 
 <br>![Add section](/exercises/ex2/images/02_01_0040.png)
-5. Hover the new section and click the **Add Content** button that appears.
-6. Select the **Text** widget from the widget gallery.
-7. Use text generation to create a welcome text for this page. You might use the prompt
-```
-Write a welcome text for a use case repository page where users can submit AI use cases and see the ideas of others
-```
-8. Edit the text to your liking, e.g. enlarge the title and make it bold.
+5. Read the generated text and decide if that is what you would like to post (maybe after some adjustments). In this case, click **Accept**. Otherwise, you can either click **Retry** which will make AI generate a new text from the same prompt, or **Discard** which will remove the prompt, so you can start again from scratch.
+6. Once you accept a text, it is added to the input field. You can now further edit it or simply click the **Share** button.
+7. You can also use text generation when commenting. Choose one of the entries in the feed and click the **Comment** button. Create a comment using text generation in the same way as the status update.
 
-## Exercise 2.2 Add a rotating banner to the page 
 
-After completing these steps you will have added a widget that describes the steps necessary to submit an AI use case in a nice visual way.
+## Exercise 4.2 Use text summarization to quickly grasp the content of a blog post
 
-1. Add a second column to the section as you did it on the *Welcome* page before and add a **Rotating Banner** widget to this column.
-2. Upload the **start.jpg** image to the rotating banner and enter **Step 1** as *Title* and **Start the Use Case submission process below** as *Description*. Feel free to adjust the image zoom or display window.
-3. Move the *Text placement* to the **Top Left**
-4. Then click the **+Slide** button on the upper left side of the *Rotating Banner Widget* pop-up.
-5. Upload the **answer.jpg** image to the rotating banner and enter **Step 2** as *Title* and **Answer the questions with your best knowledge** as *Description*. Select *Text placement* as **Top Left** again.
-6. Finally, add another slide in the same way, upload the **IT.jpg** image to the rotating banner and enter **Step 3** as *Title* and **Wait for IT to approve / come back at your idea and see it represented down below** as *Description*.
-7. Now click **Save**.
+After completing these steps you will have created a summary of a blog post with the help of AI.
+
+1. Click on the **Build, Deploy, and Extend AI Agents with Joule Studio** blog post in the Feed. If you cannot see it there, you could also just search for it by typing **Joule Studio** into the search window and clicking on the blog post or knowledge base entry in the search results list. 
+  
+2. After the blog post opens, click the **Summarize** button.
+3. Read the summary.
    
 
-## Exercise 2.3 Create a wizard based on a Guided Process from SAP Build Process Automation
+## Exercise 4.3 Experience document grounding in SAP Joule
 
-After completing these steps you will have created the skeleton for your wizard with some pre-defined stages and steps.
+Document Grounding is the process of making a LLM refer to specific documents to generate more accurate and relevant responses. This way you can feed Joule with specific documents of your company (like internal policies, reports and documents), so that Joule can give more accurate and relevant answers.
 
-1. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
-
-> **&#9432;** You can either create a wizard from scratch by defining stages and steps manually or you can model a complex multi-step process as a *Guided Process* in SAP Build Process Automation and use it as a basis for your wizard. This accelerates the entire process from building to rolling out the experience for production.
-
-2. Select the **IdeaMgmtGuidedProcess** that has been preconfigured in SAP Build Process Automation.
-3. Select *Display Option* **Embedded in Workpage**.
-4. As you would like to allow users to submit additional ideas while waiting for approval of already submitted ones, check both checkboxes for **Allow wizard to be used multiple times** and **Run the wizard multiple times in parallel**.
-
-Below, you can see a preview of the Stages and Steps that will be part of the new wizard and of the wizard cover.
-
-5. Click **Save** to create the wizard.
+1. 
 
 
-## Exercise 2.4 Edit steps in stage Idea Generation & Refinement
+## Exercise 2.4 Use the Guided Experience to submit an AI Use Case
 
-After completing these steps you will have assigned widgets to allow users to execute all steps in the first stage.
+After completing these steps you will have submitted an AI Use case using the wizard you created in exercise 3.
 
 1. In the **Persona and Problem Description** step, click **Add widget**.
 <br>![Add widget](/exercises/ex2/images/02_04_0010.png)

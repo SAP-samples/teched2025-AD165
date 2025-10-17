@@ -1,44 +1,69 @@
-# Exercise 2 - Exercise 2 Create a submission wizard for AI ideas
+# Exercise 2 - Add a simple UI integration card for usage in your workspace
 
-In this exercise, you will create a new page Use Case Repository and a wizard (also known as Guided Experience) that supports users in submitting their ideas for AI use cases in ACME Corp. 
+In this exercise, you will download a simple static UI integration card and make it available in Work Zone, so you can add it to a workpage in the next exercise. In the optional exercise 5, you can learn how to create more complex UI integration cards that consume real business data.
 
-> **&#9432;** Guided experiences are designed to simplify multi-step business processes and complex workflows by breaking them down into manageable and intuitive steps. Each step can be enriched with various types of content, including videos, documents, forms, tasks, UI cards, and apps to provide users with all the necessary information to complete each step. Steps can be classified as optional or mandatory, ensuring critical tasks are completed while allowing flexibility for other actions. Users don't need to worry about finishing all the steps at once as the progress is saved within Work Zone, enabling them to resume from where they left off.  
+> **&#9432;** Integration cards present a new means to expose application content to the end user in a unified way. A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way while presenting more data at first sight than a tile usually does. 
 
 
-## Exercise 2.1 Create a new page in your workspace
+## Exercise 2.1 Select a sample card and adapt it to your needs
 
-After completing these steps you will have created a new page that will host a Use Case Repository and allow users to submit use case ideas.
+After completing these steps you will have downloaded a sample static card from [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com). This website provides you with a lot of information, samples, and resources to support you in developing web apps with SAPUI5. 
 
-1. On the right side of the menu, click the + icon to add a new tab to the navigation bar.
-<br>![Add menu entry](/exercises/ex2/images/02_01_0010.png)
-2. The new menu entry should lead users to a workpage, so click the **Workpage** tile.
-<br>![Workpage tile](/exercises/ex2/images/02_01_0020.png)
-3. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as *Tab Name*, and click **Add**.
-<br>![Create Page](/exercises/ex2/images/02_01_0030.png)
+1. Navigate to the [Card Explorer
+](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html)that gathers all information about UI integration cards and navigate to the **Explore** tab. Here you can test various card types with sample data and download them. 
+<br>![Explore UI Cards](/exercises/ex2/images/02_01_0010.png)
+2. In the menu on the left, select the *Declarative Card Type* **Analytical**. Then use the Dropdown on the top of the window to select the **Popover Extension Actions** card.
+<br>![Select Card Type](/exercises/ex2/images/02_01_0020.png)
+4. To adapt the card to the use case of an AI Use case repository, let us adjust its *manifest.json* file to change the static data displayed on the card.
+In the coding on the left, change the header title in the sap.card section to **Status of AI Projects**. You can see the change immediately on the card preview.
+<br>![Change title](/exercises/ex2/images/02_01_0030.png)
+5. Now you can change the meaning of the three colors to different statuses. Scroll down to the content - data part of the sap.card section and simply change the three store names. Change *24-Seven* to **Live**, change *A&A* to **Implementation**, and change *Alexei's Specialities* to **Definition**.
+<br>![Change title](/exercises/ex2/images/02_01_0030.png)
 
-The new page is created and you can now start populating it with content. Before you add, the wizard, add a text widget to explain what the use case repository is about.
+The "data" section starting in lines 52 till 73 should look like this now:
+````
+			"data": {
+				"json": {
+					"milk": [
+						{
+							"id": "1",
+							"storeName": "Live",
+							"revenue": 345292.06
+						},
+						{
+							"id": "2",
+							"storeName": "Implementation",
+							"revenue": 1564235.29
+						},
+						{
+							"id": "3",
+							"storeName": "Definition",
+							"revenue": 1085567.22
+						}
+					]
+				},
+				"path": "/milk"
+			},
+````
 
-4. In the middle of the page, click **Add**. This way a freestyle section with one cell is created. You could also click the dropdown link and select **Freestyle** there.
-<br>![Add section](/exercises/ex2/images/02_01_0040.png)
-5. Hover the new section and click the **Add Content** button that appears.
-6. Select the **Text** widget from the widget gallery.
-7. Use text generation to create a welcome text for this page. You might use the prompt
-```
-Write a welcome text for a use case repository page where users can submit AI use cases and see the ideas of others
-```
-8. Edit the text to your liking, e.g. enlarge the title and make it bold.
 
-## Exercise 2.2 Add a rotating banner to the page 
+4. You could do some more changes, e.g. adjust the URL where the user would navigate when clicking on the sections of the chart, but to keep it simple, just download the card now.
+   To do this, click the **Download** button in the upper right corner and select **Bundle as card.zip**. This will download a zip to your computer.
+<br>![Download card](/exercises/ex2/images/02_01_0040.png)
 
-After completing these steps you will have added a widget that describes the steps necessary to submit an AI use case in a nice visual way.
 
-1. Add a second column to the section as you did it on the *Welcome* page before and add a **Rotating Banner** widget to this column.
-2. Upload the **start.jpg** image to the rotating banner and enter **Step 1** as *Title* and **Start the Use Case submission process below** as *Description*. Feel free to adjust the image zoom or display window.
-3. Move the *Text placement* to the **Top Left**
-4. Then click the **+Slide** button on the upper left side of the *Rotating Banner Widget* pop-up.
-5. Upload the **answer.jpg** image to the rotating banner and enter **Step 2** as *Title* and **Answer the questions with your best knowledge** as *Description*. Select *Text placement* as **Top Left** again.
-6. Finally, add another slide in the same way, upload the **IT.jpg** image to the rotating banner and enter **Step 3** as *Title* and **Wait for IT to approve / come back at your idea and see it represented down below** as *Description*.
-7. Now click **Save**.
+## Exercise 2.2 Create an app on SAP Build Work Zone using your downloaded card
+
+After completing these steps you will have added the card to SAP Build Work Zone.
+
+1. Go back to the tab with Work Zone still open. If you closed it, you can access it [here](https://ad165-m3ep4xn0.workzone.cfapps.eu10.hana.ondemand.com/site#workzone-home&/home).
+2. Now you need to navigate to the Administration environment. Click the User icon on the top right and select **Administration Console**.
+3. In the menu on the left, open **External Integrations** > ** Business Content** and click the **Content Manager** button. This takes you to the Content Manager where you can manage your business content. In this table you can find all business content entities (like apps, pages, spaces, roles etc.) that have been made available from various sources. In the fourth column for example, you see the Content Channel via which the content was created. Besides local content, some roles from SAP S/4HANA have been integrated with their assigned apps, spaces, and pages
+4. Move the *Text placement* to the **Top Left**
+5. Then click the **+Slide** button on the upper left side of the *Rotating Banner Widget* pop-up.
+6. Upload the **answer.jpg** image to the rotating banner and enter **Step 2** as *Title* and **Answer the questions with your best knowledge** as *Description*. Select *Text placement* as **Top Left** again.
+7. Finally, add another slide in the same way, upload the **IT.jpg** image to the rotating banner and enter **Step 3** as *Title* and **Wait for IT to approve / come back at your idea and see it represented down below** as *Description*.
+8. Now click **Save**.
    
 
 ## Exercise 2.3 Create a wizard based on a Guided Process from SAP Build Process Automation

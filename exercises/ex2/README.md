@@ -74,7 +74,7 @@ After completing these steps you will have added the card to SAP Build Work Zone
 
 1. Go back to the tab with Work Zone still open. If you closed it, you can access it [here](https://ad165-m3ep4xn0.workzone.cfapps.eu10.hana.ondemand.com/site#workzone-home&/home).
 2. Now you need to navigate to the Administration environment. Click the User icon on the top right and select **Administration Console**.
-3. In the menu on the left, open **External Integrations** > ** Business Content** and click the **Content Manager** button.
+3. In the menu on the left, open **External Integrations** > ** Business Content** and click the **Content Manager** button. The Content Manager opens in a new browser tab.
 
 > **&#9432;** In the Content Manager administrators can manage business content. The table contains all business content entities (like apps, pages, spaces, roles etc.) that have been made available from various sources. In the fourth column for example, you see the Content Channel via which the content was provided. Besides local content, some roles from SAP S/4HANA have been integrated with their assigned apps, spaces, and pages. You can use the filter to only display a specific content entity type like apps.
 
@@ -86,21 +86,24 @@ After completing these steps you will have added the card to SAP Build Work Zone
 11. Click **Save**. 
    
 
-## Exercise 2.3 Create a wizard based on a Guided Process from SAP Build Process Automation
+## Exercise 2.3 Make the new card available to all Work Zone users
 
-After completing these steps you will have created the skeleton for your wizard with some pre-defined stages and steps.
+After completing these steps you will have made the card available for usage in SAP Build Work Zone.
 
-1. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
+1. Go back to the Content Manager by clicking **Content Manager** in the breadcrumb.
 
-> **&#9432;** You can either create a wizard from scratch by defining stages and steps manually or you can model a complex multi-step process as a *Guided Process* in SAP Build Process Automation and use it as a basis for your wizard. This accelerates the entire process from building to rolling out the experience for production.
+> **&#9432;** To make apps available to users, they need to be assigned to at least one of the user's roles. You will now assign the app to the Everyone role which is assigned to all users by default.
 
-2. Select the **IdeaMgmtGuidedProcess** that has been preconfigured in SAP Build Process Automation.
-3. Select *Display Option* **Embedded in Workpage**.
-4. As you would like to allow users to submit additional ideas while waiting for approval of already submitted ones, check both checkboxes for **Allow wizard to be used multiple times** and **Run the wizard multiple times in parallel**.
+2. Click the **Everyone** role in the content table to open it.
+3. Click the **Edit** button to switch to editing mode.
+4. Locate your app in the list of apps. If you do not see it immediately, you can search for your user number to find it more easily. Then switch the **Assignment Status** to **On**. 
+5. Click **Save**.
 
-Below, you can see a preview of the Stages and Steps that will be part of the new wizard and of the wizard cover.
+To allow end users to put the card on a page, you also need to enable it.
 
-5. Click **Save** to create the wizard.
+6. Go back to the browser tab with the Administration Console still open. You can also close the tab with the Content Manager as it is not needed any more.
+7. In the menu, open **UI Integrations** > **Cards**.
+8. Enter your user number into the Search field to find your card. Then turn the switch to **On** to enable it for end user usage.
 
 
 ## Exercise 2.4 Edit steps in stage Idea Generation & Refinement

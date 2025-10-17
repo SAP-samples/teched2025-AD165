@@ -16,23 +16,30 @@ After completing these steps you will have created a new page that will host a U
 3. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as *Tab Name*, and click **Add**.
 <br>![Create Page](/exercises/ex2/images/02_01_0030.png)
 
-The new page is created and you can now start populating it with content. Before you add, the wizard, add a text widget to explain what the use case repository is about.
+The new page is created and you can now start populating it with content. 
 
-4. In the middle of the page, click **Add**. This way a freestyle section with one cell is created. You could also click the dropdown link and select **Freestyle** there.
+## Exercise 2.2 Add your card to the page
+
+Before you add the wizard, you add a welcoming text widget to explain what the use case repository is about and your card to the page.
+
+1. In the middle of the page, click **Add**. This way a freestyle section with one cell is created. You could also click the dropdown link and select **Freestyle** there.
 <br>![Add section](/exercises/ex2/images/02_01_0040.png)
-5. Hover the new section and click the **Add Content** button that appears.
-6. Select the **Text** widget from the widget gallery.
-7. Use text generation to create a welcome text for this page. You might use the prompt
+2. Hover the new section and click the **Add Content** button that appears.
+3. Select the **Text** widget from the widget gallery.
+4. Use text generation ??? to create a welcome text for this page. You might use the prompt
 ```
 Write a welcome text for a use case repository page where users can submit AI use cases and see the ideas of others
 ```
-8. Edit the text to your liking, e.g. enlarge the title and make it bold.
+5. To add your card next to the welcome text, add another column to the section in the same way as on the Welcome page.
+6. Click **Add Content**.
+7. In the pop-up, select **Cards**.
+8. Then select the card you created. You can find it by searching for your user number.
 
-## Exercise 2.2 Add a rotating banner to the page 
+## Exercise 2.3 (optional) Add a rotating banner to the page 
 
 After completing these steps you will have added a widget that describes the steps necessary to submit an AI use case in a nice visual way.
 
-1. Add a second column to the section as you did it on the *Welcome* page before and add a **Rotating Banner** widget to this column.
+1. Click **Add Content** below your text widget and add a **Rotating Banner** widget to the same section.
 2. Upload the **start.jpg** image to the rotating banner and enter **Step 1** as *Title* and **Start the Use Case submission process below** as *Description*. Feel free to adjust the image zoom or display window.
 3. Move the *Text placement* to the **Top Left**
 4. Then click the **+Slide** button on the upper left side of the *Rotating Banner Widget* pop-up.
@@ -41,7 +48,7 @@ After completing these steps you will have added a widget that describes the ste
 7. Now click **Save**.
    
 
-## Exercise 2.3 Create a wizard based on a Guided Process from SAP Build Process Automation
+## Exercise 2.4 Create a wizard based on a Guided Process from SAP Build Process Automation
 
 After completing these steps you will have created the skeleton for your wizard with some pre-defined stages and steps.
 

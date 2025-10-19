@@ -25,7 +25,7 @@ After completing these steps you will have downloaded an advanced card from [sap
    <br> - Modify the card's *`id`* into `com.sap.teched.ad165.###` to make it unique and easier to identify later
 
 > [!CAUTION]
-> Pleaase do not use "-" in the id.
+> Please do not use "-" in the id, only Alphanumeric characters and "." 
 > <br>In addition, please note that the version property is mandatory. Do not change it, as without it the card will not be accepted by Work Zone.
    
    <br> - Change the *`title`* and *`shortTitle`* properties into `Standard AI Agents List Card by AD165-###`

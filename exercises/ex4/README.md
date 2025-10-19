@@ -1,11 +1,11 @@
-# Exercise 4 - Experience your workspace as an end user
+# Exercise 4 - Experience SAP Build Work Zone and your workspace as an end user
 
 In this exercise, you will submit an AI use case using the wizard you just created. You will also use SAP Build Work Zone AI capabilities to generate texts more easily, summarize a blog post, and interact with Joule. 
 
 > **&#9432;** Comment
 
 
-## Exercise 4.1 Use generative AI to create a status update
+## <a id="ai-feed"></a> Exercise 4.1 Use generative AI to create a status update
 
 After completing these steps you will have sent a status update to all users.
 
@@ -23,7 +23,7 @@ After completing these steps you will have sent a status update to all users.
 7. You can also use text generation when commenting. Choose one of the entries in the feed and click the **Comment** button. Create a comment using text generation in the same way as the status update.
 
 
-## Exercise 4.2 Use text summarization to quickly grasp the content of a blog post
+## <a id="ai-summarization"></a> Exercise 4.2 Use text summarization to quickly grasp the content of a blog post
 
 After completing these steps you will have created a summary of a blog post with the help of AI.
 
@@ -33,14 +33,14 @@ After completing these steps you will have created a summary of a blog post with
 3. Read the summary.
    
 
-## Exercise 4.3 Experience document grounding in SAP Joule
+## <a id="ai-doc-grounding"></a> Exercise 4.3 Experience document grounding in SAP Joule
 
 Document Grounding is the process of making a LLM refer to specific documents to generate more accurate and relevant responses. This way you can feed Joule with specific documents of your company (like internal policies, reports and documents), so that Joule can give more accurate and relevant answers.
 
 1. 
 
 
-## Exercise 2.4 Use the Guided Experience to submit an AI Use Case
+## <a id="run-wizard"></a> Exercise 2.4 Use the Guided Experience to submit an AI Use Case
 
 After completing these steps you will have submitted an AI Use case using the wizard you created in exercise 3.
 
@@ -64,9 +64,6 @@ After completing these steps you will have submitted an AI Use case using the wi
 8. Navigate to the last step of this stage **Done**. No need to do anything here, as it has already been populated.
    
 
-## Exercise 2.5 Edit steps in stage Idea to Implementation
-
-After completing these steps you will have completed and published the full guided experience wizard.
 
 1.	In the same way as before, fill the steps of this stage as well. First, add the card **Define MVP Scope** to the step with the same name.
 2.	Next, add the card **Implementation Plan** to the second step.

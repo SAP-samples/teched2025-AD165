@@ -19,9 +19,9 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 
 - [Getting Started (Optional)](exercises/ex0/) - Learn about SAP Build Work Zone
 - [Exercise 1 - Build your Center of Excellence workspace](exercises/ex1/)
-    - [Exercise 1.1 - Create a public workspace from a template](exercises/ex1#exercise-11-sub-exercise-1-description)
+    - [Exercise 1.1 - Create a public workspace from a template](exercises/ex1#Exercise 1.1 Create a public workspace from a template)
     - [Exercise 1.2 - Enhance the start page of the workspace with pre-configured widgets and images](exercises/ex1#exercise-12-sub-exercise-2-description)
-    - [Exercise 1.3 - Add a forums page for workspace users to share ideas, questions, and discussions](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Exercise 1.3 - Add a discussion topic to the forum](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - Add a guided experience to your workspace](exercises/ex2/)
     - [Exercise 2.1 - Create a guided experience using a guided process from SAP Build Process Automation](exercises/ex2#exercise-21-sub-exercise-1-description)
     - [Exercise 2.2 - Configuring the steps of the guided experience](exercises/ex2#exercise-22-sub-exercise-2-description)

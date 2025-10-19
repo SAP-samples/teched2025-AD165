@@ -86,11 +86,23 @@ The "footer" section starting in lines 49 should look like this now:
 	    }
 				
 ````
+   You can see the change immediately on the card preview. click on `Show More` to see all the ideas  
+
+7. Add an Actions to the items
+   <br> - GB to continue from here... 
+
+The "footer" section starting in lines 49 should look like this now:
+````
+		"footer": {
+		    "paginator": {
+    			"pageSize": 5
+		    }
+	    }
+				
+````
+   You can see the change immediately on the card preview. click on `Show More` to see all the ideas  
 
 
-4. You could do some more changes, e.g. adjust the URL where the user would navigate when clicking on the sections of the chart, but to keep it simple, just download the card now.
-   To do this, click the **Download** button in the upper right corner and select **Bundle as card.zip**. This will download a zip to your computer.
-<br>![Download card](/exercises/ex2/images/02_01_0040.png)
 
 
 ## Exercise 2.2 Create an app on SAP Build Work Zone using your downloaded card

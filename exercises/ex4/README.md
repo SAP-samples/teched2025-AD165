@@ -2,8 +2,6 @@
 
 In this exercise, you will submit an AI use case using the wizard you just created. You will also use SAP Build Work Zone AI capabilities to generate texts more easily, summarize a blog post, and interact with Joule. 
 
-> **&#9432;** Comment
-
 
 ## <a id="ai-feed"></a> Exercise 4.1 Use generative AI to create a status update
 

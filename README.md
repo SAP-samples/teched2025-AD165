@@ -22,17 +22,22 @@ Provide the exercise content here directly in README.md using [markdown](https:/
     - [Exercise 1.1 - Create a public workspace from a template](exercises/ex1#create-public-ws)
     - [Exercise 1.2 - Enhance the start page of the workspace with pre-configured widgets and images](exercises/ex1#enhance-home)
     - [Exercise 1.3 - Add a discussion topic to the forum](exercises/ex1#add-discussion)
-- [Exercise 2 - Add a guided experience to your workspace](exercises/ex2/)
-    - [Exercise 2.1 - Create a guided experience using a guided process from SAP Build Process Automation](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Configuring the steps of the guided experience](exercises/ex2#exercise-22-sub-exercise-2-description)
-- [Exercise 3 - Access and use your Center of Excellence workspace](exercises/ex3/)
-    - [Exercise 3.1 - Work with SAP Joule and experience Document Grounding](exercises/ex3#exercise-31-sub-exercise-1-description)
-    - [Exercise 3.2 - Be more efficient with Text Summarization](exercises/ex3#exercise-32-sub-exercise-2-description)
-- [Exercise 4 (optional) - Create a private workspace from scratch with S/4HANA content](exercises/ex4/)
+- [Exercise 2 - Add a simple UI integration card for usage in your workspace](exercises/ex2/)
+    - [Exercise 2.1 - Select a sample card and adapt it to your needs](exercises/ex2#download-card)
+    - [Exercise 2.2 - Create an app on SAP Build Work Zone using your downloaded card](exercises/ex2#create-app)
+    - [Exercise 2.3 - Make the new card available to all Work Zone users](exercises/ex3#make-card-available)
+- [Exercise 3 - Create a submission wizard for AI ideas](exercises/ex3/)
+   - [Exercise 3.1 - Create a new page in your workspace](exercises/ex3#create-page)
+   - [Exercise 3.1 - Create a wizard based on a guided process from SAP Build Process Automation](exercises/ex3#create-wizard)
+- [Exercise 4 - Experience SAP Build Work Zone and your workspace as an end user](exercises/ex4/)
+    - [Exercise 4.1 - Exercise 4.1 Use generative AI to create a status update](exercises/ex4#ai-feed)
+    - [Exercise 4.2 - Use text summarization to quickly grasp the content of a blog post](exercises/ex4#ai-summarization)
+    - [Exercise 4.3 - Experience document grounding in SAP Joule](exercises/ex4#ai-doc-grounding)
+    - [Exercise 4.4 - Use the Guided Experience to submit an AI Use Case](exercises/ex4#run-wizard)
+- [Exercise 5 (optional) - Create a UI integration card](exercises/ex5/)
     - [Exercise 4.1 - Create a private workspace](exercises/ex4#exercise-41-sub-exercise-1-description)
     - [Exercise 4.2 - Add tiles and cards from SAP S/4HANA public cloud edition](exercises/ex4#exercise-42-sub-exercise-2-description)
  
-  
 **IMPORTANT**
 
 Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 

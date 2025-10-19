@@ -3,7 +3,7 @@
 In this exercise, we will create a public workspace from a template that you first upload to your SAP Build Work Zone tenant. As you will be working in a shared environment, it is important that you give all objects you create easily identifiable names, e.g. containing your 3-digit user ID which you can also find on your desktop.
 
 
-## <a create-public-ws></a>Exercise 1.1 Create a public workspace from a template
+## <a id="create-public-ws"></a> Exercise 1.1 Create a public workspace from a template
 
 
 After completing these steps you will have created a Center of Excellence workspace and made some initial settings. This step does not need to be done by an administrator, but according to their preferences, customers can allow every user or only a specific group of key users to create workspaces to share knowledge and collaborate with colleagues.
@@ -34,7 +34,7 @@ After completing these steps you will have created a Center of Excellence worksp
 <br>![Non-member settings](/exercises/ex1/images/01_07_0010.png)
 
 
-## Exercise 1.2 Enhance the header and the start page of the workspace with pre-configured widgets and images
+##<a id="enhance-home"></a> Exercise 1.2 Enhance the header and the start page of the workspace with pre-configured widgets and images
 
 After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
 
@@ -171,7 +171,7 @@ You would like to move the two elements (text and pink cell) to the right of the
 
 
 
-## Exercise 1.3  Add a discussion topic to the Forum
+## <a id="add-discussion"></a> Exercise 1.3  Add a discussion topic to the Forum
 DO with Text Generation
 
 ## Summary

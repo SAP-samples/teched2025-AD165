@@ -157,7 +157,7 @@ The "item" section starting in line 43 should look like this now:
 
 
 9. Download the Card you've created. Click on the Download button on the top right and download Bundle as card.zip
-<br>![Download Cards zip](/exercises/ex2/images/02_010_0010.png)
+<br>![Download Cards zip](/exercises/ex2/images/02_10_0010.png)
 
 
 

@@ -2,7 +2,9 @@
 
 In this exercise, you will download a simple static UI integration card and make it available in Work Zone, so you can add it to a workpage in the next exercise. In the optional exercise 5, you can learn how to create more complex UI integration cards that consume real business data.
 
-> **&#9432;** Integration cards present a new means to expose application content to the end user in a unified way. A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way while presenting more data at first sight than a tile usually does. 
+
+> [!NOTE]
+> Integration cards present a new means to expose application content to thehgghend user in a unified way. A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way while presenting more data at first sight than a tile usually does.
 
 
 ## Exercise 2.1 Select a sample card and adapt it to your needs
@@ -14,7 +16,8 @@ After completing these steps you will have downloaded a sample static card from 
 <br>![Explore UI Cards](/exercises/ex2/images/02_01_0010.png)
 2. In the menu on the left, select the *Declarative Card Type* **Analytical**. Then use the Dropdown on the top of the window to select the **Popover Extension Actions** card.
 
-> **&#9432;** NOTE: This is just an example card with a different scenario that does not 100% fit this AI use case. We use it here to show how you can easily use the Card Explorer to understand different types of UI integration cards. In a productive scenario you would create a card based on a template consuming data from a backend system or a BTP service. You can learn more about this in exercise 5.
+> [!NOTE]
+> This is just an example card with a different scenario that does not 100% fit this AI use case. We use it here to show how you can easily use the Card Explorer to understand different types of UI integration cards. In a productive scenario you would create a card based on a template consuming data from a backend system or a BTP service. You can learn more about this in exercise 5.
 
 <br>![Select Card Type](/exercises/ex2/images/02_01_0020.png)
 4. To adapt the card, you can adjust its *manifest.json* file on the left. First modify the card's **ID** and the **title** and **subtitle** settings in the *sap.app* section. Make sure to add your user number to the id and title to make it unique and easier to identify later.
@@ -76,7 +79,8 @@ After completing these steps you will have added the card to SAP Build Work Zone
 2. Now you need to navigate to the Administration environment. Click the User icon on the top right and select **Administration Console**.
 3. In the menu on the left, open **External Integrations** > ** Business Content** and click the **Content Manager** button. The Content Manager opens in a new browser tab.
 
-> **&#9432;** In the Content Manager administrators can manage business content. The table contains all business content entities (like apps, pages, spaces, roles etc.) that have been made available from various sources. In the fourth column for example, you see the Content Channel via which the content was provided. Besides local content, some roles from SAP S/4HANA have been integrated with their assigned apps, spaces, and pages. You can use the filter to only display a specific content entity type like apps.
+> [!NOTE]
+> In the Content Manager administrators can manage business content. The table contains all business content entities (like apps, pages, spaces, roles etc.) that have been made available from various sources. In the fourth column for example, you see the Content Channel via which the content was provided. Besides local content, some roles from SAP S/4HANA have been integrated with their assigned apps, spaces, and pages. You can use the filter to only display a specific content entity type like apps.
 
 6. A card is one visualization type of an app, so you will now create an app. Click the **Create** button and select **App** from the dropdown.
 7. Click **Visualization** to go directly to the Visualization tab.
@@ -92,7 +96,8 @@ After completing these steps you will have made the card available for usage in 
 
 1. Go back to the Content Manager by clicking **Content Manager** in the breadcrumb.
 
-> **&#9432;** To make apps available to users, they need to be assigned to at least one of the user's roles. You will now assign the app to the Everyone role which is assigned to all users by default.
+> [!NOTE]
+> To make apps available to users, they need to be assigned to at least one of the user's roles. You will now assign the app to the Everyone role which is assigned to all users by default.
 
 2. Click the **Everyone** role in the content table to open it.
 3. Click the **Edit** button to switch to editing mode.

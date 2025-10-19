@@ -3,34 +3,27 @@
 In this exercise, we will create a public workspace from a template that you first upload to your SAP Build Work Zone tenant. As you will be working in a shared environment, it is important that you give all objects you create easily identifiable names, e.g. containing your 3-digit user ID which you can also find on your desktop.
 
 
-## Exercise 1.1 Open the SAP Build Lobby and navigate to SAP Build Work Zone
+## <a create-public-ws></a>Exercise 1.1 Create a public workspace from a template
 
-1. To launch SAP Build Work Zone, go to the [Build Lobby](https://ad165-m3ep4xn0.eu10.build.cloud.sap/lobby) and login with the user that is available on your desk and password **Acce$$teched25**.
+
+After completing these steps you will have created a Center of Excellence workspace and made some initial settings. This step does not need to be done by an administrator, but according to their preferences, customers can allow every user or only a specific group of key users to create workspaces to share knowledge and collaborate with colleagues.
+
+1. To launch SAP Build Work Zone, go to the [Build Lobby](https://ad165-m3ep4xn0.eu10.build.cloud.sap/lobby) and login with the user that is available on your desk and password **Acce$$teched25**. 
 <br>![Build Lobby](/exercises/ex1/images/01_01_0010.png)
 
-3. to be completed
-
-4. <br>![(/exercises/ex1/images/01_01_0010.png)
-
-5.	Insert this line of code.
-```abap
-response->set_text( |Hello World! | ). 
-```
+...??? Missing steps
 
 
-
-## Exercise 1.2 Create a workspace from your template
-
-After completing these steps you will have created a Center of Excellence workspace and made some initial settings. This step does not need to be done by an administrator, but according to your preferences, you might allow every user or only a specific group of key users to create workspaces to share knowledge and collaborate with colleagues.
-
-1.	In the menu bar, navigate to *Workspaces > New Workspace*.
+2.	In the menu bar, navigate to *Workspaces > New Workspace*.
 <br>![New workspace](/exercises/ex1/images/01_03_0010.png)
 
-2.	Click the left tile to create a public workspace.
+3.	Click the left tile to create a public workspace.
 <br>![Public workspace](/exercises/ex1/images/01_04_0010.png)
 
-3. Enter name: **AI Center of Excellence** and a description of your choice.
-4. Select the Center of Excellence abc workspace template that you just uploaded. [GB] ??????
+4. Enter name: **AI Center of Excellence** and a description of your choice.
+
+5. Select the Center of Excellence abc workspace template. ???
+
 6. Remove the checkmark next to *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
 <br>![Workspace creation wizard](/exercises/ex1/images/01_05_0010.png)
 
@@ -41,7 +34,7 @@ After completing these steps you will have created a Center of Excellence worksp
 <br>![Non-member settings](/exercises/ex1/images/01_07_0010.png)
 
 
-## Exercise 1.3 Edit your workspace header
+## Exercise 1.2 Enhance the header and the start page of the workspace with pre-configured widgets and images
 
 After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
 
@@ -51,8 +44,7 @@ The workspace has been created and you automatically navigate to it. You can now
 3. Click the content.zip file and use the download button to download the zip file to your local computer.
 4. Extract the zip file into a folder of your choice.
 
-#### Exercise 1.3.1 Exchanging the cover photo
-
+#### Exercise 1.2.1   Add a beautiful cover photo
 As a first step, you will change the cover photo to something that fits the purpose of the workspace.
 
 1. Click **Edit Cover Photo**, then select **Upload Photo** from the dropdown list.
@@ -64,10 +56,9 @@ As a first step, you will change the cover photo to something that fits the purp
 3. If you want, you can zoom into the image by using the slider. Select a beautiful display window by dragging the image up and down or left and right. Then click **Save**.
 <br>![Zoom reposition & Save](/exercises/ex1/images/01_03_0050.png)
 
+#### Exercise 1.2.2   Exchange the avatar of the workspace
 
-#### Exercise 1.3.2 Change the avatar of the workspace
-
-You will now change the avatar of the workspace, so you can recognize it more easily in the list of workspaces.
+Now, you will now change the avatar of the workspace, so you can recognize it more easily in the list of workspaces.
 
 1. Hover the little image next to the workspace titel, then click the **Upload workspace avatar** icon that appears.
 <br>![Upload avatar](/exercises/ex1/images/01_03_0060.png)
@@ -76,16 +67,12 @@ You will now change the avatar of the workspace, so you can recognize it more ea
 3. Then deselect **Autofit** to be able to zoom and adjust the display window.
 <br>![Autofit](/exercises/ex1/images/01_03_0070.png)
 
-5. Zoom into the uploaded image and select a nice detail by dragging the image to the right position.
-6. Click **Save changes**.
+4. Zoom into the uploaded image and select a nice detail by dragging the image to the right position.
+5. Click **Save changes**.
 <br>![Zoom reposition & Save](/exercises/ex1/images/01_03_0080.png)
 
 
-## Exercise 1.4 Edit the overview page of your workspace
-
-After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
-<br><br>
-#### Exercise 1.4.1   Add some images to the overview page
+#### Exercise 1.2.3   Add images to the overview page
 
 1. First, open the workpage editor by clicking the pencil icon on the right of the screen.
 <br>![Go to workpage editor](/exercises/ex1/images/01_04_0010.png)
@@ -113,14 +100,14 @@ After completing these steps you will have designed a beautiful entry page for y
 
 
 <br><br>
-#### Exercise 1.4.2   Remove an unneeded section
+#### Exercise 1.2.4   Remove an unneeded section
 
 You do not need the next section, so you are now going to delete it.
 Hover the section till you see the grey section frame and select the **Delete section** icon.
 <br>![Delete section](/exercises/ex1/images/01_04_100.png)
 
 <br><br>
-#### Exercise 1.4.3   Edit the News section
+#### Exercise 1.2.5   Edit the News section
 
 1. In the **News** section, change the title to **Current News**.
 <br>![Delete section](/exercises/ex1/images/01_04_110.png)
@@ -133,7 +120,7 @@ Hover the section till you see the grey section frame and select the **Delete se
 Wait for the text to be generated, then accept or discard (to enter a new prompt) or retry with the same prompt and finally share the news.
 
 <br><br>
-#### Exercise 1.4.4   Add a Feed widget to the page
+#### Exercise 1.2.6   Add a Feed widget to the page
 
 1. Hover the **News** section again until an **Add section** button appears below it. Click the button and select **Freestyle** in the pop-up window.
 <br>![Add section](/exercises/ex1/images/01_04_122.png)
@@ -148,7 +135,7 @@ Wait for the text to be generated, then accept or discard (to enter a new prompt
 <br>![Widget properties](/exercises/ex1/images/01_04_126.png)
 
 <br><br>
-#### Exercise 1.4.5   Exchange the video
+#### Exercise 1.2.7   Exchange the video
 
 You would like to exchange the video for an AI related one. 
 
@@ -164,7 +151,7 @@ Then click **Save**.
 
 
 <br><br>
-#### Exercise 1.4.6   Move a widget to a new cell
+#### Exercise 1.2.8   Move a widget to a new cell
 
 You would like to move the two elements (text and pink cell) to the right of the video.
 
@@ -175,7 +162,7 @@ You would like to move the two elements (text and pink cell) to the right of the
 <br>![Move content](/exercises/ex1/images/01_04_150.png)
 
 <br><br>
-#### Exercise 1.4.7  Publish the workpage
+#### Exercise 1.2.9 Publish the workpage
 
 1. To make your changes available to users accessing the workspace, click **Publish** on top of the page.
 <br>![Publish](/exercises/ex1/images/01_04_160.png)
@@ -184,7 +171,7 @@ You would like to move the two elements (text and pink cell) to the right of the
 
 
 
-## Exercise 1.5  Add a discussion topic to the Forum
+## Exercise 1.3  Add a discussion topic to the Forum
 DO with Text Generation
 
 ## Summary

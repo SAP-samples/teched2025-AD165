@@ -64,6 +64,7 @@ After completing these steps you will have submitted an AI Use case using the wi
 8. Navigate to the last step of this stage **Done**. No need to do anything here, as it has already been populated.
    
 
+## <a id="mobile-start"></a> Exercise 2.5 Experience SAP Build Work Zone on a mobile device
 
 1.	In the same way as before, fill the steps of this stage as well. First, add the card **Define MVP Scope** to the step with the same name.
 2.	Next, add the card **Implementation Plan** to the second step.

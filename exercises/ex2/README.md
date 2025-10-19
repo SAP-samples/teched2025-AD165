@@ -7,7 +7,7 @@ In this exercise, you will download a simple static UI integration card and make
 > Integration cards present a new means to expose application content to thehgghend user in a unified way. A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way while presenting more data at first sight than a tile usually does.
 
 
-## Exercise 2.1 Select a sample card and adapt it to your needs
+## <a id="download-card"></a> Exercise 2.1 Select a sample card and adapt it to your needs
 
 After completing these steps you will have downloaded a sample static card from [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com). This website provides you with a lot of information, samples, and resources to support you in developing web apps with SAPUI5. 
 
@@ -71,7 +71,7 @@ The "data" section starting in lines 52 till 73 should look like this now:
 <br>![Download card](/exercises/ex2/images/02_01_0040.png)
 
 
-## Exercise 2.2 Create an app on SAP Build Work Zone using your downloaded card
+## <a id="create-app"></a> 2.2 Create an app on SAP Build Work Zone using your downloaded card
 
 After completing these steps you will have added the card to SAP Build Work Zone.
 
@@ -90,7 +90,7 @@ After completing these steps you will have added the card to SAP Build Work Zone
 11. Click **Save**. 
    
 
-## Exercise 2.3 Make the new card available to all Work Zone users
+##   <a id="make-card-available"></a> 2.3 Make the new card available to all Work Zone users
 
 After completing these steps you will have made the card available for usage in SAP Build Work Zone.
 

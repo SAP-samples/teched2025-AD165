@@ -1,13 +1,12 @@
-# Exercise 2 - Add a simple UI integration card for usage in your workspace
+# Exercise 2 - Add an UI integration card for usage in your workspace
 
-In this exercise, you will download a UI integration card and make it available in Work Zone, so you can add it to a workpage in the next exercise. In the optional exercise 5, you can learn how to create more complex UI integration cards that consume real business data.
-
+In this exercise, you will download a UI integration card and make it available in Work Zone, so you can add it to a workpage in the next exercise.
 
 > [!NOTE]
 > Integration cards present a new means to expose application content to the end user in a unified way. A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way while presenting more data at first sight than a tile usually does.
 
 
-## Exercise 5.1 Select an advanced card and adapt it to your needs
+## Exercise 2.1 Select an advanced card and adapt it to your needs
 
 After completing these steps you will have downloaded an advanced card from [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com). This website provides you with a lot of information, samples, and resources to support you in developing web apps with SAPUI5. 
 
@@ -17,8 +16,10 @@ After completing these steps you will have downloaded an advanced card from [sap
 2. In the menu on the left, select the *Card Features* **Data**
 <br>![Select Card Type](/exercises/ex2/images/05_01_0020.png)
 
-3. To adapt the card, you can adjust its *manifest.json* file on the right.
-   First modify the card's **ID** and the **title** and **subtitle** settings in the *sap.app* section. Make sure to add your user number to the id (instead of the xxx) and title to make it unique and easier to identify later.
+3. To adapt the card, you can adjust its *`manifest.json`* file on the right. In the *`sap.app`* top section:
+   <br> - Modify the card's *`id`* into `com.sap.teched.ad165.xxx` to make it unique and easier to identify later
+   <br> - Change the *`title`* into `Standard AI Agents List Card by AD165-XXX`
+   <br> - Change the *`subTitle`* into `Delivered by SAP`
 The version property is mandatory. Without it the card will not be accepted by Work Zone.
 
 ````
@@ -32,13 +33,15 @@ The version property is mandatory. Without it the card will not be accepted by W
 		},
 ````
 
-4. Next, you change the *content* *data* part in the *sap.card* section of the manifest.json.
-   <br> Change the *url* property to "https://simplenodebackend-chipper-kob-zy.cfapps.eu10-004.hana.ondemand.com/IdeaManagementDB/api/v1/list"
-   <br> Change the *method*  property to "POST"
-   <br> Add a *headers* property to the *request* with the value "headers": {"Content-Type": "application/json"},
-   <br> Override the "$format": "json" proprty under *request* *parameters* and replace it with a parameter named *collectionName* with the value of "SAPAIAgents"
-   <br> Rmove the "value" from the *path*
-     
+4. Next, you change the *content* *data* part in the *`sap.card`* section.
+   <br> - Change the *`url`* property to `https://simplenodebackend-chipper-kob-zy.cfapps.eu10-004.hana.ondemand.com/IdeaManagementDB/api/v1/list`
+   <br> - Change the *`method`*  property to `POST`
+   <br> - Add a *`headers`* to the *`request`* property with the value `"headers": {"Content-Type": "application/json"},`
+   <br> - Override the "$format": "json" proprty under *request* *parameters* and replace it with a parameter named `"collectionName":"SAPAIAgents"`
+   <br> - Rmove the `"value"` from the *path* and leave it only with `/`
+
+The "data" section starting in lines 32 should look like this now:
+
 ````
 		"content": {
 			"data": {
@@ -55,38 +58,33 @@ The version property is mandatory. Without it the card will not be accepted by W
 		},
 ````
    
-   You can see the change immediately on the card preview.
+   You can see the change immediately on the card preview. 
    
-6. "url": "https://simplenodebackend-chipper-kob-zy.cfapps.eu10-004.hana.ondemand.com/IdeaManagementDB/api/v1/list",
-7. Next, you change the *header title* in the *sap.card* section of the manifest.json to **Status of AI Projects**. You can see the change immediately on the card preview.
-<br>![Change title](/exercises/ex2/images/02_01_0030.png)
-8. Finally, change the meaning of the three colors to different statuses. Scroll down to the content - data part of the sap.card section and simply change the three store names. Change *24-Seven* to **Live**, change *A&A* to **Implementation**, and change *Alexei's Specialities* to **Definition**.
-<br>![Change title](/exercises/ex2/images/02_01_0030.png)
+5. Next, you should bound the `items` section
+   <br> - First, remove the last proprty `"highlight"` as it is not necessary 
+   <br> - Change the *`title`* property into `"{ProblemStatement}",`
+   <br> - Change the *`description`* property into `"{RefinedSolution}"`
 
-The "data" section starting in lines 52 till 73 should look like this now:
 ````
-			"data": {
-				"json": {
-					"milk": [
-						{
-							"id": "1",
-							"storeName": "Live",
-							"revenue": 345292.06
-						},
-						{
-							"id": "2",
-							"storeName": "Implementation",
-							"revenue": 1564235.29
-						},
-						{
-							"id": "3",
-							"storeName": "Definition",
-							"revenue": 1085567.22
-						}
-					]
-				},
-				"path": "/milk"
+		"item": {
+				"title": "{ProblemStatement}",
+				"description": "{RefinedSolution}"
 			},
+````
+
+
+   
+6. Add a pagination to see all 17 ideas
+   <br> - After the `"Content"` section add `,"footer": { "paginator": {"pageSize": 5} }` 
+
+The "footer" section starting in lines 49 should look like this now:
+````
+		"footer": {
+		    "paginator": {
+    			"pageSize": 5
+		    }
+	    }
+				
 ````
 
 

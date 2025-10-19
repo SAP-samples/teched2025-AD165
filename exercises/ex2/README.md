@@ -81,7 +81,7 @@ The `sap.card` `header` section starting in lines 24 should look like this now:
    <br> - Override the "$format": "json" proprty under `request` `parameters` and replace it with a parameter named `"collectionName":"SAPAIAgents"`
    <br> - Remove the `"value"` from the `path` property and leave it only with `/`
 
-The "data" section starting in lines 32 should look like this now:
+The `data` section starting in lines 32 should look like this now:
 
 ````json
 		"content": {
@@ -99,7 +99,8 @@ The "data" section starting in lines 32 should look like this now:
 		},
 ````
    
-   You can see the change immediately on the card preview. 
+> [!TIP]
+> You can see the change immediately on the card preview. 
    
 6. Next, you should bound the `items` section
    <br> - First, remove the last proprty `"highlight"` as it is not necessary 
@@ -152,10 +153,12 @@ The "item" section starting in line 43 should look like this now:
 ````
 
 > [!TIP]
-> You can see the change immediately on the card preview. click on any line in the list to see the action is working and leads to a URL of the discovery center of SAP. 
+> You can see the change immediately on the card preview. click on any line in the list to see that the action is working and leads to a URL of the discovery center of SAP. 
 
 
 9. Download the Card you've created. Click on the Download button on the top right and download Bundle as card.zip
+<br>![Download Cards zip](/exercises/ex2/images/02_010_0010.png)
+
 
 
 ## Exercise 2.2 Create an app on SAP Build Work Zone using your downloaded card

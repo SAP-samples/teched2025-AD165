@@ -1,4 +1,4 @@
-# Exercise 2 - Add an UI integration card for usage in your workspace
+# Exercise 2 - Add a UI integration Data card for usage in your workspace
 
 In this exercise, you will download a UI integration card and make it available in Work Zone, so you can add it to a workpage in the next exercise.
 

@@ -2,7 +2,8 @@
 
 In this exercise, you will create a new page Use Case Repository and a wizard (also known as Guided Experience) that supports users in submitting their ideas for AI use cases in ACME Corp. 
 
-> **&#9432;** Guided experiences are designed to simplify multi-step business processes and complex workflows by breaking them down into manageable and intuitive steps. Each step can be enriched with various types of content, including videos, documents, forms, tasks, UI cards, and apps to provide users with all the necessary information to complete each step. Steps can be classified as optional or mandatory, ensuring critical tasks are completed while allowing flexibility for other actions. Users don't need to worry about finishing all the steps at once as the progress is saved within Work Zone, enabling them to resume from where they left off.  
+> [!NOTE]
+> Guided experiences are designed to simplify multi-step business processes and complex workflows by breaking them down into manageable and intuitive steps. Each step can be enriched with various types of content, including videos, documents, forms, tasks, UI cards, and apps to provide users with all the necessary information to complete each step. Steps can be classified as optional or mandatory, ensuring critical tasks are completed while allowing flexibility for other actions. Users don't need to worry about finishing all the steps at once as the progress is saved within Work Zone, enabling them to resume from where they left off.  
 
 
 ## <a id="create-page"></a> 2.1 Create a new page in your workspace
@@ -12,11 +13,11 @@ After completing these steps you will have created a new page that will host a U
 ### Exercise 2.1.1 Add a workpage 
 
 1. On the right side of the menu, click the + icon to add a new tab to the navigation bar.
-<br>![Add menu entry](/exercises/ex2/images/02_01_0010.png)
+<br>![Add menu entry](/exercises/ex3/images/02_01_0010.png)
 2. The new menu entry should lead users to a workpage, so click the **Workpage** tile.
-<br>![Workpage tile](/exercises/ex2/images/02_01_0020.png)
+<br>![Workpage tile](/exercises/ex3/images/02_01_0020.png)
 3. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as *Tab Name*, and click **Add**.
-<br>![Create Page](/exercises/ex2/images/02_01_0030.png)
+<br>![Create Page](/exercises/ex3/images/02_01_0030.png)
 
 The new page is created and you can now start populating it with content. 
 
@@ -25,7 +26,7 @@ The new page is created and you can now start populating it with content.
 Before you add the wizard, you add a welcoming text widget to explain what the use case repository is about and your card to the page.
 
 1. In the middle of the page, click **Add**. This way a freestyle section with one cell is created. You could also click the dropdown link and select **Freestyle** there.
-<br>![Add section](/exercises/ex2/images/02_01_0040.png)
+<br>![Add section](/exercises/ex3/images/02_01_0040.png)
 2. Hover the new section and click the **Add Content** button that appears.
 3. Select the **Text** widget from the widget gallery.
 4. Use text generation ??? to create a welcome text for this page. You might use the prompt
@@ -58,7 +59,8 @@ After completing these steps you will have created the skeleton for your wizard 
 
 1. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
 
-> **&#9432;** You can either create a wizard from scratch by defining stages and steps manually or you can model a complex multi-step process as a *Guided Process* in SAP Build Process Automation and use it as a basis for your wizard. This accelerates the entire process from building to rolling out the experience for production.
+> [!NOTE]
+> You can either create a wizard from scratch by defining stages and steps manually or you can model a complex multi-step process as a *Guided Process* in SAP Build Process Automation and use it as a basis for your wizard. This accelerates the entire process from building to rolling out the experience for production.
 
 2. Select the **IdeaMgmtGuidedProcess** that has been preconfigured in SAP Build Process Automation.
 3. Select *Display Option* **Embedded in Workpage**.
@@ -74,12 +76,13 @@ Below, you can see a preview of the Stages and Steps that will be part of the ne
 After completing these steps you will have assigned widgets to allow users to execute all steps in the first stage.
 
 1. In the **Persona and Problem Description** step, click **Add widget**.
-<br>![Add widget](/exercises/ex2/images/02_04_0010.png)
+<br>![Add widget](/exercises/ex3/images/02_04_0010.png)
 
 2. Select the **Cards** tile and choose card **Refine Problem Statement**.
 3. You do not need to make any additional settings, just click **Save**.
 
-> **&#9432;** SAP UI Integration cards can easily be created and made available for usage in SAP Build Work Zone with SAP Business Application Studio.
+> [!NOTE]
+> SAP UI Integration cards can easily be created and made available for usage in SAP Build Work Zone with SAP Business Application Studio.
 
 4. Now move on to the next step. Click **Review Matching Proposals**. In this step, the users should check if their proposal is really a new idea or if something very similar or identical has already been submitted or maybe even implemented. To support this step, we created a card that uses AI to identify such duplicate ideas.
 
@@ -104,7 +107,7 @@ After completing these steps you will have completed and published the full guid
 Now, you are done. The wizard is completely configured. You might of course add further cards or widgets to the different steps, for example to provide the users with additional help and information like how-to videos and instructions.
 
 6.	Click **Publish** to make your new page available to workspace users. Permissions??? In the pop-up, click **Publish** again.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+<br>![](/exercises/ex3/images/02_02_0010.png)
 
 ## Summary
 

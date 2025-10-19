@@ -34,6 +34,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
     - [Exercise 4.2 - Use text summarization to quickly grasp the content of a blog post](exercises/ex4#ai-summarization)
     - [Exercise 4.3 - Experience document grounding in SAP Joule](exercises/ex4#ai-doc-grounding)
     - [Exercise 4.4 - Use the Guided Experience to submit an AI Use Case](exercises/ex4#run-wizard)
+    - [Exercise 4.5 - Experience SAP Build Work Zone on a mobile device](exercises/ex4#mobile-start)
 - [Exercise 5 (optional) - Create a UI integration card](exercises/ex5/)
     - [Exercise 4.1 - Create a private workspace](exercises/ex4#exercise-41-sub-exercise-1-description)
     - [Exercise 4.2 - Add tiles and cards from SAP S/4HANA public cloud edition](exercises/ex4#exercise-42-sub-exercise-2-description)

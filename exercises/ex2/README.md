@@ -21,7 +21,7 @@ After completing these steps you will have downloaded an advanced card from [sap
 > [!IMPORTANT]
 > Pleaase Make sure to replace ### with your participant number. For example participant number 1 results in AD165-001
 
-   <br>In the *`sap.app`* top section:
+   <br>In the `sap.app` section on the top:
    <br> - Modify the card's *`id`* into `com.sap.teched.ad165.###` to make it unique and easier to identify later
 
 > [!CAUTION]
@@ -33,7 +33,7 @@ After completing these steps you will have downloaded an advanced card from [sap
    <br> - Change the *`info`* into `Custom Card for Teched Hands-On`
    <br> - Change the *`description`* into `Delivered by SAP`
 
-The "sap.app" section starting in lines 3 should look like this now:
+The `sap.app` section starting in lines 3 should look like this now:
 
 ````json
 	"sap.app": {
@@ -57,12 +57,12 @@ The "sap.app" section starting in lines 3 should look like this now:
 	},
 ````
 
-4. Next, you change the *`header`* part in the *`sap.card`* section.
+4. Next, you change the `header` part in the `sap.card` section.
    <br> - Change the *`title`* property into `Standard SAP AI Agents`
    <br> - Change the *`subtitle`* property into `List Card by AD165-###`
    <br> - Change the *`icon`* property into SAP AI icon by using the src of `"sap-icon://ai"` (or, simply replace "product" with "ai")
    
-The "sap.card" `header` section starting in lines 24 should look like this now:
+The `sap.card` `header` section starting in lines 24 should look like this now:
 
 ````json
 	"header": {
@@ -74,12 +74,12 @@ The "sap.card" `header` section starting in lines 24 should look like this now:
 	},
 ````
 
-5. Next, you change the *content* *data* part in the *`sap.card`* section.
+5. Next, you change the `content` `data` part in the `sap.card` section.
    <br> - Change the *`url`* property to `https://simplenodebackend-chipper-kob-zy.cfapps.eu10-004.hana.ondemand.com/IdeaManagementDB/api/v1/list`
    <br> - Change the *`method`*  property to `POST`
    <br> - Add a *`headers`* to the *`request`* property with the value `"headers": {"Content-Type": "application/json"},`
-   <br> - Override the "$format": "json" proprty under *request* *parameters* and replace it with a parameter named `"collectionName":"SAPAIAgents"`
-   <br> - Remove the `"value"` from the *path* and leave it only with `/`
+   <br> - Override the "$format": "json" proprty under `request` `parameters` and replace it with a parameter named `"collectionName":"SAPAIAgents"`
+   <br> - Remove the `"value"` from the `path` property and leave it only with `/`
 
 The "data" section starting in lines 32 should look like this now:
 
@@ -103,21 +103,19 @@ The "data" section starting in lines 32 should look like this now:
    
 6. Next, you should bound the `items` section
    <br> - First, remove the last proprty `"highlight"` as it is not necessary 
-   <br> - Change the *`title`* property into `"{ProblemStatement}",`
-   <br> - Change the *`description`* property into `"{RefinedSolution}"`
+   <br> - Change the `title` property into `"{ProblemStatement}",`
+   <br> - Change the `description` property into `"{RefinedSolution}"`
 
-The "item" section starting in line 43 should look like this now:
+The `item` section starting in line 43 should look like this now:
 
 ````json
 		"item": {
 				"title": "{ProblemStatement}",
 				"description": "{RefinedSolution}"
-			},
+		},
 ````
-
-
    
-7. Add a pagination to see all ideas exist
+7. Add a pagination to be able to see all existing ideas
    <br> - After the `Content` section add `,"footer": { "paginator": {"pageSize": 5} }` 
 
 The "footer" section starting in line 49 should look like this now:
@@ -128,7 +126,10 @@ The "footer" section starting in line 49 should look like this now:
 		    }
 	    }				
 ````
-   You can see the change immediately on the card preview. click on `Show More` to see all ideas exist  
+
+> [!TIP]
+> You can see the change immediately on the card preview. click on `Show More` to see all ideas exist 
+ 
 
 8. Add Actions to the items, so each raw item will be clickable
    <br> - After the `description` property add `,` and then add `"actions": [ { "type": "Navigation", "enabled": "{= ${IdeaLinks}}", "parameters": { "url": "{IdeaLinks}" } } ]`
@@ -154,6 +155,7 @@ The "item" section starting in line 43 should look like this now:
 > You can see the change immediately on the card preview. click on any line in the list to see the action is working and leads to a URL of the discovery center of SAP. 
 
 
+9. Download the Card you've created. Click on the Download button on the top right and download Bundle as card.zip
 
 
 ## Exercise 2.2 Create an app on SAP Build Work Zone using your downloaded card

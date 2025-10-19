@@ -12,9 +12,9 @@ After completing these steps you will have downloaded an advanced card from [sap
 
 1. Navigate to the [Card Explorer
 ](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html)that gathers all information about UI integration cards and navigate to the **Explore** tab. Here you can test various card types with sample data and download them. 
-<br>![Explore UI Cards](/exercises/ex2/images/02_01_0010.png)
+<br>![Explore UI Cards](/exercises/ex2/images/02_03_0010.png)
 2. In the menu on the left, select the *Card Features* **Data**
-<br>![Select Card Type](/exercises/ex2/images/05_01_0020.png)
+<br>![Select Card Type](/exercises/ex2/images/02_04_0010.png)
 
 3. To adapt the card, you can adjust its *`manifest.json`* file on the right.
 

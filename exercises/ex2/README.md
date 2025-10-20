@@ -19,13 +19,13 @@ After completing these steps you will have downloaded an advanced card from [sap
 3. To adapt the card, you can adjust its *`manifest.json`* file on the right.
 
 > [!IMPORTANT]
-> Pleaase Make sure to replace ### with your participant number. For example participant number 1 results in AD165-001
+> Please make sure to replace ### with your participant number. For example participant number 1 results in AD165-001
 
    <br>In the `sap.app` section on the top:
    <br> - Modify the card's *`id`* into `com.sap.teched.ad165.###` to make it unique and easier to identify later
 
 > [!CAUTION]
-> Please do not use "-" in the id, only Alphanumeric characters and "." 
+> Please do not use "-" in the id, only alphanumeric characters and "." 
 > <br>In addition, please note that the version property is mandatory. Do not change it, as without it the card will not be accepted by Work Zone.
    
    <br> - Change the *`title`* and *`shortTitle`* properties into `Standard AI Agents List Card by AD165-###`

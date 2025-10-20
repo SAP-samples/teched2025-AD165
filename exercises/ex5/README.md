@@ -85,5 +85,31 @@ The exposed content can not only be accessed from a desktop browser but also usi
 > If you freshly installed *SAP Mobile Start* to your device, your operating system will prompt you whether you want to allow to receive push notifications. Make sure to select **Yes** in order to allow receiving push notification. Exercise 2.5 will make use of that. If you declined the alert before or just now by accident, you can later allow push notifications for *SAP Mobile Start* in your device's settings.
 
 7. Sign in with the provided credentials.
-8. By switching to the *Apps* tab on the bottom, you should be able to see *Site's* content structure equivalently to what you saw on the Applications tab in the desktop version.
+8. By switching to the *Apps* tab on the bottom, you will be able to see *Site's* content structure equivalently to what you saw on the Applications tab in the desktop version.
    <p align="center"><img src="./images/ex2_04_03.png" width="20%" style="margin:10px" /><img src="./images/ex2_04_04.png" width="20%" style="margin:10px" /></p>
+
+## Exercise 5.4 Make your workspace accessible from SAP Mobile Start as web view
+
+You can make Work Zone content, such as workspaces or workpages, available on SAP Mobile Start as web views. To achieve this, an administrator can create a URL application in the Content Manager using the URLs of the workspace or workpage. 
+
+In a next step, it is then necessary to assign the app to a role. Finally, the app also needs to be assigned to the UI. This can be done by putting the app on a page that is visible by the user, i.e. a page that is assigned to a space that belongs to one of the user's roles.
+
+Please take a look at this graphic to explain these relationships between different types of content entities.
+    <p align="center"><img src="./images/ex2_04_01.png" width="20%" style="margin:10px" /><img src="./images/ex5_04_02.png" width="20%" style="margin:10px" /></p>
+
+You can now make your workspace available on SAP Mobile Start.
+
+### Exercise 5.4.1 Create a URL application
+
+
+### Exercise 5.4.2 Create a tenant-level page
+
+
+### Exercise 5.4.3 Create a tenant-level space
+
+
+### Exercise 5.4.4 Assing the space and the app to the Everyone role
+
+
+### Exercise 5.4.5 Open your workspace on SAP Mobile Start
+2. 

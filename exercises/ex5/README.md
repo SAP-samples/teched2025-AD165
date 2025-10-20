@@ -67,13 +67,8 @@ Instead of the manual option, it is possible to set up automatic updates so that
 
 
 
-## Exercise 5.2 Access SAP Build Work Zone on a mobile device
+## Exercise 5.3 Access SAP Build Work Zone on a mobile device
 
-In this exercise you will ...
-
-
-
-### Exercise 2.4 Onboard SAP Mobile Start
 
 The exposed content can not only be accessed from a desktop browser but also using the native mobile app *SAP Mobile Start*.
 

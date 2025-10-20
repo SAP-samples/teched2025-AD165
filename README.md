@@ -15,7 +15,7 @@ This session introduces attendees to SAP Build Work Zone which is a tool that em
 
 ## Requirements
 
-There are no specific requirements to follow the exercises in this repository. For the optional exercise 5, you require:
+There are no specific requirements to follow the exercises 1-4 in this repository. For the optional exercise 5, you require:
 
 -  A smartphone (iOS or Android) capable of running SAP Mobile Start
 

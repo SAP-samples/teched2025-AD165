@@ -15,22 +15,22 @@ After completing these steps you will have created a Center of Excellence worksp
 
 
 2.	In the menu bar, navigate to *Workspaces > New Workspace*.
-<br>![New workspace](/exercises/ex1/images/01_03_0010.png)
+<img src="./images/01_03_0010.png" width="600" />
 
-3.	Click the left tile to create a public workspace.
+4.	Click the left tile to create a public workspace.
 <br>![Public workspace](/exercises/ex1/images/01_04_0010.png)
 
-4. Enter name: **AI Center of Excellence** and a description of your choice.
+5. Enter name: **AI Center of Excellence** and a description of your choice.
 
-5. Select the Center of Excellence abc workspace template. ???
+6. Select the Center of Excellence abc workspace template. ???
 
-6. Remove the checkmark next to *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
+7. Remove the checkmark next to *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
 <br>![Workspace creation wizard](/exercises/ex1/images/01_05_0010.png)
 
-7. You can leave the *Member Participation* settings as is. Simply click **Next**.
+8. You can leave the *Member Participation* settings as is. Simply click **Next**.
 <br>![Member settings](/exercises/ex1/images/01_06_0010.png)   
 
-8. On the *Non-Member Participation* page, set *Collaboration Level* to **None: All collaboration tools and member details are hidden** and click **Finish**.
+9. On the *Non-Member Participation* page, set *Collaboration Level* to **None: All collaboration tools and member details are hidden** and click **Finish**.
 <br>![Non-member settings](/exercises/ex1/images/01_07_0010.png)
 
 

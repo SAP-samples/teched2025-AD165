@@ -1,28 +1,46 @@
 # Exercise 1 - Build your Center of Excellence workspace
 
-In this exercise, we will create a public workspace from a template that you first upload to your SAP Build Work Zone tenant. As you will be working in a shared environment, it is important that you give all objects you create easily identifiable names, e.g. containing your 3-digit user ID which you can also find on your desktop.
+In this exercise, you will first access SAP Build Work Zone. 
+
+> [!NOTE]
+> SAP Build Work Zone, advanced edition lets you build digital workspace solutions to increase user productivity and engagement. It centralizes access to relevant business applications, processes, information, and communication in a unified entry point that your users can access from any device.
 
 
-## <a id="create-public-ws"></a> Exercise 1.1 Create a public workspace from a template
+## <a id="access-wz"></a> Exercise 1.1 Get to know SAP Build Work Zone 
 
+1. Open [SAP Build Work Zone](https://ad165-m3ep4xn0.workzone.cfapps.eu10.hana.ondemand.com/site#workzone-home&/home) and login with the user that is available on your desk and the password provided by your instructors.
+<br>![SAP Build Work Zone](/exercises/ex1/images/01_01_0010.png)
+
+Note the navigation menu on top of the screen. It contains some default entries of SAP Build Work Zone. You are now on the **Home** page which is the landing page when you first open the site and usually contains information that is relevant to all or most users in your organization.
+
+2. Click **My Workspace** in the menu. This is a personal workspace that can be used as a favorite page for frequently used content and applications.
+
+3. Navigate to the **Applications** tab provides access to all business apps that the logged on user has permissions for and that are configured for display. It can be hidden, if the administrators decide to rather build individual workpages to combine tiles, cards, and other types of widgets than having this central page for accessing applications.
+
+4. Click the back icon to come back to the My Workspace. Now navigate to the **Workspaces** tab.
+
+> [!NOTE]
+> A workspace is a collaborative environment that is designed to encourage users to share and communicate with each other about a specific subject, project, event, goal, or a team from a specific department. Workspaces are a very important concept in SAP Build Work Zone, as they allow users to engage with each other and contribute to creating the right work environment for themselves and the people they collaborate with.
+
+
+## <a id="create-public-ws"></a> Exercise 1.2 Create a public workspace from a template
 
 After completing these steps you will have created a Center of Excellence workspace and made some initial settings. This step does not need to be done by an administrator, but according to their preferences, customers can allow every user or only a specific group of key users to create workspaces to share knowledge and collaborate with colleagues.
 
-1. To launch SAP Build Work Zone, go to the [Build Lobby](https://ad165-m3ep4xn0.eu10.build.cloud.sap/lobby) and login with the user that is available on your desk and password **Acce$$teched25**. 
-<br>![Build Lobby](/exercises/ex1/images/01_01_0010.png)
+> [!NOTE]
+> Workspaces can be created from template or from scratch. SAP Build Work Zone comes with a number of pre-configured workspace templates for different use cases to give users a jumpstart when they build their own workspaces. The Digital Center of Excellence template is not part of the standard templates that SAP delivers, but it can be downloaded from the [SAP Build Governance Resource Center](https://workzone.one.int.sap/site#workzone-home&/groups/dfHGUSyc55Z70bNJiHhIsR/workpage_tabs/u4QN8ZTukJEYfR1SXxfMPQ). This is a public workspace open to everyone - please refer to this script ??? for getting access.
+>
+> There are many options when creating a workspace that you should be aware of. First, there are public workspaces where everyone can join, view, and collaborate in compared to private workspaces that are usually hidden and only accessible to users who have been invited to it. When you create a workspace, you automatically become the workspace administrator. However, you can designate other members to be an admin too. As an admin, you can define what members or non members should be allowed to do in your workspace.
 
-...??? Missing steps
+1.	In the menu bar, navigate to *Workspaces > New Workspace*.
+<p align="center"><img src="./images/01_03_0010.png" width="70%" alt="New Workspace"/></p>
 
+2.	Click the left tile to create a public workspace.
+<p align="center"><img src="./images/01_04_0010.png" width="70%" alt="Public Workspace"/></p>
 
-2.	In the menu bar, navigate to *Workspaces > New Workspace*.
-<img src="./images/01_03_0010.png" width="600" />
+3. Enter name: **AI Center of Excellence** and a description of your choice.
 
-4.	Click the left tile to create a public workspace.
-<br>![Public workspace](/exercises/ex1/images/01_04_0010.png)
-
-5. Enter name: **AI Center of Excellence** and a description of your choice.
-
-6. Select the Center of Excellence abc workspace template. ???
+5. Select the Digital Center of Excellence workspace template. 
 
 7. Remove the checkmark next to *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
 <br>![Workspace creation wizard](/exercises/ex1/images/01_05_0010.png)
@@ -33,12 +51,13 @@ After completing these steps you will have created a Center of Excellence worksp
 9. On the *Non-Member Participation* page, set *Collaboration Level* to **None: All collaboration tools and member details are hidden** and click **Finish**.
 <br>![Non-member settings](/exercises/ex1/images/01_07_0010.png)
 
+The workspace has been created and you automatically navigate to it. You can now start editing it, but before you do this, you should get familiar with the content it already contains.
 
-##<a id="enhance-home"></a> Exercise 1.2 Enhance the header and the start page of the workspace with pre-configured widgets and images
+
+
+## <a id="enhance-home"></a> Exercise 1.3 Enhance the header and the start page of the workspace with pre-configured widgets and images
 
 After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
-
-The workspace has been created and you automatically navigate to it. You can now start editing it, but before you do this, you should download some images and files you can use during the exercise.
 
 2. Right-click the link [exercises/ex1/samples](https://github.com/SAP-samples/teched2025-AD165/tree/main/exercises/ex1/samples) and open the folder in a new browser tab.
 3. Click the content.zip file and use the download button to download the zip file to your local computer.

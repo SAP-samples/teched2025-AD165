@@ -42,13 +42,13 @@ After completing these steps you will have created a Center of Excellence worksp
 
 5. Select the Digital Center of Excellence workspace template. 
 
-6. Remove the checkmark next to *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
+7. Remove the checkmark next to *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
 <br>![Workspace creation wizard](/exercises/ex1/images/01_05_0010.png)
 
-7. You can leave the *Member Participation* settings as is. Simply click **Next**.
+8. You can leave the *Member Participation* settings as is. Simply click **Next**.
 <br>![Member settings](/exercises/ex1/images/01_06_0010.png)   
 
-8. On the *Non-Member Participation* page, set *Collaboration Level* to **None: All collaboration tools and member details are hidden** and click **Finish**.
+9. On the *Non-Member Participation* page, set *Collaboration Level* to **None: All collaboration tools and member details are hidden** and click **Finish**.
 <br>![Non-member settings](/exercises/ex1/images/01_07_0010.png)
 
 The workspace has been created and you automatically navigate to it. You can now start editing it, but before you do this, you should get familiar with the content it already contains.

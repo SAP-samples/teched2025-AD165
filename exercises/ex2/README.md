@@ -1,12 +1,134 @@
-# Exercise 2 - Add a UI integration Data card for usage in your workspace
+# Exercise 2 - Add a UI integration card to your workspace
 
-In this exercise, you will download a UI integration card and make it available in Work Zone, so you can add it to a workpage in the next exercise.
+In this exercise, you will learn what are UI integration cards, you will modify a sample card, connect it with real data, download the card bundle, upload it to Work Zone, enable the card access via administration activities and finally add it to a workspage in your workspace.
 
 > [!NOTE]
-> Integration cards present a new means to expose application content to the end user in a unified way. A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way while presenting more data at first sight than a tile usually does.
+> Integration cards present a  means to expose application content to the end user in a unified way. A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way while presenting more data at first sight than a tile usually does. 💡 Think of UI integration cards are mini-apps that show key info directly on Work Zone pages — you’ll create one and add it to your workspace so that it's visible to all it's members.
+
+# Exercise 2.1 Explore the UI Cards in Card Explorer
+
+After completing this exercise, you’ll be familiar with the **UI Card Explorer** and understand the basic anatomy of a simple **List** card (what each manifest section does).
+
+---
+
+## What is the Card Explorer?
+The Card Explorer is an interactive playground for **UI Integration Cards**. It lets you:
+- Preview different **card types** and **features**.
+- Inspect and edit the card’s **`manifest.json`** side-by-side.
+- See how **data**, **actions**, **configuration**, and **filters** change a card.
+- Copy snippets or **download** a working sample for your own use.
+
+> **Tip:** Everything you see in the preview is driven by the `manifest.json`. You’ll learn which parts of the manifest control which parts of the UI. 
+
+![UI Cards Explorer website](./images/02_01_explore_overview.png)  
+_The “Explore” tab showing: left navigation (Card Types & Card Features), center preview, right manifest panel._
+
+---
+
+## Steps
+
+1. **Open the Card Explorer and switch to _Explore_.**  
+   Go to:  
+   `https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html`  
+   The page has three main areas:  
+   - **Left navigation:** _Card Types_ (e.g., **List**, Object, Table, Analytical, Calendar, Timeline, WebPage, Component, Adaptive) and _Card Features_ (Data, Actions, Configuration, Filters, etc.).  
+   - **Center:** a live **Preview** of the selected card.  
+   - **Right:** the card’s **`manifest.json`** editor.
+
+2. **Skim the Card Types (what you can build).**  
+   - **List** – list of items (title/description/info), optional actions & pagination.  
+   - **Object** – attribute/value groups.  
+   - **Table** – tabular data.  
+   - **Analytical** – KPIs/charts (often with a Numeric Header).  
+   - **Calendar**, **Timeline**, **WebPage**, **Component**, **Adaptive** (MS Adaptive Cards).  
+   These map to the `sap.card/type` in the manifest.
+
+3. **Open _Card Types ▸ List_.**  
+   Review how the **List** card renders in the preview, then open the **manifest** on the right.
+
+   **Add Screenshot B here:** `02_02_list_preview.png`  
+   _List card preview._
+
+   **Add Screenshot C here:** `02_03_list_manifest.png`  
+   _The List card’s `manifest.json` panel._
+
+4. **Understand the manifest anatomy (what each part is for).**  
+   A card is defined by a **JSON manifest** with a few key namespaces:
+
+   - **`sap.app`** → app/card metadata & identity  
+     - `id`: A unique identifier (e.g., `com.example.cards.samplelist`)  
+     - `type`: Must be `"card"` for UI Integration Cards  
+     - `title`, `shortTitle`, and `applicationVersion.version`
+
+   - **`sap.card`** → the card itself. Common subsections:  
+     - **`type`** – one of: List/Table/Object/Analytical/Timeline/WebPage/AdaptiveCard/Calendar/Component/...  
+     - **`header`** – title, subtitle, icon, optional status or numeric header.  
+     - **`data`** *(optional)* – where the card gets data: a REST `request` (`url`, `method`, `headers`, `parameters`) and a `path` for binding. Usually, accessed via BTP destinations.
+     - **`content`** – how to render the UI. For **List**, define the `item` template: `title`, `description`, `info`, and (optionally) `actions` and `maxItems`.  
+     - **`footer`** *(optional)* – components like a `paginator`.  
+     - **`configuration`** *(optional)* – **parameters**, **destinations**, **filters**, and other host-configurable settings.  
+     - **`actions`** *(optional)* – interactive behaviors like `Navigation` or `Submit`. For **List**, row-level interactions usually go under `content.item.actions`.
+
+5. **Peek at _Card Features_ to see “how it’s done.”**  
+   - **Configuration**: how to declare `parameters`, `destinations`, `filters`, Markdown support, etc. (manifest → `sap.card/configuration`).  
+   - **Data**: how to set up a `request` (URL/method/headers/parameters) and bind to a `path`.  
+   - **Filters**: how to define end-user filters under `configuration` and bind them to your data.  
+   - **Actions**: how to make headers or list items clickable; the host handles events like `Navigation` or `Submit`.
+
+> **Takeaway:** The Explorer lets you test card **types** and inspect the **manifest** that drives them—especially `sap.card/type`, `header`, `data`, `content`, `footer`, `configuration`, and `actions`. These are the only pieces you need to understand before adapting a List card in the next step.
+
+---
+
+## Minimal “List” card anatomy (reference)
+
+```json
+{
+  "sap.app": {
+    "id": "com.example.cards.samplelist",
+    "type": "card",
+    "title": "Sample List Card",
+    "applicationVersion": { "version": "1.0.0" }
+  },
+  "sap.card": {
+    "type": "List",
+    "header": {
+      "title": "Orders",
+      "subtitle": "Recent",
+      "icon": { "src": "sap-icon://product" }
+    },
+    "data": {
+      "request": {
+        "url": "https://example.com/api/orders",
+        "method": "GET",
+        "headers": { "Accept": "application/json" }
+      },
+      "path": "/items"
+    },
+    "content": {
+      "item": {
+        "title": "{OrderName}",
+        "description": "{Customer}",
+        "info": "{Status}",
+        "actions": [
+          { "type": "Navigation", "parameters": { "url": "{Link}" } }
+        ]
+      },
+      "maxItems": 5
+    },
+    "footer": {
+      "paginator": { "pageSize": 5 }
+    },
+    "configuration": {
+      "parameters": { "region": { "value": "EMEA" } }
+    }
+  }
+}
+```
+
+---
 
 
-## Exercise 2.1 Select an advanced card and adapt it to your needs
+## Exercise 2.2 Select an advanced card and adapt it to your needs
 
 After completing these steps you will have downloaded an advanced card from [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com). This website provides you with a lot of information, samples, and resources to support you in developing web apps with SAPUI5. 
 
@@ -161,7 +283,7 @@ The "item" section starting in line 43 should look like this now:
 
 
 
-## Exercise 2.2 Create an app on SAP Build Work Zone using your downloaded card
+## Exercise 2.3 Create an app on SAP Build Work Zone using your downloaded card
 
 After completing these steps you will have added the card to SAP Build Work Zone.
 
@@ -180,7 +302,7 @@ After completing these steps you will have added the card to SAP Build Work Zone
 11. Click **Save**. 
    
 
-## Exercise 2.3 Make the new card available to all Work Zone users
+## Exercise 2.4 Make the new card available to all Work Zone users
 
 After completing these steps you will have made the card available for usage in SAP Build Work Zone.
 

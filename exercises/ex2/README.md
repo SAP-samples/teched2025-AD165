@@ -1,6 +1,6 @@
-# Exercise 2 - Add a UI integration Data card for usage in your workspace
+# Exercise 2 - Add a UI integration card to your workspace
 
-In this exercise, you will download a UI integration card and make it available in Work Zone, so you can add it to a workpage in the next exercise.
+In this exercise, you will learn what are UI integration cards, you will modify a sample card, connect it with real data, download the card bundle, upload it to Work Zone, enable the card access via administration activities and make it available in Work Zone, so you can add it to a workpage in the next exercise.
 
 > [!NOTE]
 > Integration cards present a new means to expose application content to the end user in a unified way. A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way while presenting more data at first sight than a tile usually does.

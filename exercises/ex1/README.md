@@ -40,30 +40,31 @@ After completing these steps you will have created a Center of Excellence worksp
 
 3. Enter name: **AI Center of Excellence** and a description of your choice.
 
-5. Select the Digital Center of Excellence workspace template. 
+4. Select the Digital Center of Excellence workspace template. 
 
-7. Remove the checkmark next to *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
+5. Remove the checkmark next to *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
 <br>![Workspace creation wizard](/exercises/ex1/images/01_05_0010.png)
 
-8. You can leave the *Member Participation* settings as is. Simply click **Next**.
+6. You can leave the *Member Participation* settings as is. Simply click **Next**.
 <br>![Member settings](/exercises/ex1/images/01_06_0010.png)   
 
-9. On the *Non-Member Participation* page, set *Collaboration Level* to **None: All collaboration tools and member details are hidden** and click **Finish**.
+7. On the *Non-Member Participation* page, set *Collaboration Level* to **None: All collaboration tools and member details are hidden** and click **Finish**.
 <br>![Non-member settings](/exercises/ex1/images/01_07_0010.png)
 
 The workspace has been created and you automatically navigate to it. You can now start editing it, but before you do this, you should get familiar with the content it already contains.
 
+As you can see in the workspace menu, there are already a couple of pages available in the workspace. Explore the different pages that were created from the template, e.g. the Overview page, the Forum, the Knowledge Base and other pages. Before publishing your workspace, you will add some more content to these pages or adapt the existing content to the specific use case of a Digital Center of Excellence for AI. 
 
 
 ## <a id="enhance-home"></a> Exercise 1.3 Enhance the header and the start page of the workspace with pre-configured widgets and images
 
 After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
 
-2. Right-click the link [exercises/ex1/samples](https://github.com/SAP-samples/teched2025-AD165/tree/main/exercises/ex1/samples) and open the folder in a new browser tab.
-3. Click the content.zip file and use the download button to download the zip file to your local computer.
-4. Extract the zip file into a folder of your choice.
+1. Right-click the link [exercises/ex1/samples](https://github.com/SAP-samples/teched2025-AD165/tree/main/exercises/ex1/samples) and open the folder in a new browser tab.
+2. Click the content.zip file and use the download button to download the zip file to your local computer.
+3. Extract the zip file into a folder of your choice.
 
-#### Exercise 1.2.1   Add a beautiful cover photo
+#### Exercise 1.3.1   Add a beautiful cover photo
 As a first step, you will change the cover photo to something that fits the purpose of the workspace.
 
 1. Click **Edit Cover Photo**, then select **Upload Photo** from the dropdown list.
@@ -75,7 +76,7 @@ As a first step, you will change the cover photo to something that fits the purp
 3. If you want, you can zoom into the image by using the slider. Select a beautiful display window by dragging the image up and down or left and right. Then click **Save**.
 <br>![Zoom reposition & Save](/exercises/ex1/images/01_03_0050.png)
 
-#### Exercise 1.2.2   Exchange the avatar of the workspace
+#### Exercise 1.3.2   Exchange the avatar of the workspace
 
 Now, you will now change the avatar of the workspace, so you can recognize it more easily in the list of workspaces.
 
@@ -91,7 +92,7 @@ Now, you will now change the avatar of the workspace, so you can recognize it mo
 <br>![Zoom reposition & Save](/exercises/ex1/images/01_03_0080.png)
 
 
-#### Exercise 1.2.3   Add images to the overview page
+#### Exercise 1.3.3   Add images to the overview page
 
 1. First, open the workpage editor by clicking the pencil icon on the right of the screen.
 <br>![Go to workpage editor](/exercises/ex1/images/01_04_0010.png)
@@ -119,14 +120,14 @@ Now, you will now change the avatar of the workspace, so you can recognize it mo
 
 
 <br><br>
-#### Exercise 1.2.4   Remove an unneeded section
+#### Exercise 1.3.4   Remove an unneeded section
 
 You do not need the next section, so you are now going to delete it.
 Hover the section till you see the grey section frame and select the **Delete section** icon.
 <br>![Delete section](/exercises/ex1/images/01_04_100.png)
 
 <br><br>
-#### Exercise 1.2.5   Edit the News section
+#### Exercise 1.3.5   Edit the News section
 
 1. In the **News** section, change the title to **Current News**.
 <br>![Delete section](/exercises/ex1/images/01_04_110.png)
@@ -139,7 +140,7 @@ Hover the section till you see the grey section frame and select the **Delete se
 Wait for the text to be generated, then accept or discard (to enter a new prompt) or retry with the same prompt and finally share the news.
 
 <br><br>
-#### Exercise 1.2.6   Add a Feed widget to the page
+#### Exercise 1.3.6   Add a Feed widget to the page
 
 1. Hover the **News** section again until an **Add section** button appears below it. Click the button and select **Freestyle** in the pop-up window.
 <br>![Add section](/exercises/ex1/images/01_04_122.png)
@@ -154,7 +155,7 @@ Wait for the text to be generated, then accept or discard (to enter a new prompt
 <br>![Widget properties](/exercises/ex1/images/01_04_126.png)
 
 <br><br>
-#### Exercise 1.2.7   Exchange the video
+#### Exercise 1.3.7   Exchange the video
 
 You would like to exchange the video for an AI related one. 
 
@@ -170,7 +171,7 @@ Then click **Save**.
 
 
 <br><br>
-#### Exercise 1.2.8   Move a widget to a new cell
+#### Exercise 1.3.8   Move a widget to a new cell
 
 You would like to move the two elements (text and pink cell) to the right of the video.
 
@@ -181,7 +182,7 @@ You would like to move the two elements (text and pink cell) to the right of the
 <br>![Move content](/exercises/ex1/images/01_04_150.png)
 
 <br><br>
-#### Exercise 1.2.9 Publish the workpage
+#### Exercise 1.3.9 Publish the workpage
 
 1. To make your changes available to users accessing the workspace, click **Publish** on top of the page.
 <br>![Publish](/exercises/ex1/images/01_04_160.png)
@@ -190,7 +191,7 @@ You would like to move the two elements (text and pink cell) to the right of the
 
 
 
-## <a id="add-discussion"></a> Exercise 1.3  Add a discussion topic to the Forum
+## <a id="add-discussion"></a> Exercise 1.4  Add a discussion topic to the Forum
 DO with Text Generation
 
 ## Summary

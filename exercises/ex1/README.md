@@ -141,7 +141,7 @@ Now, you will change the avatar of the workspace, so you can recognize it more e
 
 You do not need the next section, so you are now going to delete it.
 Hover the section till you see the grey section frame and select the **Delete section** icon.
-<br>![Delete section](/exercises/ex1/images/01_04_100.png)
+<p align="center"><img src="./images/ex1_03_04_0000.png" width="70%" alt="Delete section"/></p>
 
 <br><br>
 #### Exercise 1.3.5   Edit the News section

@@ -131,7 +131,7 @@ Now, you will change the avatar of the workspace, so you can recognize it more e
 <!--<br>![Background ON](/exercises/ex1/images/01_04_0080.png)-->
 <p align="center"><img src="./images/ex1_03_03_0007.png" width="70%" alt="Background ON"/></p>
 
-8. Add the image vertical.jpg between the *Welcome* and *How to get started* text widgets in the same way.
+8. Add the image 'Vertical_S2.jpg' between the *Welcome* and *How to get started* text widgets in the same way.
 <!--<br>![Added Image](/exercises/ex1/images/01_04_0090.png)-->
 <p align="center"><img src="./images/ex1_03_03_0008.png" width="70%" alt="Added Image"/></p>
 

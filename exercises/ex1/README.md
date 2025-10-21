@@ -77,7 +77,7 @@ After completing these steps you will have designed a beautiful entry page for y
 As a first step, you will change the cover photo to something that fits the purpose of the workspace.
 
 1. Click **Edit Cover Photo**, then select **Upload Photo** from the dropdown list.
-<br>![Edit Cover Photo](/exercises/ex1/images/01_03_0030.png)   
+<p align="center"><img src="./images/ex1_03_01_0000.png" width="60%" alt="Edit Cover Photo"/></p>
 
 2. Select the AI_Banner.jpg from the folder to which you extracted the image files.
 <br>![Select AI_Banner](/exercises/ex1/images/01_03_0040.png)   

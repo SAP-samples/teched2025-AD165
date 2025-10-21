@@ -188,15 +188,15 @@ At this stage your card looks like this -
 
 #### Let us understand what changes where made and why
 
-	- **url**: We now point the card to fetch the data from pre-deployed **Node.js backend** (simple REST API) that returns a list of published SAP AI Agents. Now the card will do a HTTP request on this url (instead of Northwind service). For product ready cards, you shouldn't use direct backend URL and instead use **BTP destinations** and configure the BTP destination in your BTP sub-account to point to the actual backend service. But, for sake of ease of this hands-on exercise we will directly point to the data service.
-	- **method**: This tells whether to use GET, POST, PUT, PATCH or DELETE during the HTTP request. Since the **Node.js backend** expects a POST query to list the SAP AI Agents, it is changed to POST in this case.
-	- **headers**: HTTP headers are key-value pairs sent in HTTP requests that provide metadata about the communication, such as content type, encoding, caching information, and authentication credentials. In this case, the `content-type` is set to `application/json` so that server can recognise the format of additional parameters sent in body.
-	- **parameters**: parameters in case of _POST_ HTTP call signify that the content would be sent as a payload in the body of the HTTP request. In this case, the backend server expects tthe `collectionName` as `SAPAIAgents` to be sent based on which it would retrieve and respond with a list of SAP AI Agents published in SAP Discovery Center.
-	- **path**: path tells where to find relevant data in the JSON returned by the server in as a HTTP response. In this case, the server responds with a array of JSON objects right at the root and hence `path` is set to `/`
+- **url**: We now point the card to fetch the data from pre-deployed **Node.js backend** (simple REST API) that returns a list of published SAP AI Agents. Now the card will do a HTTP request on this url (instead of Northwind service). For product ready cards, you shouldn't use direct backend URL and instead use **BTP destinations** and configure the BTP destination in your BTP sub-account to point to the actual backend service. But, for sake of ease of this hands-on exercise we will directly point to the data service.
+- **method**: This tells whether to use GET, POST, PUT, PATCH or DELETE during the HTTP request. Since the **Node.js backend** expects a POST query to list the SAP AI Agents, it is changed to POST in this case.
+- **headers**: HTTP headers are key-value pairs sent in HTTP requests that provide metadata about the communication, such as content type, encoding, caching information, and authentication credentials. In this case, the `content-type` is set to `application/json` so that server can recognise the format of additional parameters sent in body.
+- **parameters**: parameters in case of _POST_ HTTP call signify that the content would be sent as a payload in the body of the HTTP request. In this case, the backend server expects tthe `collectionName` as `SAPAIAgents` to be sent based on which it would retrieve and respond with a list of SAP AI Agents published in SAP Discovery Center.
+- **path**: path tells where to find relevant data in the JSON returned by the server in as a HTTP response. In this case, the server responds with a array of JSON objects right at the root and hence `path` is set to `/`.
 
-2. In the `sap.app` section on the top:
-   <br> - Modify the card's **`id`** into **`com.sap.teched.ad165.###`** to make it unique and avoid any conflict during uploading & uniqueness in Work Zone.
-   ![id change](/exercises/ex2/images/02_02_0030.png)
+2. Now we need to make the card unique for each participant. First of all, In the `sap.app` section on the top:
+- Modify the card's **`id`** into **`com.sap.teched.ad165.###`** to make it unique and avoid any conflict during uploading & uniqueness in Work Zone.
+![id change](/exercises/ex2/images/02_02_0030.png)
 
 > [!CAUTION]
 > Please do not use "-" in the id, only alphanumeric characters and "." 

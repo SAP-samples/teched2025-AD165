@@ -213,18 +213,18 @@ At this stage your card looks like this -
 We map the title and description to these attributes becuase the service response returns the json in a format where these attributes are filled for each row of data for the SAP AI Agent details. 
 
 > [!NOTE]
-> SAP UI5 binding syntax (curly braces) are applicable in UI integration cards. Hence, You can also use the expression binding if you need.
+> SAP UI5 binding syntax (curly braces) are applicable in UI integration cards. Later you will use the expression binding as well to understand advanced binding mechanism.
 
 The `item` section starting in line 43 should have the following entry:
 
 <p align="center">
-<image src='/exercises/ex2/images/02_02_0022.png' width='400px'></image>
+<image src='/exercises/ex2/images/02_02_0022.png' width='500px'></image>
 </p>
 
 At this point, the card should look like 
 
 <p align="center">
-<image src='/exercises/ex2/images/02_02_0023.png' width='700px'></image>
+<image src='/exercises/ex2/images/02_02_0023.png' height='500px'></image>
 </p>
 
 ---
@@ -243,14 +243,14 @@ At this point, the card should look like
 The manifest JSON at the very bottom should look like this now -
 
 <p align="center">
-<image src='/exercises/ex2/images/02_02_0024.png' width='400px'></image>
+<image src='/exercises/ex2/images/02_02_0024.png' width='500px'></image>
 </p>
 
 
 At this point, the card should show the footer and it should look like this - 
 
 <p align="center">
-<image src='/exercises/ex2/images/02_02_0025.png' width='700px'></image>
+<image src='/exercises/ex2/images/02_02_0025.png' height='500px'></image>
 </p>
 
 > [!TIP]
@@ -258,8 +258,9 @@ At this point, the card should show the footer and it should look like this -
 
 ---
 
-4. Add Actions to the items, so each raw item will be clickable
-   <br> - After the `description` property add `,` and then add `"actions": [ { "type": "Navigation", "enabled": "{= ${IdeaLinks}}", "parameters": { "url": "{IdeaLinks}" } } ]`
+4. The footer added some interactivity to the card but there is no interaction on the list item itself. Hence, there is no way to find more about he AI Agents. Let's change that. You will now add Actions to the items, so each raw item will be clickable and it should open the AI Agent page in [SAP Discovery center](https://discovery-center.cloud.sap/index.html).
+
+   <br> - After the `actions` node as a new property within the items node (just below the description property) as shown below -
 
 The "item" section starting in line 43 should look like this now:
 ````json
@@ -278,12 +279,23 @@ The "item" section starting in line 43 should look like this now:
 			},			
 ````
 
+The manifest JSON at the very bottom should look like this now -
+
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0026.png' width='500px'></image>
+</p>
+
+<br> - [Actions](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/cardActions) are a way to add interactivity to the card elements like line items, header or footer. In this case, you added a action of type `Navigation` which initiates a browser redirect. 
+<br> - The url parameter of the navigation action is bound to the _IdeaLinks_ attribute of the row data like _ProblemStatement_ and _RefinedSolution_ binding for `title` and `description`.
+<br> - Observe how the `enabled` property of the `action` is bound to an expression that evaluates whether _IdeaLinks_ attribute has any value. If it doesn't have any value, the navigation action on this row will be disabled as the ${IdeaLinks} expression would evaluate to `false`. Hence, the use of expression binding.
+
 > [!TIP]
-> You can see the change immediately on the card preview. click on any line in the list to see that the action is working and leads to a URL of the discovery center of SAP. 
+> You can see the change immediately on the card preview and the list items are now clickable.
+> click on any line in the list to see that the action is working and leads to the AI Agent page in SAP Discovery Center. 
 
+---
 
-
-2. Now we need to make the card unique for each participant. First of all, In the `sap.app` section on the top:
+5. Now we need to make the card unique for each participant. First of all, In the `sap.app` section on the top:
 - Modify the card's **`id`** into **`com.sap.teched.ad165.###`** to make it unique and avoid any conflict during uploading & uniqueness in Work Zone.
 ![id change](/exercises/ex2/images/02_02_0030.png)
 

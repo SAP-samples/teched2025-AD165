@@ -77,55 +77,63 @@ After completing these steps you will have designed a beautiful entry page for y
 As a first step, you will change the cover photo to something that fits the purpose of the workspace.
 
 1. Click **Edit Cover Photo**, then select **Upload Photo** from the dropdown list.
-<p align="center"><img src="./images/ex1_03_01_0001.png" width="60%" alt="Edit Cover Photo"/></p>
+<p align="center"><img src="./images/ex1_03_01_0001.png" width="90%" alt="Edit Cover Photo"/></p>
 
-2. Select the AI_Banner.jpg from the folder to which you extracted the image files.
-<p align="center"><img src="./images/ex1_03_01_0002.png" width="60%" alt="Select AI_Banner"/></p>
+2. Select the 'AI_Banner.jpg' from the folder to which you extracted the image files.
+<p align="center"><img src="./images/ex1_03_01_0002.png" width="80%" alt="Select AI_Banner"/></p>
 
 3. If you want, you can Drag to reposition or zoom into the image by using the slider. Select a beautiful display window by dragging the image up and down or left and right. Then click **Save**.
-<p align="center"><img src="./images/ex1_03_01_0003.png" width="60%" alt="Zoom reposition & Save"/></p>
+<p align="center"><img src="./images/ex1_03_01_0003.png" width="90%" alt="Zoom reposition & Save"/></p>
 
 #### Exercise 1.3.2   Exchange the avatar of the workspace
 
 Now, you will change the avatar of the workspace, so you can recognize it more easily in the list of workspaces.
 
 1. Hover the little image next to the workspace titel, then click the **Upload workspace avatar** icon that appears.
-<p align="center"><img src="./images/ex1_03_02_0001.png" width="60%" alt="Upload avatar"/></p>
+<p align="center"><img src="./images/ex1_03_02_0001.png" width="90%" alt="Upload avatar"/></p>
 
 2. Upload any image from the images folder.
 3. Then deselect **Autofit** to be able to zoom and adjust the display window.
-<p align="center"><img src="./images/ex1_03_02_0003.png" width="60%" alt="Autofit"/></p>
+<p align="center"><img src="./images/ex1_03_02_0003.png" width="70%" alt="Autofit"/></p>
 
 4. Zoom into the uploaded image and select a nice detail by dragging the image to the right position.
 5. Click **Save changes**.
-<p align="center"><img src="./images/ex1_03_02_0005.png" width="60%" alt="Zoom reposition & Save"/></p>
+<p align="center"><img src="./images/ex1_03_02_0005.png" width="70%" alt="Zoom reposition & Save"/></p>
 
 
 #### Exercise 1.3.3   Add images to the overview page
 
 1. First, open the workpage editor by clicking the pencil icon on the right of the screen.
-<br>![Go to workpage editor](/exercises/ex1/images/01_04_0010.png)
+<!--<br>![Go to workpage editor](/exercises/ex1/images/01_04_0010.png)-->
+<p align="center"><img src="./images/ex1_03_03_0001.png" width="70%" alt="Go to workpage editor"/></p>
 
 2. Hover the workpage to see the structure according to which the widgets on the page are arranged. You can see that there are several sections in this page. Some of the sections have several (up to 8) columns which themselves can hold several cells.
-<br>![Hover structure](/exercises/ex1/images/01_04_0020.png)
+<!--<br>![Hover structure](/exercises/ex1/images/01_04_0020.png)-->
+<p align="center"><img src="./images/ex1_03_03_0002.png" width="70%" alt="Hover structure"/></p>
 
-4. In the first step, you will add a banner image to the upmost section of the workpage. To do this, you can either drag and drop the banner.png onto the **Drop an image here to upload it** are or click **Or click here to upload an image** and select the banner.png for upload.
-<br>![Hover structure](/exercises/ex1/images/01_04_0030.png)
+3. In the first step, you will add a banner image to the upmost section of the workpage. To do this, you can either drag and drop the banner.png onto the **Drop an image here to upload it** are or click **Or click here to upload an image** and select the banner.png for upload.
+<!--<br>![Hover structure](/exercises/ex1/images/01_04_0030.png)-->
+<p align="center"><img src="./images/ex1_03_03_0003.png" width="70%" alt="Hover structure"/></p>
 
-5. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
-<br>![Edit cell settings](/exercises/ex1/images/01_04_0050.png)
+4. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
+<!--<br>![Edit cell settings](/exercises/ex1/images/01_04_0050.png)-->
+<p align="center"><img src="./images/ex1_03_03_0004.png" width="70%" alt="Edit cell settings"/></p>
 
-6. Change **Padding Bottom (px)** to 20 and set all switches to *On*, so the section is collapsible and open by default and to extend the background to full width. Add **#21275B** as background color. Then click **Save**.
-<br>![Change cell settings](/exercises/ex1/images/01_04_0060.png)
+5. Change **Padding Bottom (px)** to 20 and set all switches to *On*, so the section is collapsible and open by default and to extend the background to full width. Add **#21275B** as background color. Then click **Save**.
+<!--<br>![Change cell settings](/exercises/ex1/images/01_04_0060.png)-->
+<p align="center"><img src="./images/ex1_03_03_0005.png" width="70%" alt="Change cell settings"/></p>
 
-7. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
-<br>![Change cell settings](/exercises/ex1/images/01_04_0070.png)
+6. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
+<!--<br>![Change cell settings](/exercises/ex1/images/01_04_0070.png)-->
+<p align="center"><img src="./images/ex1_03_03_0006.png" width="70%" alt="Change cell settings"/></p>
 
-8. Turn **Background** on to get a white frame around the image and click **Save**.
-<br>![Background ON](/exercises/ex1/images/01_04_0080.png)
+7. Turn **Background** on to get a white frame around the image and click **Save**.
+<!--<br>![Background ON](/exercises/ex1/images/01_04_0080.png)-->
+<p align="center"><img src="./images/ex1_03_03_0007.png" width="70%" alt="Background ON"/></p>
 
-9. Add the image vertical.jpg between the *Welcome* and *How to get started* text widgets in the same way.
-<br>![Added Image](/exercises/ex1/images/01_04_0090.png)
+8. Add the image vertical.jpg between the *Welcome* and *How to get started* text widgets in the same way.
+<!--<br>![Added Image](/exercises/ex1/images/01_04_0090.png)-->
+<p align="center"><img src="./images/ex1_03_03_0008.png" width="70%" alt="Added Image"/></p>
 
 
 <br><br>

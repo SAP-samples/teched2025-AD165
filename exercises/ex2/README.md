@@ -20,16 +20,20 @@ The Card Explorer is an interactive playground for **UI Integration Cards**. It 
 
 > **Tip:** Everything you see in the preview is driven by the `manifest.json`. You’ll learn which parts of the manifest control which parts of the UI. 
 
-![UI Cards Explorer website](./images/02_01_explore_overview.png)  
+![UI Cards Explorer website](./images/02_01_0010.png)  
 _The “Explore” tab showing: left navigation (Card Types & Card Features), center preview, right manifest panel._
+
+> [!NOTE]
+> All steps below in this exercise 2.1 refer to this screenshot
 
 ---
 
 ## Steps
 
-1. **Open the Card Explorer and switch to _Explore_.**  
-   Go to:  
-   `https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html`  
+1. Right click on the link below and **Open the link in a new tab**. This will open the [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html) with **_Explore_.** tab selected.
+
+	Go to:  [https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list)
+   
    The page has three main areas:  
    - **Left navigation:** _Card Types_ (e.g., **List**, Object, Table, Analytical, Calendar, Timeline, WebPage, Component, Adaptive) and _Card Features_ (Data, Actions, Configuration, Filters, etc.).  
    - **Center:** a live **Preview** of the selected card.  
@@ -45,12 +49,6 @@ _The “Explore” tab showing: left navigation (Card Types & Card Features), ce
 
 3. **Open _Card Types ▸ List_.**  
    Review how the **List** card renders in the preview, then open the **manifest** on the right.
-
-   **Add Screenshot B here:** `02_02_list_preview.png`  
-   _List card preview._
-
-   **Add Screenshot C here:** `02_03_list_manifest.png`  
-   _The List card’s `manifest.json` panel._
 
 4. **Understand the manifest anatomy (what each part is for).**  
    A card is defined by a **JSON manifest** with a few key namespaces:
@@ -79,7 +77,9 @@ _The “Explore” tab showing: left navigation (Card Types & Card Features), ce
 
 ---
 
-## Minimal “List” card anatomy (reference)
+### Minimal “List” card anatomy (reference)
+<details>
+<summary>sample UI card JSON</summary>
 
 ```json
 {
@@ -124,9 +124,9 @@ _The “Explore” tab showing: left navigation (Card Types & Card Features), ce
   }
 }
 ```
+</details>
 
 ---
-
 
 ## Exercise 2.2 Select an advanced card and adapt it to your needs
 

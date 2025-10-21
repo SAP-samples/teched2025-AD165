@@ -159,7 +159,7 @@ Hover the section till you see the grey section frame and select the **Delete se
 <p align="center"><img src="./images/ex1_03_05_0003.png" width="70%" alt="Enter a prompt"/></p>
 
 Wait for the text to be generated, then accept or discard (to enter a new prompt) or retry with the same prompt
-<p align="center"><img src="./images/ex1_03_05_00031.png" width="70%" alt="Accept or Discard"/></p>
+<p align="center"><img src="./images/ex1_03_05_0031.png" width="70%" alt="Accept or Discard"/></p>
 
 4. Finally share the news.
 <p align="center"><img src="./images/ex1_03_05_0004.png" width="70%" alt="Share News"/></p>

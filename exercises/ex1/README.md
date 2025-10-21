@@ -146,15 +146,24 @@ Hover the section till you see the grey section frame and select the **Delete se
 <br><br>
 #### Exercise 1.3.5   Edit the News section
 
+> [!NOTE]
+> Needs to add here more data about the text generation feature and that we are going to use it in this section....
+ 
 1. In the **News** section, change the title to **Current News**.
-<br>![Delete section](/exercises/ex1/images/01_04_110.png)
+<p align="center"><img src="./images/ex1_03_05_0001.png" width="70%" alt="News section"/></p>
 
-2. In the leftmost text widget, you will now change the text to announce some AI related news. You can use the text generation capability of SAP Build Work Zone to help you generate a text quickly. 
-<br>![Delete section](/exercises/ex1/images/01_04_120.png)
+2. In the leftmost text widget, you will now change the text to announce some AI related news. You can use the text generation capability of SAP Build Work Zone to help you generate a text quickly. Click on Add > Generate Text 
+<p align="center"><img src="./images/ex1_03_05_0002.png" width="70%" alt="Delete section"/></p>
 
 3. Enter a prompt, e.g. Share some exciting news about AI usage at ACME Corp.
+<p align="center"><img src="./images/ex1_03_05_0003.png" width="70%" alt="Enter a prompt"/></p>
 
-Wait for the text to be generated, then accept or discard (to enter a new prompt) or retry with the same prompt and finally share the news.
+Wait for the text to be generated, then accept or discard (to enter a new prompt) or retry with the same prompt
+<p align="center"><img src="./images/ex1_03_05_00031.png" width="70%" alt="Accept or Discard"/></p>
+
+4. Finally share the news.
+<p align="center"><img src="./images/ex1_03_05_0004.png" width="70%" alt="Share News"/></p>
+
 
 <br><br>
 #### Exercise 1.3.6   Add a Feed widget to the page

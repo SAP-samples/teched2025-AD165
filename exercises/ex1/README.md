@@ -118,7 +118,7 @@ Now, you will change the avatar of the workspace, so you can recognize it more e
 5. Change **Padding Bottom (px)** to 20 and set all switches to *On*, so the section is collapsible and open by default and to extend the background to full width. Add **#21275B** as background color. Then click **Save**.
 <p align="center"><img src="./images/ex1_03_03_0005.png" width="70%" alt="Change cell settings"/></p>
 
-6. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
+6. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/Setting_icon.png).
 <p align="center"><img src="./images/ex1_03_03_0006.png" width="70%" alt="Change cell settings"/></p>
 
 7. Turn **Background** on to get a white frame around the image and click **Save**.
@@ -177,7 +177,7 @@ Wait for the text to be generated, then accept or discard (to enter a new prompt
 
 You would like to exchange the video for an AI related one. 
 
-1. Hover the video and click the **Edit widget** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
+1. Hover the video and click the **Edit widget** icon [settings icon](/exercises/ex1/images/Setting_icon.png).
 <p align="center"><img src="./images/ex1_03_07_0001.png" width="70%" alt="Edit Video"/></p>
 
 2. Paste the following URL into the input field beneath **Paste URL**: 
@@ -195,7 +195,7 @@ Then click **Save**.
 You would like to move the two elements (text and pink cell) to the right of the video.
 
 1. Hover the section with the video until you see a plus sign to the right of the video. Click the plus icon to add another column to the section.
-<p align="center"><img src="./images/ex1_03_08_0001.png" width="70%" alt="Add Column"/></p>
+<p align="center"><img src="./images/ex1_03_08_0001.png" width="100%" alt="Add Column"/></p>
 
 2. Drag and drop the content from the left column to the new column. The empty column on the left is automatically deleted.
 <p align="center"><img src="./images/ex1_03_08_0002.png" width="70%" alt="Move Content"/></p>
@@ -204,10 +204,10 @@ You would like to move the two elements (text and pink cell) to the right of the
 #### Exercise 1.3.9 Publish the workpage
 
 1. To make your changes available to users accessing the workspace, click **Publish** on top of the page.
-<p align="center"><img src="./images/ex1_03_09_0001.png" width="70%" alt="Publish"/></p>
+<p align="center"><img src="./images/ex1_03_09_0001.png" width="100%" alt="Publish"/></p>
 
 2. In the publishing pop-up, keep all settings and click **Publish** again. Your changes are now visible to all users of the workspace
-<p align="center"><img src="./images/ex1_03_09_0002.png" width="70%" alt="Result Workpage Editing"/></p>
+<p align="center"><img src="./images/ex1_03_09_0002.png" width="50%" alt="Result Workpage Editing"/></p>
 
 
 

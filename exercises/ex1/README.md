@@ -178,6 +178,7 @@ Wait for the text to be generated, then accept or discard (to enter a new prompt
 You would like to exchange the video for an AI related one. 
 
 1. Hover the video and click the **Edit widget** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
+<p align="center"><img src="./images/ex1_03_07_0001.png" width="70%" alt="Edit Video"/></p>
 
 2. Paste the following URL into the input field beneath **Paste URL**: 
 ```
@@ -185,7 +186,7 @@ https://www.youtube.com/embed/A77g1LKqjFg?si=GVW6OK9tdWip_7n6
 ```
 
 Then click **Save**.
-<br>![Paste URL](/exercises/ex1/images/01_04_130.png)
+<p align="center"><img src="./images/ex1_03_07_0002.png" width="70%" alt="Save Video"/></p>
 
 
 <br><br>

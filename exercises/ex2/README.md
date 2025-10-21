@@ -135,8 +135,8 @@ _The “Explore” tab showing: left navigation (Card Types & Card Features), ce
 
 By the end of this exercise, you will have:
 - Modified a **sample List card** in the Card Explorer,
-- Switched its data source,
-- Seen your changes live in the **card preview**, and
+- Switched its data source to show a list of AI Agents published by SAP,
+- Seen your changes live in the **card preview** as you make your changes, and
 - **Downloaded the card bundle** (`card.zip`) to your computer for use in the next exercises.
 
 ### What you’ll do (at a glance)
@@ -148,26 +148,61 @@ By the end of this exercise, you will have:
 5. **Update card propoerties**: change the card id, title, subtitle, etc to make it unique for each participant for conflict-free deployment & unique identification of card at runtime.
 6. **Download the bundle**: export your customized card as `card.zip` for import into SAP Build Work Zone.
 
-> **Heads-up**
-> - Keep the `sap.app.id` **unique** using your **participant ID** (last 3 digits of your user).  
-> - Don’t remove the `applicationVersion.version`—it’s **required** for upload later.  
-> - After deleting or adding manifest keys, watch out for **trailing commas** to avoid JSON errors.
+### Steps
 
-## Steps
-
-1. Esure that you are already in **Explore** tab in [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list). Find and select the **Card Features** > **Data** from the _left navigation panel_ and ensure that the default **Basic Data Request** card is selected in the drop-down as shown in the screenshot below. To adapt the card, you can adjust its *`manifest.json`* file on the right.
+1. Esure that you are already in **Explore** tab of [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list). Find and select the **Card Features** > **Data** from the _left navigation panel_ and ensure that the default **Basic Data Request** card is selected in the drop-down as shown in the screenshot below. To adapt the card, you can adjust its *`manifest.json`* file on the right.
    
 <br> ![Select Card Type](/exercises/ex2/images/02_02_0010.png)
 <br>
 
 > [!IMPORTANT]
-> Please make sure to replace `###` with your participant number in every step below. For example participant number _AD165-001_ should use `001` in place of `###`
+> Please make sure to replace **`###`** with your participant number in every step below.
+> For example participant number _AD165-001_ should use **`001`** in place of **`###`**
 
-   <br>In the `sap.app` section on the top:
-   <br> - Modify the card's *`id`* into `com.sap.teched.ad165.###` to make it unique and easier to identify later
+<br>
+
+1. In this _manifest.json_, line 32 to 41 describe how to fetch the data. By default, the sample card fetches list data from demo Northwind service. 
+	Change this data josn block to the following (replace line 32 to 41 with the lines below) -
+
+````json
+			"data": {
+				"request": {
+					"url": "https://simplenodebackend-chipper-kob-zy.cfapps.eu10-004.hana.ondemand.com/IdeaManagementDB/api/v1/list",
+					"method": "POST",
+					"headers": {"Content-Type": "application/json"},
+					"parameters": {
+						 "collectionName":"SAPAIAgents"
+					}
+				},
+				"path": "/"
+			},
+````
+Manifest should now look like this - 
+![Post data section update manifest](/exercises/ex2/images/02_02_0020.png)
+
+At this stage your card looks like this - 
+![Post data section update card](/exercises/ex2/images/02_02_0021.png)
+
+> [!NOTE]
+> Ofcourse, this is not the end-state - the card UI will be fixed in the next step when you will bind the attributes of the fetched data to the UI properties of the list row.
+
+#### Let us understand what changes where made and why
+
+	- **url**: We now point the card to fetch the data from pre-deployed **Node.js backend** (simple REST API) that returns a list of published SAP AI Agents. Now the card will do a HTTP request on this url (instead of Northwind service). For product ready cards, you shouldn't use direct backend URL and instead use **BTP destinations** and configure the BTP destination in your BTP sub-account to point to the actual backend service. But, for sake of ease of this hands-on exercise we will directly point to the data service.
+	- **method**: This tells whether to use GET, POST, PUT, PATCH or DELETE during the HTTP request. Since the **Node.js backend** expects a POST query to list the SAP AI Agents, it is changed to POST in this case.
+	- **headers**: HTTP headers are key-value pairs sent in HTTP requests that provide metadata about the communication, such as content type, encoding, caching information, and authentication credentials. In this case, the `content-type` is set to `application/json` so that server can recognise the format of additional parameters sent in body.
+	- **parameters**: parameters in case of _POST_ HTTP call signify that the content would be sent as a payload in the body of the HTTP request. In this case, the backend server expects tthe `collectionName` as `SAPAIAgents` to be sent based on which it would retrieve and respond with a list of SAP AI Agents published in SAP Discovery Center.
+	- **path**: path tells where to find relevant data in the JSON returned by the server in as a HTTP response. In this case, the server responds with a array of JSON objects right at the root and hence `path` is set to `/`
+
+2. In the `sap.app` section on the top:
+   <br> - Modify the card's **`id`** into **`com.sap.teched.ad165.###`** to make it unique and avoid any conflict during uploading & uniqueness in Work Zone.
+   ![id change](/exercises/ex2/images/02_02_0030.png)
 
 > [!CAUTION]
 > Please do not use "-" in the id, only alphanumeric characters and "." 
+
+3. Now change the card properties so that we can identify while adding the UI card to workspace later.
+
    
    <br> - Change the *`title`* and *`shortTitle`* properties into `Standard AI Agents List Card by AD165-###`
    <br> - Change the *`subTitle`* into `Delivered by SAP`

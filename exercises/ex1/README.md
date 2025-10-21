@@ -42,15 +42,17 @@ After completing these steps you will have created a Center of Excellence worksp
 <p align="center"><img src="./images/ex1_02_01_0000.png" width="70%" alt="New Workspace"/></p>
 
 2.	Click the left tile to create a public workspace.
-<p align="center"><img src="./images/ex1_02_02_0000.png" width="70%" alt="Public Workspace"/></p>
+<p align="center"><img src="./images/ex1_02_02_0000.png" width="60%" alt="Public Workspace"/></p>
 
+> [!IMPORTANT]
+> Please make sure to replace ### with your participant number. For example participant number 1 results in 001
 3. Enter name: **AI Center of Excellence ###** and a description of your choice.
 
-4. Select the Digital Center of Excellence workspace template. 
+4. Select the *Digital Center of Excellence workspace template*. 
 <p align="center"><img src="./images/ex1_02_04_0000.png" width="70%" alt="Public Workspace"/></p>
 
 5. Remove the checkmarks next to *Allow all members to invite users* and *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
-<br>![Workspace creation wizard](/exercises/ex1/images/01_05_0010.png)
+<p align="center"><img src="./images/ex1_02_05_0000.png" width="60%" alt="Workspace creation wizard"/></p>
 
 6. You can leave the *Member Participation* settings as is. Simply click **Next**.
 <br>![Member settings](/exercises/ex1/images/01_06_0010.png)   

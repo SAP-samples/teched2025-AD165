@@ -111,7 +111,7 @@ Now, you will change the avatar of the workspace, so you can recognize it more e
 <!--<br>![Hover structure](/exercises/ex1/images/01_04_0020.png)-->
 <p align="center"><img src="./images/ex1_03_03_0002.png" width="70%" alt="Hover structure"/></p>
 
-3. In the first step, you will add a banner image to the upmost section of the workpage. To do this, you can either drag and drop the banner.png onto the **Drop an image here to upload it** are or click **Or click here to upload an image** and select the banner.png for upload.
+3. In the first step, you will add a banner image to the upmost section of the workpage. To do this, you can either drag and drop the 'Overview_banner.png' onto the **Drop an image here to upload it** or click **Or click here to upload an image** and select the 'Overview_banner.png' for upload.
 <!--<br>![Hover structure](/exercises/ex1/images/01_04_0030.png)-->
 <p align="center"><img src="./images/ex1_03_03_0003.png" width="70%" alt="Hover structure"/></p>
 

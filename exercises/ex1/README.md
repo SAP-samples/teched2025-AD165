@@ -8,6 +8,8 @@ In this exercise, you will first access SAP Build Work Zone.
 
 ## <a id="access-wz"></a> Exercise 1.1 Get to know SAP Build Work Zone 
 
+> [!IMPORTANT]
+> Please make sure to open the link below with the browser context menu, right-click and 'Open Link in New Tab' in order to keep this tab (Github exercise) opened.  
 1. Open <a href="https://ad165-m3ep4xn0.workzone.cfapps.eu10.hana.ondemand.com/site#workzone-home&/home" target="_blank">SAP Build Work Zone</a> and login with the user that is available on your desk and the password provided by your instructors.
 
 
@@ -42,7 +44,7 @@ After completing these steps you will have created a Center of Excellence worksp
 2.	Click the left tile to create a public workspace.
 <p align="center"><img src="./images/ex1_02_02_0000.png" width="70%" alt="Public Workspace"/></p>
 
-3. Enter name: **AI Center of Excellence** and a description of your choice.
+3. Enter name: **AI Center of Excellence ###** and a description of your choice.
 
 4. Select the Digital Center of Excellence workspace template. 
 <p align="center"><img src="./images/ex1_02_04_0000.png" width="70%" alt="Public Workspace"/></p>

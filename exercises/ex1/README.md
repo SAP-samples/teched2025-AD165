@@ -36,7 +36,7 @@ After completing these steps you will have created a Center of Excellence worksp
 > There are many options when creating a workspace that you should be aware of. First, there are public workspaces where everyone can join, view, and collaborate in compared to private workspaces that are usually hidden and only accessible to users who have been invited to it. When you create a workspace, you automatically become the workspace administrator. However, you can designate other members to be an admin too. As an admin, you can define what members or non members should be allowed to do in your workspace.
 
 1.	In the menu bar, navigate to *Workspaces > New Workspace*.
-<p align="center"><img src="./images/01_03_0010.png" width="70%" alt="New Workspace"/></p>
+<p align="center"><img src="./images/ex1_02_01_0000.png" width="70%" alt="New Workspace"/></p>
 
 2.	Click the left tile to create a public workspace.
 <p align="center"><img src="./images/01_04_0010.png" width="70%" alt="Public Workspace"/></p>

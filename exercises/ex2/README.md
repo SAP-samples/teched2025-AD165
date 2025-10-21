@@ -161,7 +161,7 @@ By the end of this exercise, you will have:
 
 <br>
 
-1. In this _manifest.json_, line 32 to 41 describe how to fetch the data. By default, the sample card fetches list data from demo Northwind service. 
+1. In this _manifest.json_, line 32 to 41 - `data` node within `content` describe how to fetch the data. By default, the sample card fetches list data from demo Northwind service. 
 	Change this data josn block to the following (replace line 32 to 41 with the lines below) -
 
 ````json
@@ -177,16 +177,24 @@ By the end of this exercise, you will have:
 				"path": "/"
 			},
 ````
+
+> [!TIP]
+> As soon as you make changes to the manifest, you can see the effect on the card preview. In case you notice error either on the manifest.json or the card preview, cross-check if you have all the pairs of opening and closing braces, no trailing commas or mismatch of quotation marks.
+
 Manifest should now look like this - 
-![Post data section update manifest](/exercises/ex2/images/02_02_0020.png)
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0020.png' width='700px'></image>
+</p>
 
 At this stage your card looks like this - 
-![Post data section update card](/exercises/ex2/images/02_02_0021.png)
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0021.png' height='500px'></image>
+</p>
 
 > [!NOTE]
-> Ofcourse, this is not the end-state - the card UI will be fixed in the next step when you will bind the attributes of the fetched data to the UI properties of the list row.
+> Ofcourse, this is not the end-state - The data is not shown correctly since the UI field mapping is missing the card UI will be fixed in the next step when you will bind the attributes of the fetched data to the UI properties of the list row.
 
-#### Let us understand what changes where made and why
+#### Let us understand what changes were made and why
 
 - **url**: We now point the card to fetch the data from pre-deployed **Node.js backend** (simple REST API) that returns a list of published SAP AI Agents. Now the card will do a HTTP request on this url (instead of Northwind service). For product ready cards, you shouldn't use direct backend URL and instead use **BTP destinations** and configure the BTP destination in your BTP sub-account to point to the actual backend service. But, for sake of ease of this hands-on exercise we will directly point to the data service.
 - **method**: This tells whether to use GET, POST, PUT, PATCH or DELETE during the HTTP request. Since the **Node.js backend** expects a POST query to list the SAP AI Agents, it is changed to POST in this case.
@@ -194,12 +202,96 @@ At this stage your card looks like this -
 - **parameters**: parameters in case of _POST_ HTTP call signify that the content would be sent as a payload in the body of the HTTP request. In this case, the backend server expects tthe `collectionName` as `SAPAIAgents` to be sent based on which it would retrieve and respond with a list of SAP AI Agents published in SAP Discovery Center.
 - **path**: path tells where to find relevant data in the JSON returned by the server in as a HTTP response. In this case, the server responds with a array of JSON objects right at the root and hence `path` is set to `/`.
 
+---
+
+2. Now let us fix the UI and make it show the correct data by mapping the list item properties to correct data row attributes. This needs to be done in the `items` node (line 43 to 47) of the `content` right below the `data` which you changed previous.
+   
+   <br> - First, remove the last proprty `"highlight"` as it is not necessary for the list of sap AI Agents to differentiate row with green, orange and red row markers.
+   <br> - Change the `title` property into `"{ProblemStatement}",` 
+   <br> - Change the `description` property into `"{RefinedSolution}"`
+
+We map the title and description to these attributes becuase the service response returns the json in a format where these attributes are filled for each row of data for the SAP AI Agent details. 
+
+> [!NOTE]
+> SAP UI5 binding syntax (curly braces) are applicable in UI integration cards. Hence, You can also use the expression binding if you need.
+
+The `item` section starting in line 43 should have the following entry:
+
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0022.png' width='400px'></image>
+</p>
+
+At this point, the card should look like 
+
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0023.png' width='700px'></image>
+</p>
+
+---
+
+3. Currently the card can only show a limited set of items (as defind in `MaxItems` in line 47). Let us add a footer with pagination option so that users will be able to see all existing SAP AI Agents as a popup dialog with vertical scroll.
+   <br> - After the `Content` section add the footer node between line 48 and 49 as provided below - 
+
+````json
+		"footer": {
+		    "paginator": {
+    			"pageSize": 5
+		    }
+	    }				
+````
+
+The manifest JSON at the very bottom should look like this now -
+
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0024.png' width='400px'></image>
+</p>
+
+
+At this point, the card should show the footer and it should look like this - 
+
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0025.png' width='700px'></image>
+</p>
+
+> [!TIP]
+> You can see the change immediately on the card preview. click on `Show More` to see all AI Agents listed in a popup dialog 
+
+---
+
+4. Add Actions to the items, so each raw item will be clickable
+   <br> - After the `description` property add `,` and then add `"actions": [ { "type": "Navigation", "enabled": "{= ${IdeaLinks}}", "parameters": { "url": "{IdeaLinks}" } } ]`
+
+The "item" section starting in line 43 should look like this now:
+````json
+		"item": {
+				"title": "{RefinedSolution}",
+				"description": "{ProblemStatement}",
+				"actions": [
+					{
+						"type": "Navigation",
+						"enabled": "{= ${IdeaLinks}}",
+						"parameters": {
+							"url": "{IdeaLinks}"
+						}
+					}
+				]
+			},			
+````
+
+> [!TIP]
+> You can see the change immediately on the card preview. click on any line in the list to see that the action is working and leads to a URL of the discovery center of SAP. 
+
+
+
 2. Now we need to make the card unique for each participant. First of all, In the `sap.app` section on the top:
 - Modify the card's **`id`** into **`com.sap.teched.ad165.###`** to make it unique and avoid any conflict during uploading & uniqueness in Work Zone.
 ![id change](/exercises/ex2/images/02_02_0030.png)
 
 > [!CAUTION]
 > Please do not use "-" in the id, only alphanumeric characters and "." 
+
+
+
 
 3. Now change the card properties so that we can identify while adding the UI card to workspace later.
 
@@ -275,22 +367,9 @@ The `data` section starting in lines 32 should look like this now:
 		},
 ````
    
-> [!TIP]
-> You can see the change immediately on the card preview. 
+
    
-6. Next, you should bound the `items` section
-   <br> - First, remove the last proprty `"highlight"` as it is not necessary 
-   <br> - Change the `title` property into `"{ProblemStatement}",`
-   <br> - Change the `description` property into `"{RefinedSolution}"`
 
-The `item` section starting in line 43 should look like this now:
-
-````json
-		"item": {
-				"title": "{ProblemStatement}",
-				"description": "{RefinedSolution}"
-		},
-````
    
 7. Add a pagination to be able to see all existing ideas
    <br> - After the `Content` section add `,"footer": { "paginator": {"pageSize": 5} }` 

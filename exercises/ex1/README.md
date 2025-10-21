@@ -112,13 +112,13 @@ Now, you will change the avatar of the workspace, so you can recognize it more e
 3. In the first step, you will add a banner image to the upmost section of the workpage. To do this, you can either drag and drop the 'Overview_banner.png' onto the **Drop an image here to upload it** or click **Or click here to upload an image** and select the 'Overview_banner.png' for upload.
 <p align="center"><img src="./images/ex1_03_03_0003.png" width="70%" alt="Hover structure"/></p>
 
-4. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
+4. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/Settings_icon.png).
 <p align="center"><img src="./images/ex1_03_03_0004.png" width="70%" alt="Edit cell settings"/></p>
 
 5. Change **Padding Bottom (px)** to 20 and set all switches to *On*, so the section is collapsible and open by default and to extend the background to full width. Add **#21275B** as background color. Then click **Save**.
 <p align="center"><img src="./images/ex1_03_03_0005.png" width="70%" alt="Change cell settings"/></p>
 
-6. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/Setting_icon.png).
+6. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/Settings_icon.png).
 <p align="center"><img src="./images/ex1_03_03_0006.png" width="70%" alt="Change cell settings"/></p>
 
 7. Turn **Background** on to get a white frame around the image and click **Save**.

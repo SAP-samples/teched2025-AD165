@@ -23,7 +23,7 @@ There are no specific requirements to follow the exercises 1-4 in this repositor
 ## Exercises
 
 > [!NOTE]
-> For the SAP TechEd 2025 session we have already prepared the landscape with **SAP Build Work Zone, standard edition**, **SAP Build Code** and the **Cloud Foundry Runtime**. If following these exercises outside of SAP TechEd 2025, you need will need to set-up the enviornment first.
+> For the SAP TechEd 2025 session we have already prepared the landscape with **SAP Build Work Zone, advanced edition**, **SAP Build Code** and the **Cloud Foundry Runtime**. If following these exercises outside of SAP TechEd 2025, you need will need to set-up the enviornment first.
 
 - [Getting Started (Optional)](exercises/ex0/) - Learn about SAP Build Work Zone
 - [Exercise 1 - Build your Center of Excellence workspace](exercises/ex1/)

@@ -104,35 +104,27 @@ Now, you will change the avatar of the workspace, so you can recognize it more e
 #### Exercise 1.3.3   Add images to the overview page
 
 1. First, open the workpage editor by clicking the pencil icon on the right of the screen.
-<!--<br>![Go to workpage editor](/exercises/ex1/images/01_04_0010.png)-->
 <p align="center"><img src="./images/ex1_03_03_0001.png" width="70%" alt="Go to workpage editor"/></p>
 
 2. Hover the workpage to see the structure according to which the widgets on the page are arranged. You can see that there are several sections in this page. Some of the sections have several (up to 8) columns which themselves can hold several cells.
-<!--<br>![Hover structure](/exercises/ex1/images/01_04_0020.png)-->
 <p align="center"><img src="./images/ex1_03_03_0002.png" width="70%" alt="Hover structure"/></p>
 
 3. In the first step, you will add a banner image to the upmost section of the workpage. To do this, you can either drag and drop the 'Overview_banner.png' onto the **Drop an image here to upload it** or click **Or click here to upload an image** and select the 'Overview_banner.png' for upload.
-<!--<br>![Hover structure](/exercises/ex1/images/01_04_0030.png)-->
 <p align="center"><img src="./images/ex1_03_03_0003.png" width="70%" alt="Hover structure"/></p>
 
 4. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
-<!--<br>![Edit cell settings](/exercises/ex1/images/01_04_0050.png)-->
 <p align="center"><img src="./images/ex1_03_03_0004.png" width="70%" alt="Edit cell settings"/></p>
 
 5. Change **Padding Bottom (px)** to 20 and set all switches to *On*, so the section is collapsible and open by default and to extend the background to full width. Add **#21275B** as background color. Then click **Save**.
-<!--<br>![Change cell settings](/exercises/ex1/images/01_04_0060.png)-->
 <p align="center"><img src="./images/ex1_03_03_0005.png" width="70%" alt="Change cell settings"/></p>
 
 6. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/01_04_0040.png).
-<!--<br>![Change cell settings](/exercises/ex1/images/01_04_0070.png)-->
 <p align="center"><img src="./images/ex1_03_03_0006.png" width="70%" alt="Change cell settings"/></p>
 
 7. Turn **Background** on to get a white frame around the image and click **Save**.
-<!--<br>![Background ON](/exercises/ex1/images/01_04_0080.png)-->
 <p align="center"><img src="./images/ex1_03_03_0007.png" width="70%" alt="Background ON"/></p>
 
 8. Add the image 'Vertical_S2.jpg' between the *Welcome* and *How to get started* text widgets in the same way.
-<!--<br>![Added Image](/exercises/ex1/images/01_04_0090.png)-->
 <p align="center"><img src="./images/ex1_03_03_0008.png" width="70%" alt="Added Image"/></p>
 
 
@@ -169,16 +161,16 @@ Wait for the text to be generated, then accept or discard (to enter a new prompt
 #### Exercise 1.3.6   Add a Feed widget to the page
 
 1. Hover the **News** section again until an **Add section** button appears below it. Click the button and select **Freestyle** in the pop-up window.
-<br>![Add section](/exercises/ex1/images/01_04_122.png)
+<p align="center"><img src="./images/ex1_03_06_0001.png" width="70%" alt="Add section"/></p>
 
 2. Click the **Add Content** button in the new section.
-<br>![Add section](/exercises/ex1/images/01_04_124.png)
+<p align="center"><img src="./images/ex1_03_06_0002.png" width="70%" alt="Add Content"/></p>
   
 3. Select the **Feed** widget.
-<br>![Add section](/exercises/ex1/images/01_04_122.png)
+<p align="center"><img src="./images/ex1_03_06_0003.png" width="70%" alt="Feed Widget"/></p>
 
 4. In the Feed widget properties, select **Workspace Status Only** in the *Filter By* field. Change the *Widget Title* to **Workspace Feed**. Then click **Save**.
-<br>![Widget properties](/exercises/ex1/images/01_04_126.png)
+<p align="center"><img src="./images/ex1_03_06_0003.png" width="70%" alt="Feed Widget Properties"/></p>
 
 <br><br>
 #### Exercise 1.3.7   Exchange the video

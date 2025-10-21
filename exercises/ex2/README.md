@@ -155,12 +155,6 @@ By the end of this exercise, you will have:
 <br> ![Select Card Type](/exercises/ex2/images/02_02_0010.png)
 <br>
 
-> [!IMPORTANT]
-> Please make sure to replace **`###`** with your participant number in every step below.
-> For example participant number _AD165-001_ should use **`001`** in place of **`###`**
-
-<br>
-
 1. In this _manifest.json_, line 32 to 41 - `data` node within `content` describe how to fetch the data. By default, the sample card fetches list data from demo Northwind service. 
 	Change this data josn block to the following (replace line 32 to 41 with the lines below) -
 
@@ -253,6 +247,10 @@ At this point, the card should show the footer and it should look like this -
 <image src='/exercises/ex2/images/02_02_0025.png' height='500px'></image>
 </p>
 
+#### Let us understand what changes were made and why
+
+[Footer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/footer) is a convenient method to add card level actions. In this case you added a paginator which essentially does all the required magic to add the `show more` button in the footer and respetive action implementation to show the popup with the complete list.
+
 > [!TIP]
 > You can see the change immediately on the card preview. click on `Show More` to see all AI Agents listed in a popup dialog 
 
@@ -285,29 +283,32 @@ The manifest JSON at the very bottom should look like this now -
 <image src='/exercises/ex2/images/02_02_0026.png' width='500px'></image>
 </p>
 
-<br> - [Actions](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/cardActions) are a way to add interactivity to the card elements like line items, header or footer. In this case, you added a action of type `Navigation` which initiates a browser redirect. 
-<br> - The url parameter of the navigation action is bound to the _IdeaLinks_ attribute of the row data like _ProblemStatement_ and _RefinedSolution_ binding for `title` and `description`.
-<br> - Observe how the `enabled` property of the `action` is bound to an expression that evaluates whether _IdeaLinks_ attribute has any value. If it doesn't have any value, the navigation action on this row will be disabled as the ${IdeaLinks} expression would evaluate to `false`. Hence, the use of expression binding.
-
 > [!TIP]
 > You can see the change immediately on the card preview and the list items are now clickable.
 > click on any line in the list to see that the action is working and leads to the AI Agent page in SAP Discovery Center. 
 
+#### Let us understand what changes were made and why
+- [Actions](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/cardActions) are a way to add interactivity to the card elements like line items, header or footer. In this case, you added a action of type `Navigation` which initiates a browser redirect. 
+<br> - The url parameter of the navigation action is bound to the _IdeaLinks_ attribute of the row data like _ProblemStatement_ and _RefinedSolution_ binding for `title` and `description`.
+<br> - Observe how the `enabled` property of the `action` is bound to an expression that evaluates whether _IdeaLinks_ attribute has any value. If it doesn't have any value, the navigation action on this row will be disabled as the ${IdeaLinks} expression would evaluate to `false`. Hence, the use of expression binding.
+
 ---
+
+> [!IMPORTANT]
+> Please make sure to replace **`###`** with your participant number in every step below.
+> For example participant number _AD165-001_ should use **`001`** in place of **`###`**
 
 5. Now we need to make the card unique for each participant. First of all, In the `sap.app` section on the top:
 - Modify the card's **`id`** into **`com.sap.teched.ad165.###`** to make it unique and avoid any conflict during uploading & uniqueness in Work Zone.
-![id change](/exercises/ex2/images/02_02_0030.png)
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0030.png' width='500px'></image>
+</p>
 
 > [!CAUTION]
 > Please do not use "-" in the id, only alphanumeric characters and "." 
 
+6. Now change the card properties so that we can identify while adding the UI card to workspace later.
 
-
-
-3. Now change the card properties so that we can identify while adding the UI card to workspace later.
-
-   
    <br> - Change the *`title`* and *`shortTitle`* properties into `Standard AI Agents List Card by AD165-###`
    <br> - Change the *`subTitle`* into `Delivered by SAP`
    <br> - Change the *`info`* into `Custom Card for Teched Hands-On`
@@ -315,115 +316,32 @@ The manifest JSON at the very bottom should look like this now -
 
 The `sap.app` section starting in lines 3 should look like this now:
 
-````json
-	"sap.app": {
-		"id": "com.sap.teched.ad165.###",
-		"type": "card",
-		"title": "Standard AI Agents List Card by AD165-###",
-		"subTitle": "Delivered by SAP",
-		"applicationVersion": {
-			"version": "1.0.0"
-		},
-		"shortTitle": "Standard AI Agents List Card by AD165-###",
-		"info": "Custom Card for Teched Hands-On",
-		"description": "Delivered by SAP",
-		"tags": {
-			"keywords": [
-				"Data",
-				"Card",
-				"Sample"
-			]
-		}
-	},
-````
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0040.png' width='600px'></image>
+</p>
 
-4. Next, you change the `header` part in the `sap.card` section.
-   <br> - Change the *`title`* property into `Standard SAP AI Agents`
-   <br> - Change the *`subtitle`* property into `List Card by AD165-###`
-   <br> - Change the *`icon`* property into SAP AI icon by using the src of `"sap-icon://ai"` (or, simply replace "product" with "ai")
+These are only metadata changes to the UI Card. These fields are used to identify the card while adding to Work Zone and does not have any impact on the UI of the card.
+
+---
+
+7. But, the card header still shows _Products_ as *`title`* and _In Stock Information_ as *`subtitle`*. Let us change that. Make the `header` node in the `sap.card` section as following -
+   <br> - Change the *`title`* property into `Standard SAP AI Agents` (line 25)
+   <br> - Change the *`subtitle`* property into `List Card by AD165-###` (line 26)
+   <br> - Change the *`icon`* property into SAP AI icon by using the src of `"sap-icon://ai"` (ine 27)
    
 The `sap.card` `header` section starting in lines 24 should look like this now:
 
-````json
-	"header": {
-		"title": "Standard SAP AI Agents",
-		"subtitle": "List Card by AD165-045",
-		"icon": {
-			"src": "sap-icon://ai"
-		}
-	},
-````
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0050.png' width='500px'></image>
+</p>
 
-5. Next, you change the `content` `data` part in the `sap.card` section.
-   <br> - Change the *`url`* property to `https://simplenodebackend-chipper-kob-zy.cfapps.eu10-004.hana.ondemand.com/IdeaManagementDB/api/v1/list`
-   <br> - Change the *`method`*  property to `POST`
-   <br> - Add a *`headers`* to the *`request`* property with the value `"headers": {"Content-Type": "application/json"},`
-   <br> - Override the "$format": "json" proprty under `request` `parameters` and replace it with a parameter named `"collectionName":"SAPAIAgents"`
-   <br> - Remove the `"value"` from the `path` property and leave it only with `/`
+At this point, we are done with all changes in the card manifest. Your card should look like this in the preview - 
 
-The `data` section starting in lines 32 should look like this now:
+<p align="center">
+<image src='/exercises/ex2/images/02_02_0060.png' height='500px'></image>
+</p>
 
-````json
-		"content": {
-			"data": {
-				"request": {
-					"url": "https://simplenodebackend-chipper-kob-zy.cfapps.eu10-004.hana.ondemand.com/IdeaManagementDB/api/v1/list",
-					"method": "POST",
-					"headers": {"Content-Type": "application/json"},
-					"parameters": {
-						 "collectionName":"SAPAIAgents"
-					}
-				},
-				"path": "/"
-			},
-		},
-````
-   
-
-   
-
-   
-7. Add a pagination to be able to see all existing ideas
-   <br> - After the `Content` section add `,"footer": { "paginator": {"pageSize": 5} }` 
-
-The "footer" section starting in line 49 should look like this now:
-````json
-		"footer": {
-		    "paginator": {
-    			"pageSize": 5
-		    }
-	    }				
-````
-
-> [!TIP]
-> You can see the change immediately on the card preview. click on `Show More` to see all ideas exist 
- 
-
-8. Add Actions to the items, so each raw item will be clickable
-   <br> - After the `description` property add `,` and then add `"actions": [ { "type": "Navigation", "enabled": "{= ${IdeaLinks}}", "parameters": { "url": "{IdeaLinks}" } } ]`
-
-The "item" section starting in line 43 should look like this now:
-````json
-		"item": {
-				"title": "{RefinedSolution}",
-				"description": "{ProblemStatement}",
-				"actions": [
-					{
-						"type": "Navigation",
-						"enabled": "{= ${IdeaLinks}}",
-						"parameters": {
-							"url": "{IdeaLinks}"
-						}
-					}
-				]
-			},			
-````
-
-> [!TIP]
-> You can see the change immediately on the card preview. click on any line in the list to see that the action is working and leads to a URL of the discovery center of SAP. 
-
-
-9. Download the Card you've created. Click on the Download button on the top right and download Bundle as card.zip
+8. Download the Card you've created. Click on the Download button on the top right and download Bundle as card.zip
 <br>![Download Cards zip](/exercises/ex2/images/02_10_0010.png)
 
 

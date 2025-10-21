@@ -47,7 +47,7 @@ After completing these steps you will have created a Center of Excellence worksp
 4. Select the Digital Center of Excellence workspace template. 
 <p align="center"><img src="./images/ex1_02_04_0000.png" width="70%" alt="Public Workspace"/></p>
 
-5. Remove the checkmark next to *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
+5. Remove the checkmarks next to *Allow all members to invite users* and *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
 <br>![Workspace creation wizard](/exercises/ex1/images/01_05_0010.png)
 
 6. You can leave the *Member Participation* settings as is. Simply click **Next**.

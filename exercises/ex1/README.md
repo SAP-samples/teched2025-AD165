@@ -9,7 +9,10 @@ In this exercise, you will first access SAP Build Work Zone.
 ## <a id="access-wz"></a> Exercise 1.1 Get to know SAP Build Work Zone 
 
 1. Open [SAP Build Work Zone](https://ad165-m3ep4xn0.workzone.cfapps.eu10.hana.ondemand.com/site#workzone-home&/home) and login with the user that is available on your desk and the password provided by your instructors.
-<br>![SAP Build Work Zone](/exercises/ex1/images/01_01_0010.png)
+
+<p align="center"><img src="./images/ex1_01_01_0000.png" width="90%" /></p>
+
+<!--<br>![SAP Build Work Zone](/exercises/ex1/images/01_01_0010.png) -->
 
 Note the navigation menu on top of the screen. It contains some default entries of SAP Build Work Zone. You are now on the **Home** page which is the landing page when you first open the site and usually contains information that is relevant to all or most users in your organization.
 

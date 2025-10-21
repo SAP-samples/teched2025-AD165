@@ -130,13 +130,18 @@ _The “Explore” tab showing: left navigation (Card Types & Card Features), ce
 
 ## Exercise 2.2 Select an advanced card and adapt it to your needs
 
-After completing these steps you will have downloaded an advanced card from [sapui5.hana.ondemand.com](https://sapui5.hana.ondemand.com). This website provides you with a lot of information, samples, and resources to support you in developing web apps with SAPUI5. 
+After completing these steps you will have modified a sample card from Card Explorer and downloaded the card bundle to your local computer, which will be used in subsequent exercises. 
 
-1. Navigate to the [Card Explorer
-](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html)that gathers all information about UI integration cards and navigate to the **Explore** tab. Here you can test various card types with sample data and download them. 
-<br>![Explore UI Cards](/exercises/ex2/images/02_03_0010.png)
-2. In the menu on the left, select the *Card Features* **Data**
-<br>![Select Card Type](/exercises/ex2/images/02_04_0010.png)
+1. In the [Card Explorer
+](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html), navigate to the **Explore** tab.
+
+<br> ![Explore UI Cards](/exercises/ex2/images/02_03_0010.png)
+<br/>
+
+2. For this exercise we will start from an existing List Card that fetches data from Nothwind oData service and modify it. Hence, in the menu on the left, select the *Card Features* **Data** and ensure that the default **Basic Data Request** is selected in the drop-down as shown in the screenshot below.
+   
+<br> ![Select Card Type](/exercises/ex2/images/02_04_0010.png)
+<br>
 
 3. To adapt the card, you can adjust its *`manifest.json`* file on the right.
 

@@ -49,16 +49,16 @@ After completing these steps you will have created a Center of Excellence worksp
 3. Enter name: **AI Center of Excellence ###** and a description of your choice.
 
 4. Select the *Digital Center of Excellence workspace template*. 
-<p align="center"><img src="./images/ex1_02_04_0000.png" width="70%" alt="Public Workspace"/></p>
+<p align="center"><img src="./images/ex1_02_04_0000.png" width="60%" alt="Public Workspace"/></p>
 
 5. Remove the checkmarks next to *Allow all members to invite users* and *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
 <p align="center"><img src="./images/ex1_02_05_0000.png" width="60%" alt="Workspace creation wizard"/></p>
 
 6. You can leave the *Member Participation* settings as is. Simply click **Next**.
-<br>![Member settings](/exercises/ex1/images/01_06_0010.png)   
+<p align="center"><img src="./images/ex1_02_06_0000.png" width="60%" alt="Member settings"/></p>
 
 7. On the *Non-Member Participation* page, set *Collaboration Level* to **None: All collaboration tools and member details are hidden** and click **Finish**.
-<br>![Non-member settings](/exercises/ex1/images/01_07_0010.png)
+<p align="center"><img src="./images/ex1_02_07_0000.png" width="60%" alt="Non-member settings"/></p>
 
 The workspace has been created and you automatically navigate to it. You can now start editing it, but before you do this, you should get familiar with the content it already contains.
 

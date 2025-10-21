@@ -77,13 +77,13 @@ After completing these steps you will have designed a beautiful entry page for y
 As a first step, you will change the cover photo to something that fits the purpose of the workspace.
 
 1. Click **Edit Cover Photo**, then select **Upload Photo** from the dropdown list.
-<p align="center"><img src="./images/ex1_03_01_0000.png" width="60%" alt="Edit Cover Photo"/></p>
+<p align="center"><img src="./images/ex1_03_01_0001.png" width="60%" alt="Edit Cover Photo"/></p>
 
 2. Select the AI_Banner.jpg from the folder to which you extracted the image files.
-<br>![Select AI_Banner](/exercises/ex1/images/01_03_0040.png)   
+<p align="center"><img src="./images/ex1_03_01_0002.png" width="60%" alt="Select AI_Banner"/></p>
 
-3. If you want, you can zoom into the image by using the slider. Select a beautiful display window by dragging the image up and down or left and right. Then click **Save**.
-<br>![Zoom reposition & Save](/exercises/ex1/images/01_03_0050.png)
+3. If you want, you can Drag to reposition or zoom into the image by using the slider. Select a beautiful display window by dragging the image up and down or left and right. Then click **Save**.
+<p align="center"><img src="./images/ex1_03_01_0003.png" width="60%" alt="Zoom reposition & Save"/></p>
 
 #### Exercise 1.3.2   Exchange the avatar of the workspace
 

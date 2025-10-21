@@ -90,17 +90,14 @@ As a first step, you will change the cover photo to something that fits the purp
 Now, you will change the avatar of the workspace, so you can recognize it more easily in the list of workspaces.
 
 1. Hover the little image next to the workspace titel, then click the **Upload workspace avatar** icon that appears.
-<br>![Upload avatar](/exercises/ex1/images/01_03_0060.png)
 <p align="center"><img src="./images/ex1_03_02_0001.png" width="60%" alt="Upload avatar"/></p>
 
 2. Upload any image from the images folder.
 3. Then deselect **Autofit** to be able to zoom and adjust the display window.
-<br>![Autofit](/exercises/ex1/images/01_03_0070.png)
 <p align="center"><img src="./images/ex1_03_02_0003.png" width="60%" alt="Autofit"/></p>
 
 4. Zoom into the uploaded image and select a nice detail by dragging the image to the right position.
 5. Click **Save changes**.
-<br>![Zoom reposition & Save](/exercises/ex1/images/01_03_0080.png)
 <p align="center"><img src="./images/ex1_03_02_0005.png" width="60%" alt="Zoom reposition & Save"/></p>
 
 

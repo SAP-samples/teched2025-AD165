@@ -195,18 +195,19 @@ Then click **Save**.
 You would like to move the two elements (text and pink cell) to the right of the video.
 
 1. Hover the section with the video until you see a plus sign to the right of the video. Click the plus icon to add another column to the section.
-<br>![Add column](/exercises/ex1/images/01_04_140.png)
+<p align="center"><img src="./images/ex1_03_08_0001.png" width="70%" alt="Add Column"/></p>
 
 2. Drag and drop the content from the left column to the new column. The empty column on the left is automatically deleted.
-<br>![Move content](/exercises/ex1/images/01_04_150.png)
+<p align="center"><img src="./images/ex1_03_08_0002.png" width="70%" alt="Move Content"/></p>
 
 <br><br>
 #### Exercise 1.3.9 Publish the workpage
 
 1. To make your changes available to users accessing the workspace, click **Publish** on top of the page.
-<br>![Publish](/exercises/ex1/images/01_04_160.png)
+<p align="center"><img src="./images/ex1_03_09_0001.png" width="70%" alt="Publish"/></p>
+
 2. In the publishing pop-up, keep all settings and click **Publish** again. Your changes are now visible to all users of the workspace
-<br>![Result Workpage Editing](/exercises/ex1/images/01_04_170.png)
+<p align="center"><img src="./images/ex1_03_09_0002.png" width="70%" alt="Result Workpage Editing"/></p>
 
 
 

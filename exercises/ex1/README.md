@@ -40,7 +40,7 @@ After completing these steps you will have created a Center of Excellence worksp
 <p align="center"><img src="./images/ex1_02_01_0000.png" width="70%" alt="New Workspace"/></p>
 
 2.	Click the left tile to create a public workspace.
-<p align="center"><img src="./images/01_04_0010.png" width="70%" alt="Public Workspace"/></p>
+<p align="center"><img src="./images/ex1_02_02_0000.png" width="70%" alt="Public Workspace"/></p>
 
 3. Enter name: **AI Center of Excellence** and a description of your choice.
 

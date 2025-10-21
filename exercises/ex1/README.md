@@ -161,16 +161,16 @@ Wait for the text to be generated, then accept or discard (to enter a new prompt
 #### Exercise 1.3.6   Add a Feed widget to the page
 
 1. Hover the **News** section again until an **Add section** button appears below it. Click the button and select **Freestyle** in the pop-up window.
-<p align="center"><img src="./images/ex1_03_06_0001.png" width="70%" alt="Add section"/></p>
+<p align="center"><img src="./images/ex1_03_06_0001.png" width="90%" alt="Add section"/></p>
 
 2. Click the **Add Content** button in the new section.
-<p align="center"><img src="./images/ex1_03_06_0002.png" width="70%" alt="Add Content"/></p>
+<p align="center"><img src="./images/ex1_03_06_0002.png" width="90%" alt="Add Content"/></p>
   
 3. Select the **Feed** widget.
-<p align="center"><img src="./images/ex1_03_06_0003.png" width="70%" alt="Feed Widget"/></p>
+<p align="center"><img src="./images/ex1_03_06_0003.png" width="90%" alt="Feed Widget"/></p>
 
 4. In the Feed widget properties, select **Workspace Status Only** in the *Filter By* field. Change the *Widget Title* to **Workspace Feed**. Then click **Save**.
-<p align="center"><img src="./images/ex1_03_06_0003.png" width="70%" alt="Feed Widget Properties"/></p>
+<p align="center"><img src="./images/ex1_03_06_0004.png" width="70%" alt="Feed Widget Properties"/></p>
 
 <br><br>
 #### Exercise 1.3.7   Exchange the video

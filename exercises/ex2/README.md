@@ -5,13 +5,14 @@ In this exercise, you will learn what are UI integration cards, you will modify 
 > [!NOTE]
 > Integration cards present a  means to expose application content to the end user in a unified way. A card is a design pattern that displays the most concise pieces of information in a limited-space container. Similar to a tile, it helps users structure their work in an intuitive and dynamic way while presenting more data at first sight than a tile usually does. 💡 Think of UI integration cards are mini-apps that show key info directly on Work Zone pages — you’ll create one and add it to your workspace so that it's visible to all it's members.
 
-# Exercise 2.1 Explore the UI Cards in Card Explorer
+## Exercise 2.1 Explore the UI Cards in Card Explorer
 
+### What you’ll achieve
 After completing this exercise, you’ll be familiar with the **UI Card Explorer** and understand the basic anatomy of a simple **List** card (what each manifest section does).
 
 ---
 
-## What is the Card Explorer?
+### What is the Card Explorer?
 The Card Explorer is an interactive playground for **UI Integration Cards**. It lets you:
 - Preview different **card types** and **features**.
 - Inspect and edit the card’s **`manifest.json`** side-by-side.
@@ -28,7 +29,7 @@ _The “Explore” tab showing: left navigation (Card Types & Card Features), ce
 
 ---
 
-## Steps
+### Steps
 
 1. Right click on the link below and **Open the link in a new tab**. This will open the [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html) with **_Explore_.** tab selected.
 
@@ -128,31 +129,45 @@ _The “Explore” tab showing: left navigation (Card Types & Card Features), ce
 
 ---
 
-## Exercise 2.2 Select an advanced card and adapt it to your needs
+## Exercise 2.2 Select an advanced UI card and adapt it to your needs
 
-After completing these steps you will have modified a sample card from Card Explorer and downloaded the card bundle to your local computer, which will be used in subsequent exercises. 
+### What you’ll achieve
 
-1. Esure that you are already in **Explore** tab in [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list).
+By the end of this exercise, you will have:
+- Modified a **sample List card** in the Card Explorer,
+- Switched its data source,
+- Seen your changes live in the **card preview**, and
+- **Downloaded the card bundle** (`card.zip`) to your computer for use in the next exercises.
+
+### What you’ll do (at a glance)
+
+1. **Start from a sample List card** in the Card Explorer (the one that reads from Northwind OData).
+2. **Replace the data source**: point the card’s `sap.card.data.request` to the provided **Node.js backend** (simple REST API) that returns a list of SAP AI Agents.
+3. **Bind the list fields**: map the list item properties (e.g., `title`, `description`, `actions`) to properties returned by the API.
+4. **show list all button in footer**: add the footer with the paginator button to show a popup that lists all SAP AI Agents.
+5. **Update card propoerties**: change the card id, title, subtitle, etc to make it unique for each participant for conflict-free deployment & unique identification of card at runtime.
+6. **Download the bundle**: export your customized card as `card.zip` for import into SAP Build Work Zone.
+
+> **Heads-up**
+> - Keep the `sap.app.id` **unique** using your **participant ID** (last 3 digits of your user).  
+> - Don’t remove the `applicationVersion.version`—it’s **required** for upload later.  
+> - After deleting or adding manifest keys, watch out for **trailing commas** to avoid JSON errors.
+
+## Steps
+
+1. Esure that you are already in **Explore** tab in [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list). Find and select the **Card Features** > **Data** from the _left navigation panel_ and ensure that the default **Basic Data Request** card is selected in the drop-down as shown in the screenshot below. To adapt the card, you can adjust its *`manifest.json`* file on the right.
    
-![Explore UI Cards](/exercises/ex2/images/02_03_0010.png)
-<br/>
-
-2. For this exercise we will start from an existing List Card that fetches data from Nothwind oData service and modify it. Hence, in the menu on the left, select the *Card Features* **Data** and ensure that the default **Basic Data Request** is selected in the drop-down as shown in the screenshot below.
-   
-<br> ![Select Card Type](/exercises/ex2/images/02_04_0010.png)
+<br> ![Select Card Type](/exercises/ex2/images/02_02_0010.png)
 <br>
 
-3. To adapt the card, you can adjust its *`manifest.json`* file on the right.
-
 > [!IMPORTANT]
-> Please make sure to replace ### with your participant number. For example participant number 1 results in AD165-001
+> Please make sure to replace `###` with your participant number in every step below. For example participant number _AD165-001_ should use `001` in place of `###`
 
    <br>In the `sap.app` section on the top:
    <br> - Modify the card's *`id`* into `com.sap.teched.ad165.###` to make it unique and easier to identify later
 
 > [!CAUTION]
 > Please do not use "-" in the id, only alphanumeric characters and "." 
-> <br>In addition, please note that the version property is mandatory. Do not change it, as without it the card will not be accepted by Work Zone.
    
    <br> - Change the *`title`* and *`shortTitle`* properties into `Standard AI Agents List Card by AD165-###`
    <br> - Change the *`subTitle`* into `Delivered by SAP`

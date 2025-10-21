@@ -132,10 +132,9 @@ _The “Explore” tab showing: left navigation (Card Types & Card Features), ce
 
 After completing these steps you will have modified a sample card from Card Explorer and downloaded the card bundle to your local computer, which will be used in subsequent exercises. 
 
-1. In the [Card Explorer
-](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html), navigate to the **Explore** tab.
-
-<br> ![Explore UI Cards](/exercises/ex2/images/02_03_0010.png)
+1. Esure that you are already in **Explore** tab in [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list).
+   
+![Explore UI Cards](/exercises/ex2/images/02_03_0010.png)
 <br/>
 
 2. For this exercise we will start from an existing List Card that fetches data from Nothwind oData service and modify it. Hence, in the menu on the left, select the *Card Features* **Data** and ensure that the default **Basic Data Request** is selected in the drop-down as shown in the screenshot below.

@@ -3,13 +3,19 @@
 In this exercise, you will learn how business content from an SAP system can be integrated into SAP Build Work Zone. Finally, you will download the native SAP Mobile Start app to your own smartphone and open your SAP Build Work Zone site there.
 
 > [!NOTE]
-> Business content can be integrated in different ways, for example by creating UI integration cards that consume content from an OData service in an SAP system by making use of the connectivity services of SAP Business Technology Platform. Another option of integrating business content is called **`Content Federation`**. This federation scenario consists of a content exposure step where an administrator selects which content should be made available in SAP Build Work Zone (which is done on the content provider side, e.g. in an SAP S/4HANA system), and a content consumption step (done in SAP Build Work Zone). The exposure usually happens at role level and the exposure scope contains all content entities assigned to the selected roles, such as groups, catalogs, pages, and spaces.
+> Business content can be integrated in several ways within SAP Build Work Zone. One method is by creating UI integration cards that consume content from an OData service in an SAP system, utilizing the connectivity services of SAP Business Technology Platform (SAP BTP).
 >
-> It is important to understand that the apps are not replicated or transported to SAP BTP, but the exposure provides meta data to allow SAP Build Work Zone to launch the applications that continue to run in the provider system.
+>Another integration method is called **Content Federation**. This scenario consists of two main steps:
+>
+>- **Content Exposure**: An administrator selects what content should be available in SAP Build Work Zone. This is typically done on the content provider side, for example, within an SAP S/4HANA system. The exposure usually happens at the role level and includes all content entities assigned to the selected roles, such as groups, catalogs, pages, and spaces.
+>
+>- **Content Consumption**: This step occurs within SAP Build Work Zone, where the exposed content is consumed.
+>
+>It’s important to note that the applications are not replicated or transported to SAP BTP. Instead, the exposure provides metadata that allows SAP Build Work Zone to launch the applications, which continue to run in the provider system.
 
 ## Exercise 5.1 Download SAP Mobile Start
 
-Later in this exercise, we need the app *SAP Mobile Start* on our smartphone or tablet.
+Later in this exercise, you will need the app *SAP Start* on our smartphone or tablet.
 Since the download may take a moment depending on the network conditions, please start the download and installation of *SAP Mobile Start* to your smartphone or tablet already now.
 
 1. Go to the app store of your smartphone depending on your device / platform. iOS devices can download SAP Mobile Start from the *Apple App Store*. Android devices can use *Google Play Store*.

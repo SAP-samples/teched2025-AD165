@@ -46,21 +46,30 @@ After completing these steps you will have created a Center of Excellence worksp
 
 > [!IMPORTANT]
 > Please make sure to replace ### with your participant number. For example participant number 1 results in 001
-3. Enter name: **AI Center of Excellence ###** and a description of your choice.
 
-4. Select the *Digital Center of Excellence workspace template*. 
-<p align="center"><img src="./images/ex1_02_04_0000.png" width="60%" alt="Public Workspace"/></p>
+3. On the first screen, make the following settings:
+   - Enter name: **AI Center of Excellence ###** and a description of your choice.
+   - Select the **Digital Center of Excellence workspace template**. You could also preview the template to see what it contains.
+   - **Keep the checkmarks** to make the workspace freely accessible to all employees in the demo company.
+   - Click **Next**.
 
-5. Remove the checkmarks next to *Allow all members to invite users* and *Allow users to join this workspace* and click **Next**. You could also skip the more advanced settings of the next pages at this time by clicking *Finish* right away, but let us have a short look at the options.
 <p align="center"><img src="./images/ex1_02_05_0000.png" width="60%" alt="Workspace creation wizard"/></p>
 
-6. You can leave the *Member Participation* settings as is. Simply click **Next**.
+4. You can leave the *Member Participation* settings as **Limited**, so members will be able to collaborate in the workspace, but not to edit or delete the content that you will provide. Simply click **Next**.
 <p align="center"><img src="./images/ex1_02_06_0000.png" width="60%" alt="Member settings"/></p>
 
-7. On the *Non-Member Participation* page, set *Collaboration Level* to **None: All collaboration tools and member details are hidden** and click **Finish**.
-<p align="center"><img src="./images/ex1_02_07_0000.png" width="60%" alt="Non-member settings"/></p>
+5. On the *Non-Member Participation* page, keep *Collaboration Level* to **Same as Members: Limited** to allow users to collaborate even without joining the workspace. You could also limit the access to certain user lists or roles, but you want to make this workspace available to everyone, so just click **Finish**.
 
-The workspace has been created and you automatically navigate to it. You can now start editing it, but before you do this, you should get familiar with the content it already contains.
+The workspace is created and you automatically navigate to it. It can take some minutes for the workspace to be fully set up, so please wait before continuing until your workspace looks like the image below. 
+In the meantime, you can download some images that you can use when editing your workspace.
+
+6. Right-click the link [exercises/ex1/samples](https://github.com/SAP-samples/teched2025-AD165/tree/main/exercises/ex1/samples) and open the folder in a new browser tab.
+7. Click the content.zip file and use the download button to download the zip file to your local computer.
+8. Extract the zip file into a folder of your choice.
+
+<p align="center"><img src="./images/ex1_02_07_0000.png" width="60%" alt="WorkspaceReady"/></p>
+
+Once your workspace is fully loaded, you can get started by making yourself familiar with the content it already contains.
 
 As you can see in the workspace menu, there are already a couple of pages available in the workspace. Explore the different pages that were created from the template, e.g. the Overview page, the Forum, the Knowledge Base and other pages. Before publishing your workspace, you will add some more content to these pages or adapt the existing content to the specific use case of a Digital Center of Excellence for AI. 
 
@@ -69,9 +78,16 @@ As you can see in the workspace menu, there are already a couple of pages availa
 
 After completing these steps you will have designed a beautiful entry page for your AI Center of Excellence workspace. 
 
-1. Right-click the link [exercises/ex1/samples](https://github.com/SAP-samples/teched2025-AD165/tree/main/exercises/ex1/samples) and open the folder in a new browser tab.
-2. Click the content.zip file and use the download button to download the zip file to your local computer.
-3. Extract the zip file into a folder of your choice.
+### What you’ll do (at a glance)
+
+1. **Exchange the cover photo** in the Workspace header.
+2. **Replace the avatar** of the workspace, so users can find it more easily.
+3. **Change the structure of the Overview page**: adding columns, moving widgets
+4. **Edit a news widget**: add the footer with the paginator button to show a popup that lists all SAP AI Agents.
+5. **Exchange a video**: change the card id, title, subtitle, etc to make it unique for each participant for conflict-free deployment & unique identification of card at runtime.
+6. **Add a widget**: display a workspace feed.
+7. **Publish the workspace** so users can find and join it.
+---
 
 #### Exercise 1.3.1   Add a beautiful cover photo
 As a first step, you will change the cover photo to something that fits the purpose of the workspace.
@@ -80,10 +96,11 @@ As a first step, you will change the cover photo to something that fits the purp
 <p align="center"><img src="./images/ex1_03_01_0001.png" width="90%" alt="Edit Cover Photo"/></p>
 
 2. Select the 'AI_Banner.jpg' from the folder to which you extracted the image files.
-<p align="center"><img src="./images/ex1_03_01_0002.png" width="80%" alt="Select AI_Banner"/></p>
 
-3. If you want, you can Drag to reposition or zoom into the image by using the slider. Select a beautiful display window by dragging the image up and down or left and right. Then click **Save**.
+3. If you want, you can zoom into the image by using the slider. Select a beautiful display window by dragging the image up / down or left / right. Then click **Save**.
 <p align="center"><img src="./images/ex1_03_01_0003.png" width="90%" alt="Zoom reposition & Save"/></p>
+
+---
 
 #### Exercise 1.3.2   Exchange the avatar of the workspace
 
@@ -100,16 +117,24 @@ Now, you will change the avatar of the workspace, so you can recognize it more e
 5. Click **Save changes**.
 <p align="center"><img src="./images/ex1_03_02_0005.png" width="70%" alt="Zoom reposition & Save"/></p>
 
+---
 
 #### Exercise 1.3.3   Add images to the overview page
 
-1. First, open the workpage editor by clicking the pencil icon on the right of the screen.
+Workpages can be structured using various layout elements that offer a flexible way to organize and display information. The layout contains the following elements:
+- **Sections are the top-level containers**. When you add a section to a workpage, you'll get a popup with the option to select the layout you prefer: Freestyle or Wizard. The Freestyle layout can be used to add various types of content such as widgets, apps,  tiles, cards, and more. The second option is the Wizard layout that you use if you want to add a guided experience.
+- **Columns devide a section horizontally**. You can have up to 8 columns in one section.
+- **Cells** are the smallest units within a column, where you can add tiles, cards, and widgets to your workpage.
+
+
+1. Access the workpage editor from the right side of your workpage by clicking the pen icon.
 <p align="center"><img src="./images/ex1_03_03_0001.png" width="70%" alt="Go to workpage editor"/></p>
 
-2. Hover the workpage to see the structure according to which the widgets on the page are arranged. You can see that there are several sections in this page. Some of the sections have several (up to 8) columns which themselves can hold several cells.
+2. Hover the workpage to see the structure according to which the widgets on the page are arranged. You can see that there are several sections in this page, some of them have several columns. The borders of the sections, columns, and cells are displayed when you hover them.
+   
 <p align="center"><img src="./images/ex1_03_03_0002.png" width="70%" alt="Hover structure"/></p>
 
-3. In the first step, you will add a banner image to the upmost section of the workpage. To do this, you can either drag and drop the 'Overview_banner.png' onto the **Drop an image here to upload it** or click **Or click here to upload an image** and select the 'Overview_banner.png' for upload.
+3. In the first step, you will add a banner image to the upmost section of the workpage. This section already contains an image widget, so you can either drag and drop the 'Overview_banner.png' onto the **Drop an image here to upload it** or click **Or click here to upload an image** and select the 'Overview_banner.png' for upload.
 <p align="center"><img src="./images/ex1_03_03_0003.png" width="70%" alt="Hover structure"/></p>
 
 4. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/Settings_icon.png).
@@ -128,23 +153,24 @@ Now, you will change the avatar of the workspace, so you can recognize it more e
 <p align="center"><img src="./images/ex1_03_03_0008.png" width="70%" alt="Added Image"/></p>
 
 
-<br><br>
+---
+
 #### Exercise 1.3.4   Remove an unneeded section
 
 You do not need the next section, so you are now going to delete it.
 Hover the section till you see the grey section frame and select the **Delete section** icon.
 <p align="center"><img src="./images/ex1_03_04_0000.png" width="70%" alt="Delete section"/></p>
 
-<br><br>
+---
+
 #### Exercise 1.3.5   Edit the News section
 
-> [!NOTE]
-> Needs to add here more data about the text generation feature and that we are going to use it in this section....
- 
+This news section was built with text widgets. There are other widgets available for that as well, e.g. the Rotating Banner widget which you will see later in exercise 3 or the News Feed which displays news from an RSS feed.
+
 1. In the **News** section, change the title to **Current News**.
 <p align="center"><img src="./images/ex1_03_05_0001.png" width="70%" alt="News section"/></p>
 
-2. In the leftmost text widget, you will now change the text to announce some AI related news. You can use the text generation capability of SAP Build Work Zone to help you generate a text quickly. Click on Add > Generate Text 
+2. In the leftmost text widget, you will now change the text to announce a new submission tool. You can use the text generation capability of SAP Build Work Zone to help you generate a text quickly. Click on Add > Generate Text 
 <p align="center"><img src="./images/ex1_03_05_0002.png" width="70%" alt="Delete section"/></p>
 
 3. Enter a prompt, e.g. Share some exciting news about AI usage at ACME Corp.
@@ -157,7 +183,8 @@ Wait for the text to be generated, then accept or discard (to enter a new prompt
 <p align="center"><img src="./images/ex1_03_05_0004.png" width="70%" alt="Share News"/></p>
 
 
-<br><br>
+---
+
 #### Exercise 1.3.6   Add a Feed widget to the page
 
 1. Hover the **News** section again until an **Add section** button appears below it. Click the button and select **Freestyle** in the pop-up window.
@@ -172,7 +199,8 @@ Wait for the text to be generated, then accept or discard (to enter a new prompt
 4. In the Feed widget properties, select **Workspace Status Only** in the *Filter By* field. Change the *Widget Title* to **Workspace Feed**. Then click **Save**.
 <p align="center"><img src="./images/ex1_03_06_0004.png" width="70%" alt="Feed Widget Properties"/></p>
 
-<br><br>
+---
+
 #### Exercise 1.3.7   Exchange the video
 
 You would like to exchange the video for an AI related one. 

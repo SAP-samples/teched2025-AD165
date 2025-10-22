@@ -200,7 +200,9 @@ There is now a new option besides adding a tile, card, or other widget from the 
 <p align="center"><img src="./images/ex1_03_06_0003.png" width="60%" alt="Feed Widget"/></p>
 
 4. In the Feed widget properties, select **Workspace Status Only** in the *Filter By* field. Change the *Widget Title* to **Workspace Feed**. Then click **Save**.
-<p align="center"><img src="./images/ex1_03_06_0004.png" width="60%" alt="Feed Widget Properties"/></p>
+<p align="center"><img src="./images/ex1_03_06_0004.png" width="50%" alt="Feed Widget Properties"/></p>
+
+<p align="center"><img src="./images/ex1_03_06_0005.png" width="80%" alt="Feed Widget"/></p>
 
 ---
 
@@ -217,21 +219,22 @@ https://www.youtube.com/embed/A77g1LKqjFg?si=GVW6OK9tdWip_7n6
 ```
 
 Then click **Save**.
-<p align="center"><img src="./images/ex1_03_07_0002.png" width="70%" alt="Save Video"/></p>
+<p align="center"><img src="./images/ex1_03_07_0002.png" width="50%" alt="Save Video"/></p>
 
+---
 
-<br><br>
 #### Exercise 1.3.8   Move a widget to a new cell
 
-You would like to move the two elements (text and pink cell) to the right of the video.
+You would like to move the two elements (text and pink cell) to the left of the video.
 
-1. Hover the section with the video until you see a plus sign to the right of the video. Click the plus icon to add another column to the section.
-<p align="center"><img src="./images/ex1_03_08_0001.png" width="100%" alt="Add Column"/></p>
+1. Hover the section with the video until you see a plus sign to the left of the video. Click the plus icon to add another column to the section.
+<p align="center"><img src="./images/ex1_03_08_0001.png" width="60%" alt="Add Column"/></p>
 
-2. Drag and drop the content from the left column to the new column. The empty column on the left is automatically deleted.
-<p align="center"><img src="./images/ex1_03_08_0002.png" width="70%" alt="Move Content"/></p>
+2. Drag and drop the content from the left column to the new column. You can drop it as soon as a blue line appears. Remove the empty column on the leftin case it is not automatically deleted.
+<p align="center"><img src="./images/ex1_03_08_0002.png" width="90%" alt="Remove column"/></p>
 
-<br><br>
+---
+
 #### Exercise 1.3.9 Publish the workpage
 
 1. To make your changes available to users accessing the workspace, click **Publish** on top of the page.
@@ -241,9 +244,6 @@ You would like to move the two elements (text and pink cell) to the right of the
 <p align="center"><img src="./images/ex1_03_09_0002.png" width="50%" alt="Result Workpage Editing"/></p>
 
 
-
-## <a id="add-discussion"></a> Exercise 1.4  Add a discussion topic to the Forum
-DO with Text Generation
 
 ## Summary
 

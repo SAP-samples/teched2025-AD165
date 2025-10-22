@@ -342,8 +342,9 @@ At this point, we are done with all changes in the card manifest. Your card shou
 </p>
 
 8. Download the Card you've created. Click on the Download button on the top right and download Bundle as card.zip
-<br>![Download Cards zip](/exercises/ex2/images/02_10_0010.png)
+<br>![Download Cards zip](/exercises/ex2/images/02_02_0070.png)
 
+<br> - The card bundles should have been saved in the download folder of your participant machine. We will use it in subsequent exercise to upload to Work Zone as App visualization.
 
 
 ## Exercise 2.3 Create an app on SAP Build Work Zone using your downloaded card

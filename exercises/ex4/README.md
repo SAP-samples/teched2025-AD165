@@ -15,7 +15,7 @@ After completing these steps you will have sent a status update to all users.
 <br>![Create Page](/exercises/ex3/images/03_01_0030.png)
 
 4. Enter a prompt of your choice into the Ask AI field, e.g. "write a short announcement that SAP TechEd has started in Berlin and virtually and there are amazing sessions to be followed online" and click the **Send** icon. 
-<br>![Add section](/exercises/ex2/images/02_01_0040.png)
+<br>![Add section](/exercises/ex4/images/02_01_0040.png)
 5. Read the generated text and decide if that is what you would like to post (maybe after some adjustments). In this case, click **Accept**. Otherwise, you can either click **Retry** which will make AI generate a new text from the same prompt, or **Discard** which will remove the prompt, so you can start again from scratch.
 6. Once you accept a text, it is added to the input field. You can now further edit it or simply click the **Share** button.
 7. You can also use text generation when commenting. Choose one of the entries in the feed and click the **Comment** button. Create a comment using text generation in the same way as the status update.
@@ -43,7 +43,7 @@ Document Grounding is the process of making a LLM refer to specific documents to
 After completing these steps you will have submitted an AI Use case using the wizard you created in exercise 3.
 
 1. In the **Persona and Problem Description** step, click **Add widget**.
-<br>![Add widget](/exercises/ex2/images/02_04_0010.png)
+<br>![Add widget](/exercises/ex4/images/02_04_0010.png)
 
 2. Select the **Cards** tile and choose card **Refine Problem Statement**.
 3. You do not need to make any additional settings, just click **Save**.
@@ -71,10 +71,10 @@ After completing these steps you will have submitted an AI Use case using the wi
 Now, you are done. The wizard is completely configured. You might of course add further cards or widgets to the different steps, for example to provide the users with additional help and information like how-to videos and instructions.
 
 6.	Click **Publish** to make your new page available to workspace users. Permissions??? In the pop-up, click **Publish** again.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+<br>![](/exercises/ex4/images/02_02_0010.png)
 
 ## Summary
 
 You've now added a **Use case repository** page to your workspace that contains a wizard that guides users throught he process of submitting an idea for an AI use case at ACME Corp, defining the MVP, and initiating the implementation. In the next exercise, you will experience your workspace from a user perspective.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 5 - Excercise 5 ](../ex5/README.md)

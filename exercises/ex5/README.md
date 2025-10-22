@@ -75,6 +75,9 @@ Administrators use the Channel Manager to define, edit, and get updates from rem
 
 1. Clicking the **New** button, you see that you can configure new content providers here, but also add an HTML5 Business Solution. This scenario enables providers of business solutions (SaaS) to share their business solution across subaccounts, by defining them as content providers. Both multi- and single-tenant business solutions are supported.
 
+Please do not change the existing settings in this area.
+
+---
 
 ## Exercise 5.3 Access SAP Build Work Zone on a mobile device
 
@@ -83,22 +86,25 @@ The exposed content can not only be accessed from a desktop browser but also usi
 
 1. Go back to the tab with *SAP Build Work Zone*, click on your user-initials on the top right of the Shell Bar.
 2. Click on `Settings` to open the user settings.
+
+<p align="center"><img src="./images/ex5_03_0010.png" width="80%" /></p>
+
 3. Select the setting entry `SAP Mobile Start Application`.
 4. Toggle the switch to `Register`. Depending on the screen resolution, you might need to scroll down to make the full QR Code visible.
-    <p align="center"><img src="./images/ex2_03_04.png" width="100%" /><img src="./images/ex2_03_05.png" width="100%" /></p>
-5. Open the *SAP Mobile Start* app on your smartphone.
-6. Click on `Scan QR Code` and scan your *Site's* QR.
+
+<p align="center"><img src="./images/ex5_03_0020.png" width="60%" /></p>
+
+6. Open the *SAP Mobile Start* app on your smartphone.
+7. Click on `Scan QR Code` and scan your *Site's* QR.
     <p align="center"><img src="./images/ex2_04_01.png" width="20%" style="margin:10px" /><img src="./images/ex2_04_02.png" width="20%" style="margin:10px" /></p>
 
 > [!CAUTION]
 > If you freshly installed *SAP Mobile Start* to your device, your operating system will prompt you whether you want to allow to receive push notifications. Make sure to select **Yes** in order to allow receiving push notification. Exercise 2.5 will make use of that. If you declined the alert before or just now by accident, you can later allow push notifications for *SAP Mobile Start* in your device's settings.
 
-7. Sign in with the provided credentials.
-8. By switching to the *Apps* tab on the bottom, you will be able to see *Site's* content structure equivalently to what you saw on the Applications tab in the desktop version.
+8. Sign in with the provided credentials.
+9. By switching to the *Apps* tab on the bottom, you will be able to see *Site's* content structure equivalently to what you saw on the Applications tab in the desktop version.
    <p align="center"><img src="./images/ex2_04_03.png" width="20%" style="margin:10px" /><img src="./images/ex2_04_04.png" width="20%" style="margin:10px" /></p>
 
-## Exercise 5.4 Access your workspace from SAP Mobile Start as web view
-
-You can make Work Zone content, such as workspaces or workpages, available on SAP Mobile Start as web views. To achieve this, an administrator can create a URL application in the Content Manager using the URLs of the workspace or workpage. 
+Other Work Zone content, such as workspaces or workpages, available on SAP Mobile Start as web views. To achieve this, an administrator can create a URL application in the Content Manager using the URLs of the workspace or workpage. This was already pre-configured here for you so that you can now...
 
 

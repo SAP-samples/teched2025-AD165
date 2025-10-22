@@ -93,7 +93,7 @@ After completing these steps you will have designed a beautiful entry page for y
 As a first step, you will change the cover photo to something that fits the purpose of the workspace.
 
 1. Click **Edit Cover Photo**, then select **Upload Photo** from the dropdown list.
-<p align="center"><img src="./images/ex1_03_01_0001.png" width="90%" alt="Edit Cover Photo"/></p>
+<p align="center"><img src="./images/ex1_03_01_0001.png" width="70%" alt="Edit Cover Photo"/></p>
 
 2. Select the 'AI_Banner.jpg' from the folder to which you extracted the image files.
 
@@ -110,12 +110,13 @@ Now, you will change the avatar of the workspace, so you can recognize it more e
 <p align="center"><img src="./images/ex1_03_02_0001.png" width="90%" alt="Upload avatar"/></p>
 
 2. Upload any image from the images folder.
-3. Then deselect **Autofit** to be able to zoom and adjust the display window.
-<p align="center"><img src="./images/ex1_03_02_0003.png" width="70%" alt="Autofit"/></p>
+   
+4. Then deselect **Autofit** to be able to zoom and adjust the display window.
 
-4. Zoom into the uploaded image and select a nice detail by dragging the image to the right position.
-5. Click **Save changes**.
-<p align="center"><img src="./images/ex1_03_02_0005.png" width="70%" alt="Zoom reposition & Save"/></p>
+5. Zoom into the uploaded image and select a nice detail by dragging the image to the right position.
+   
+7. Click **Save changes**.
+<p align="center"><img src="./images/ex1_03_02_0005.png" width="50%" alt="Zoom reposition & Save"/></p>
 
 ---
 
@@ -128,28 +129,28 @@ Workpages can be structured using various layout elements that offer a flexible 
 
 
 1. Access the workpage editor from the right side of your workpage by clicking the pen icon.
-<p align="center"><img src="./images/ex1_03_03_0001.png" width="70%" alt="Go to workpage editor"/></p>
+<p align="center"><img src="./images/ex1_03_03_0001.png" width="90%" alt="Go to workpage editor"/></p>
 
 2. Hover the workpage to see the structure according to which the widgets on the page are arranged. You can see that there are several sections in this page, some of them have several columns. The borders of the sections, columns, and cells are displayed when you hover them.
    
-<p align="center"><img src="./images/ex1_03_03_0002.png" width="70%" alt="Hover structure"/></p>
+<p align="center"><img src="./images/ex1_03_03_0002.png" width="90%" alt="Hover structure"/></p>
 
 3. In the first step, you will add a banner image to the upmost section of the workpage. This section already contains an image widget, so you can either drag and drop the 'Overview_banner.png' onto the **Drop an image here to upload it** or click **Or click here to upload an image** and select the 'Overview_banner.png' for upload.
 
 4. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/Settings_icon.png).
-<p align="center"><img src="./images/ex1_03_03_0004.png" width="70%" alt="Edit cell settings"/></p>
+<p align="center"><img src="./images/ex1_03_03_0004.png" width="90%" alt="Edit cell settings"/></p>
 
 5. Change **Padding Bottom (px)** to 20 and set all switches to *On*, so the section is collapsible and open by default and to extend the background to full width. Add **#21275B** as background color. Then click **Save**.
-<p align="center"><img src="./images/ex1_03_03_0005.png" width="70%" alt="Change cell settings"/></p>
+<p align="center"><img src="./images/ex1_03_03_0005.png" width="90%" alt="Change cell settings"/></p>
 
 6. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/Settings_icon.png).
-<p align="center"><img src="./images/ex1_03_03_0006.png" width="70%" alt="Change cell settings"/></p>
+<p align="center"><img src="./images/ex1_03_03_0006.png" width="90%" alt="Change cell settings"/></p>
 
 7. Turn **Background** on to get a white frame around the image and click **Save**.
 <p align="center"><img src="./images/ex1_03_03_0007.png" width="70%" alt="Background ON"/></p>
 
 8. Add the image 'Vertical_S2.jpg' between the *Welcome* and *How to get started* text widgets in the same way.
-<p align="center"><img src="./images/ex1_03_03_0008.png" width="70%" alt="Added Image"/></p>
+<p align="center"><img src="./images/ex1_03_03_0008.png" width="90%" alt="Added Image"/></p>
 
 
 ---
@@ -158,7 +159,7 @@ Workpages can be structured using various layout elements that offer a flexible 
 
 You do not need the next section, so you are now going to delete it.
 Hover the section till you see the grey section frame and select the **Delete section** icon.
-<p align="center"><img src="./images/ex1_03_04_0000.png" width="70%" alt="Delete section"/></p>
+<p align="center"><img src="./images/ex1_03_04_0000.png" width="90%" alt="Delete section"/></p>
 
 ---
 
@@ -230,7 +231,7 @@ You would like to move the two elements (text and pink cell) to the left of the 
 1. Hover the section with the video until you see a plus sign to the left of the video. Click the plus icon to add another column to the section.
 <p align="center"><img src="./images/ex1_03_08_0001.png" width="60%" alt="Add Column"/></p>
 
-2. Drag and drop the content from the left column to the new column. You can drop it as soon as a blue line appears. Remove the empty column on the leftin case it is not automatically deleted.
+2. Drag and drop the two widgets from the right column to the new column. You can drop them as soon as a blue line appears. Remove the empty column on the right in case it is not automatically deleted.
 <p align="center"><img src="./images/ex1_03_08_0002.png" width="90%" alt="Remove column"/></p>
 
 ---
@@ -241,7 +242,7 @@ You would like to move the two elements (text and pink cell) to the left of the 
 <p align="center"><img src="./images/ex1_03_09_0001.png" width="100%" alt="Publish"/></p>
 
 2. In the publishing pop-up, keep all settings and click **Publish** again. Your changes are now visible to all users of the workspace
-<p align="center"><img src="./images/ex1_03_09_0002.png" width="50%" alt="Result Workpage Editing"/></p>
+<p align="center"><img src="./images/ex1_03_09_0002.png" width="35%" alt="Result Workpage Editing"/></p>
 
 
 

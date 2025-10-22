@@ -386,17 +386,21 @@ After completing these steps you will have added the card to SAP Build Work Zone
 
 ## Exercise 2.4 Make the new card available to all Work Zone users
 
-After completing these steps you will have made the card available for usage in SAP Build Work Zone.
-
-1. Go back to the Content Manager by clicking **Content Manager** in the breadcrumb.
+1. Go back to the Content Manager by clicking **Content Manager** in the top bread-crumb or Content Manager in left panel (which can be expanded or collaped by clicking on the top left burger menu button).
 
 > [!NOTE]
-> To make apps available to users, they need to be assigned to at least one of the user's roles. You will now assign the app to the Everyone role which is assigned to all users by default.
+> To make apps available to users, they need to be assigned to at least one of the user's roles. You will now assign the app to the `Everyone` role which is assigned to all users by default.
 
 2. Click the **Everyone** role in the content table to open it.
 3. Click the **Edit** button to switch to editing mode.
 4. Locate your app in the list of apps. If you do not see it immediately, you can search for your user number to find it more easily. Then switch the **Assignment Status** to **On**. 
 5. Click **Save**.
+
+![Asign to everyone](/exercises/ex2/images/02_04_0010.png)
+
+---
+
+## Exercise 2.5 Enable to card for usage in administrator console
 
 To allow end users to put the card on a page, you also need to enable it.
 
@@ -404,7 +408,10 @@ To allow end users to put the card on a page, you also need to enable it.
 7. In the menu, open **UI Integrations** > **Cards**.
 8. Enter your user number into the Search field to find your card. Then turn the switch to **On** to enable it for end user usage.
 
+![Asign to everyone](/exercises/ex2/images/02_05_0010.png)
+
 ## Summary
 
-You've now added a **UI integration card** page to Work Zone so that you can use it during page design. your workspace that contains a wizard that guides users throught he process of submitting an idea for an AI use case at ACME Corp, defining the MVP, and initiating the implementation. In the next exercise, you will add a workpage to the workspace you created in exercise 1 and build a wizard that guides users throught he process of submitting an idea for an AI use case.
+You've now added a **UI integration card** to Work Zone so that you can use it during page design. your workspace that contains a wizard that guides users throught he process of submitting an idea for an AI use case at ACME Corp, defining the MVP, and initiating the implementation. 
+
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)

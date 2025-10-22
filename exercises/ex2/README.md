@@ -360,18 +360,29 @@ After completing these steps you will have added the card to SAP Build Work Zone
 
 1. Go back to the tab with Work Zone still open. If you closed it, you can access it [here](https://ad165-m3ep4xn0.workzone.cfapps.eu10.hana.ondemand.com/site#workzone-home&/home).
 2. Now you need to navigate to the Administration environment. Click the User icon on the top right and select **Administration Console**.
-3. In the menu on the left, open **External Integrations** > ** Business Content** and click the **Content Manager** button. The Content Manager opens in a new browser tab.
+3. In the menu on the left, open **External Integrations** > **Business Content** and click the **Content Manager** button. The Content Manager opens in a new browser tab.
+
+![Content Manager Access](/exercises/ex2/images/02_03_0010.png)
 
 > [!NOTE]
 > In the Content Manager administrators can manage business content. The table contains all business content entities (like apps, pages, spaces, roles etc.) that have been made available from various sources. In the fourth column for example, you see the Content Channel via which the content was provided. Besides local content, some roles from SAP S/4HANA have been integrated with their assigned apps, spaces, and pages. You can use the filter to only display a specific content entity type like apps.
 
-6. A card is one visualization type of an app, so you will now create an app. Click the **Create** button and select **App** from the dropdown.
-7. Click **Visualization** to go directly to the Visualization tab.
-8. In the field *Visualization Type* select **UI Integration Card**. Then click the **Upload Card** button.
-9. Select the zip file you just downloaded from your *Downloads* folder. 
-
-11. Click **Save**. 
+4. You should be in the **Content Manager** view. Click the **Create** button and select **App** from the dropdown.
+![Create card view](/exercises/ex2/images/02_03_0020.png)
    
+5. Click **Visualization** to go directly to the Visualization tab.
+6. In the **Visualization Type** dropdown select **UI Integration Card**.
+
+![Create card view](/exercises/ex2/images/02_03_0030.png)
+   
+7. Click the **Upload Card** button.
+8. Select the card bundle zip file (you downloaded at the end of Exercise 2.2) from your **Downloads** folder. 
+
+![Create card view](/exercises/ex2/images/02_03_0040.png)
+
+9. Click **Save**.
+
+---
 
 ## Exercise 2.4 Make the new card available to all Work Zone users
 

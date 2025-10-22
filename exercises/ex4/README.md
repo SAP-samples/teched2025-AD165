@@ -62,16 +62,6 @@ After completing these steps you will have submitted an AI Use case using the wi
 8. Navigate to the last step of this stage **Done**. No need to do anything here, as it has already been populated.
    
 
-## <a id="mobile-start"></a> Exercise 2.5 Experience SAP Build Work Zone on a mobile device
-
-1.	In the same way as before, fill the steps of this stage as well. First, add the card **Define MVP Scope** to the step with the same name.
-2.	Next, add the card **Implementation Plan** to the second step.
-3.	Finally, add the card **Initiate MVP** to the step **Initiate MVP implementation**.
-
-Now, you are done. The wizard is completely configured. You might of course add further cards or widgets to the different steps, for example to provide the users with additional help and information like how-to videos and instructions.
-
-6.	Click **Publish** to make your new page available to workspace users. Permissions??? In the pop-up, click **Publish** again.
-<br>![](/exercises/ex4/images/02_02_0010.png)
 
 ## Summary
 

@@ -298,6 +298,8 @@ The manifest JSON at the very bottom should look like this now -
 > Please make sure to replace **`###`** with your participant number in every step below.
 > For example participant number _AD165-001_ should use **`001`** in place of **`###`**
 
+---
+
 5. Now we need to make the card unique for each participant. First of all, In the `sap.app` section on the top:
 - Modify the card's **`id`** into **`com.sap.teched.ad165.###`** to make it unique and avoid any conflict during uploading & uniqueness in Work Zone.
 <p align="center">
@@ -306,6 +308,8 @@ The manifest JSON at the very bottom should look like this now -
 
 > [!CAUTION]
 > Please do not use "-" in the id, only alphanumeric characters and "." 
+
+---
 
 6. Now change the card properties so that we can identify while adding the UI card to workspace later.
 
@@ -341,11 +345,14 @@ At this point, we are done with all changes in the card manifest. Your card shou
 <image src='/exercises/ex2/images/02_02_0060.png' height='500px'></image>
 </p>
 
+---
+
 8. Download the Card you've created. Click on the Download button on the top right and download Bundle as card.zip
 <br>![Download Cards zip](/exercises/ex2/images/02_02_0070.png)
 
 <br> - The card bundles should have been saved in the download folder of your participant machine. We will use it in subsequent exercise to upload to Work Zone as App visualization.
 
+---
 
 ## Exercise 2.3 Create an app on SAP Build Work Zone using your downloaded card
 

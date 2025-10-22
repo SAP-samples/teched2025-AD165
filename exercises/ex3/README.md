@@ -27,31 +27,55 @@ It gives you a single, structured tab where users can: read a short intro, add s
 
 1. On the right side of the **workspace menu** which you would find in the content section of the workspace (below the workspace banner image), click the + icon to add a new tab to the navigation bar.
 <br>![Add menu entry](/exercises/ex3/images/03_01_0010.png)
-2. The new menu entry should lead users to a workpage, so click the **Workpage** tile.
+
+3. You should see a pop-up with all options that you can add to the Workspace - **Workpage**, **Feed Update**, **Members**, **Content**, etc. The **Workpage** option allow you to add a freestyle workpage which you can design as per your purpose; all other options are pre-defined page from Work Zone. In this case, the new menu entry should lead users to a a new custom designed **Workpage**, so click on the **Workpage** tile.
 <br>![Workpage tile](/exercises/ex3/images/03_01_0020.png)
-3. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as *Tab Name*, and click **Add**.
+
+5. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as **Tab Name**, and click **Add**.
 <br>![Create Page](/exercises/ex3/images/03_01_0030.png)
 
-The new page is created and you can now start populating it with content. 
+The new page is created and you should see an empty **Workpage** in edit mode, where you start populating content.
+<br>![Add section](/exercises/ex3/images/02_01_0035.png)
 
 ---
 
-### Exercise 3.1.2 Add your card to the page
+### Exercise 3.1.2 Add content to the page
 
-Before you add the wizard, you add a welcoming text widget to explain what the use case repository is about and your card to the page.
+Before you add the **Guiided Experience** wizard to the page, you add an text block to explain what the use case repository is about.
 
 1. In the middle of the page, click **Add**. This way a freestyle section with one cell is created. You could also click the dropdown link and select **Freestyle** there.
 <br>![Add section](/exercises/ex3/images/02_01_0040.png)
-2. Hover the new section and click the **Add Content** button that appears.
-3. Select the **Text** widget from the widget gallery.
-4. Use text generation ??? to create a welcome text for this page. You might use the prompt
+
+2. You will now create a text message for the users with AI Assistance. Inside the section, click the dropdown on the **Add** button.
+<br>![Add text with AI](/exercises/ex3/images/02_01_0050.png)
+   
+3. This will open a **Generate Text** pop-up which allows you to enter aAI  prompt. Type in the following text - 
 ```
-Write a welcome text for a use case repository page where users can submit AI use cases and see the ideas of others
+Write a welcome text for a "Use Case Repository" workpage within the "AI Center of Excellence" Work Zone workspace. 
+In this workpage users can submit AI use cases and see the ideas of other users.
+Write in encouraging tone to use the Guided Experience wizard flow below in the page to capture their Ideas with the help and curate them with the help of embedded AI Assistance in each step.
+Generate in a markdown format with a Bold and large Title and content that is well formatter in bullet points and rich text formatting.
 ```
-5. To add your card next to the welcome text, add another column to the section in the same way as on the Welcome page.
-6. Click **Add Content**.
-7. In the pop-up, select **Cards**.
-8. Then select the card you created. You can find it by searching for your user number.
+Click on the blue **Send** icon button.
+   
+4. AI should respond with the **Generated Text**. You can review the text and decide to **Retry** with the same prompt or **Discard** the text completely to modify your Prompt and try fresh. For now, you can Click on **Accept** since you will have oppotunity to edit it further with AI Assistance.
+<br>![generate text](/exercises/ex3/images/02_01_0060.png)
+
+> [!TIP]
+> If the response is not well formatted with large title and bullet points, you can retry to make AI respond as per the prompt.
+
+5. The generated text should now be in the Page, With the rich text formatting. You can further edit the text by adding your own content or format it differently using the hovering text format menu which appears when you select a part of the text, as shown in the image below.
+<br>![text in page](/exercises/ex3/images/02_01_0070.png)
+
+6. You can edit the text further use AI assistance using the last **AI Assistance** button on the hovering text format menu. As an option, you select the last line and ask AI to make it a bit more casual. 
+<br>![text format options](/exercises/ex3/images/02_01_0080.png)
+
+7. It should again load the prompt window, but this time you don't have to define the prompt as it already creates the prompt based on the AI assistance option you selected. Select Accept
+   
+8. Click **Add Content**.
+
+9. In the pop-up, select **Cards**.
+10. Then select the card you created. You can find it by searching for your user number.
 
 ### Exercise 3.1.3 (optional) Add a rotating banner to the page 
 

@@ -1,17 +1,31 @@
 # Exercise 3 - Create a submission wizard for AI ideas
 
-In this exercise, you will create a new page **Use Case Repository** in your **AI CoE** workspace and a **Guided Experience** that lets users curate and submit AI use-case ideas in step by step AI-guided flow. 
+In this exercise, you will create a new page **Use Case Repository** in your **AI Center of Excellence** workspace and a **Guided Experience** that lets users curate and submit AI use-case ideas in step by step AI-guided flow. 
 
 > [!NOTE]
 > Guided experiences are designed to simplify multi-step business processes and complex workflows by breaking them down into manageable and intuitive steps. Each step can be enriched with various types of content, including videos, documents, forms, tasks, UI cards, and apps to provide users with all the necessary information to complete each step. Steps can be classified as optional or mandatory, ensuring critical tasks are completed while allowing flexibility for other actions. Users don't need to worry about finishing all the steps at once as the progress is saved within Work Zone, enabling them to resume from where they left off.  
 
 ---
 
-## <a id="create-page"></a> 3.1 Create a new page in your workspace
+## <a id="create-page"></a> 3.1 Create a new workpage in your workspace
 
-### Exercise 3.1.1 Add a workpage 
+#### What is a Workpage (in a Workspace)?
 
-1. On the right side of the menu, click the + icon to add a new tab to the navigation bar.
+A **workpage** is a content page inside an SAP Build Work Zone **workspace**. Each workpage appears as a **tab** in the workspace’s navigation and can be **reordered**, arranged in a hierarchy of pages, initiated for translation or even access-cotrolled to specific users of the workspace. Workpages are like webpages within websites where you assemble information, widgets, and guidance for your users.
+
+**How a workpage is structured**
+- **Sections**: A workpage is composed of vertical **sections** you can add, reorder, duplicate, or remove.
+- **Grid layout**: Each section uses a **responsive grid** (e.g., 1–3 columns). You can switch layouts at any time to change how content flows.
+- **Widgets & Apps**: Inside each section you place **widgets** (Text, Images, Rotating Banner, Links, etc.), **UI Integration Cards**, and **embedded apps**. These are your building blocks.
+- **Responsive behavior**: On smaller screens, columns **stack** automatically and content adapts to available width, keeping the page readable on laptops, tablets, and phones.
+- **Design freedom**: Combine multiple sections (e.g., a hero section with a Rotating Banner, a two-column section with Text + Card, and a single-column section with a Wizard) to guide users through tasks.
+
+**Why use a workpage for the Use Case Repository?**  
+It gives you a single, structured tab where users can: read a short intro, add specific **cards** around Idea Submission (like existing idea list), and complete a **wizard** (Guided Experience) — all in one place for specific purpose of managing ideas within the AI Center Of Excellence.
+
+### Exercise 3.1.1 Add a workpage from workspace menu
+
+1. On the right side of the **workspace menu** which you would find in the content section of the workspace (below the workspace banner image), click the + icon to add a new tab to the navigation bar.
 <br>![Add menu entry](/exercises/ex3/images/03_01_0010.png)
 2. The new menu entry should lead users to a workpage, so click the **Workpage** tile.
 <br>![Workpage tile](/exercises/ex3/images/03_01_0020.png)

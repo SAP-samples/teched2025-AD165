@@ -27,9 +27,9 @@ There are no specific requirements to follow the exercises 1-4 in this repositor
 
 - [Getting Started (Optional)](exercises/ex0/) - Learn about SAP Build Work Zone
 - [Exercise 1 - Build your Center of Excellence workspace](exercises/ex1/)
-    - [Exercise 1.1 - Create a public workspace from a template](exercises/ex1#create-public-ws)
-    - [Exercise 1.2 - Enhance the start page of the workspace with pre-configured widgets and images](exercises/ex1#enhance-home)
-    - [Exercise 1.3 - Add a discussion topic to the forum](exercises/ex1#add-discussion)
+    - [Exercise 1.1 - Get to know SAP Build Work Zone](exercises/ex1#access-wz)
+    - [Exercise 1.2 - Create a public workspace from a template](exercises/ex1#create-public-ws)
+    - [Exercise 1.3 - Enhance the start page of the workspace with pre-configured widgets and images](exercises/ex1#enhance-home)
 - [Exercise 2 - Add a UI integration card to your workspace](exercises/ex2/)
     - [Exercise 2.1 - What is the Card Explorer?](exercises/ex2#what-is-the-card-explorer)
     - [Exercise 2.2 - Select an advanced UI card and adapt it to your needs](exercises/ex2#exercise-22-select-an-advanced-ui-card-and-adapt-it-to-your-needs)

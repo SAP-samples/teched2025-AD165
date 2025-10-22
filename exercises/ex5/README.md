@@ -28,8 +28,12 @@ Since the download may take a moment depending on the network conditions, please
 After completing this exercise, you’ll be familiar with the administration of business content in SAP Build Work Zone. You already used this environment, when you were creating an app for your UI integration card in exercise 2. So let us go back there.
 
 1. Click the user avatar in the upper right corner and select **Administration Console**.
+
+<p align="center"><img src="./images/ex5_02_0010.png" width="60%" /></p>
+
 2. In the menu on the left, select **External Integrations** > **Business Content**, then click the **Content Manager** button.
-   
+
+<p align="center"><img src="./images/ex5_02_0020.png" width="60%" /></p>   
 ---
 
 ## What is the Content Manager?
@@ -39,32 +43,37 @@ The Content Manager is the tool you use to manage the business content items for
 - Search for content entities
 - Import and export content entities
 
-3. Navigate to the Content Explorer by clicking the **Content Explorer** button.
+3. Click the **Create** button to see the list of content entities you could create here in the dropdown.
+4. If you want, scroll down and click on any of the S/4HANA roles to open it and check out the apps and spaces assigned to it. Navigate back to the Content Manager using the breadcrumb.
+5. Navigate to the Content Explorer by clicking the **Content Explorer** button.
 
+<p align="center"><img src="./images/ex5_02_0030.png" width="80%" /></p>   
 ---
 
 ## What is the Content Explorer?
-The Content Explorer displays the available content providers and allows administrators to inspect the content items provided by them, such as apps and shell plugins, and add them to your subaccount.
+The Content Explorer displays the available content providers and allows administrators to inspect the content items provided by them, such as apps and shell plugins, and add them to the content which is available for usage in the Content Manager.
 
-In general, it is recommended to automatically add all content items to the subaccount, when you add a new content
-provider, but you might also choose to pick and choose only specific roles to be available using the Content Explorer.
+In general, it is recommended to automatically add all content items to the subaccount, when you setup a new content
+provider, but you might also decide that you prefer to pick and choose only specific roles to be available using the Content Explorer.
 
-4. Click the **S/4HANA** tile to open the Content Provider and see the exposed roles.
-   
-5. Click any of the roles to navigate into it and see the assigned apps and on the Spaces tab also the assigned space.
+4. Click the **S4HANA_TechED_AD165** tile to open the Content Provider and see the exposed roles. Notice that 24 roles have been exposed from the SAP S/4HANA public cloud system. Also from here, you can navigate into the roles to check which apps and spaces belong to them.
 
-6. Click the Channel Manager icon on the left to open the Channel Manager.
+<p align="center"><img src="./images/ex5_02_0040.png" width="80%" /></p>   
 
+5. Click the Channel Manager icon on the left to open the Channel Manager.
+
+<p align="center"><img src="./images/ex5_02_0050.png" width="80%" /></p>   
 ---
 
 ## What is the Channel Manager?
 Administrators use the Channel Manager to define, edit, and get updates from remote content providers. When a new subaccount is configured, the *HTML5 Apps* content channel is available by default. It enables administrators to easily integrate apps deployed on SAP BTP to Work Zone. The Channel Manager lets you:
 - Define new content channels based on SAP BTP destinations
 - Configure settings for content channels
-- Update a content channel manually. 
+- Update a content channel manually. However, setting up automatic updates is usually the prefered solution.
 
-Instead of the manual option, it is possible to set up automatic updates so that the content of the provider in the Channel Manager is updated automatically every time there are changes to the exposed content of the provider.
+<p align="center"><img src="./images/ex5_02_0060.png" width="80%" /></p>   
 
+1. Clicking the **New** button, you see that you can configure new content providers here, but also add an HTML5 Business Solution. This scenario enables providers of business solutions (SaaS) to share their business solution across subaccounts, by defining them as content providers. Both multi- and single-tenant business solutions are supported.
 
 
 ## Exercise 5.3 Access SAP Build Work Zone on a mobile device
@@ -88,28 +97,8 @@ The exposed content can not only be accessed from a desktop browser but also usi
 8. By switching to the *Apps* tab on the bottom, you will be able to see *Site's* content structure equivalently to what you saw on the Applications tab in the desktop version.
    <p align="center"><img src="./images/ex2_04_03.png" width="20%" style="margin:10px" /><img src="./images/ex2_04_04.png" width="20%" style="margin:10px" /></p>
 
-## Exercise 5.4 Make your workspace accessible from SAP Mobile Start as web view
+## Exercise 5.4 Access your workspace from SAP Mobile Start as web view
 
 You can make Work Zone content, such as workspaces or workpages, available on SAP Mobile Start as web views. To achieve this, an administrator can create a URL application in the Content Manager using the URLs of the workspace or workpage. 
 
-In a next step, it is then necessary to assign the app to a role. Finally, the app also needs to be assigned to the UI. This can be done by putting the app on a page that is visible by the user, i.e. a page that is assigned to a space that belongs to one of the user's roles.
 
-Please take a look at this graphic to explain these relationships between different types of content entities.
-    <p align="center"><img src="./images/ex2_04_01.png" width="20%" style="margin:10px" /><img src="./images/ex5_04_02.png" width="20%" style="margin:10px" /></p>
-
-You can now make your workspace available on SAP Mobile Start.
-
-### Exercise 5.4.1 Create a URL application
-
-
-### Exercise 5.4.2 Create a tenant-level page
-
-
-### Exercise 5.4.3 Create a tenant-level space
-
-
-### Exercise 5.4.4 Assing the space and the app to the Everyone role
-
-
-### Exercise 5.4.5 Open your workspace on SAP Mobile Start
-2. 

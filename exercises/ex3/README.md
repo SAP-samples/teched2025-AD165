@@ -71,13 +71,11 @@ Click on the blue **Send** icon button.
 <br>![text format options](/exercises/ex3/images/03_01_0080.png)
 
 7. It should again load the prompt window, but this time you don't have to define the prompt as it already creates the prompt based on the AI assistance option you selected. Select Accept
-   
-8. Click **Add Content**.
+<br>![text format options](/exercises/ex3/images/03_01_0090.png)
 
-9. In the pop-up, select **Cards**.
-10. Then select the card you created. You can find it by searching for your user number.
+You are done with creating the Welcome explanatory text. Stay in the edit mode for the next exercise.
 
-### Exercise 3.1.3 (optional) Add a rotating banner to the page 
+<!-- ### Exercise 3.1.3 (optional) Add a rotating banner to the page 
 
 After completing these steps you will have added a widget that describes the steps necessary to submit an AI use case in a nice visual way.
 
@@ -88,7 +86,7 @@ After completing these steps you will have added a widget that describes the ste
 5. Upload the **answer.jpg** image to the rotating banner and enter **Step 2** as *Title* and **Answer the questions with your best knowledge** as *Description*. Select *Text placement* as **Top Left** again.
 6. Finally, add another slide in the same way, upload the **IT.jpg** image to the rotating banner and enter **Step 3** as *Title* and **Wait for IT to approve / come back at your idea and see it represented down below** as *Description*.
 7. Now click **Save**.
-   
+-->   
 
 ## <a id="create-wizard">Exercise 3.2 Build a wizard based on a guided process from SAP Build Process Automation
 

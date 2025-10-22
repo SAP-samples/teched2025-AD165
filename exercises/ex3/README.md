@@ -1,27 +1,28 @@
 # Exercise 3 - Create a submission wizard for AI ideas
 
-In this exercise, you will create a new page Use Case Repository and a wizard (also known as Guided Experience) that supports users in submitting their ideas for AI use cases in ACME Corp. 
+In this exercise, you will create a new page **Use Case Repository** in your **AI CoE** workspace and a **Guided Experience** that lets users curate and submit AI use-case ideas in step by step AI-guided flow. 
 
 > [!NOTE]
 > Guided experiences are designed to simplify multi-step business processes and complex workflows by breaking them down into manageable and intuitive steps. Each step can be enriched with various types of content, including videos, documents, forms, tasks, UI cards, and apps to provide users with all the necessary information to complete each step. Steps can be classified as optional or mandatory, ensuring critical tasks are completed while allowing flexibility for other actions. Users don't need to worry about finishing all the steps at once as the progress is saved within Work Zone, enabling them to resume from where they left off.  
 
+---
 
-## <a id="create-page"></a> 2.1 Create a new page in your workspace
+## <a id="create-page"></a> 3.1 Create a new page in your workspace
 
-After completing these steps you will have created a new page that will host a Use Case Repository and allow users to submit use case ideas.
-
-### Exercise 2.1.1 Add a workpage 
+### Exercise 3.1.1 Add a workpage 
 
 1. On the right side of the menu, click the + icon to add a new tab to the navigation bar.
-<br>![Add menu entry](/exercises/ex3/images/02_01_0010.png)
+<br>![Add menu entry](/exercises/ex3/images/03_01_0010.png)
 2. The new menu entry should lead users to a workpage, so click the **Workpage** tile.
-<br>![Workpage tile](/exercises/ex3/images/02_01_0020.png)
+<br>![Workpage tile](/exercises/ex3/images/03_01_0020.png)
 3. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as *Tab Name*, and click **Add**.
-<br>![Create Page](/exercises/ex3/images/02_01_0030.png)
+<br>![Create Page](/exercises/ex3/images/03_01_0030.png)
 
 The new page is created and you can now start populating it with content. 
 
-### Exercise 2.1.2 Add your card to the page
+---
+
+### Exercise 3.1.2 Add your card to the page
 
 Before you add the wizard, you add a welcoming text widget to explain what the use case repository is about and your card to the page.
 
@@ -38,7 +39,7 @@ Write a welcome text for a use case repository page where users can submit AI us
 7. In the pop-up, select **Cards**.
 8. Then select the card you created. You can find it by searching for your user number.
 
-### Exercise 2.1.3 (optional) Add a rotating banner to the page 
+### Exercise 3.1.3 (optional) Add a rotating banner to the page 
 
 After completing these steps you will have added a widget that describes the steps necessary to submit an AI use case in a nice visual way.
 
@@ -51,11 +52,11 @@ After completing these steps you will have added a widget that describes the ste
 7. Now click **Save**.
    
 
-## <a id="create-wizard">Exercise 2.2 Build a wizard based on a guided process from SAP Build Process Automation
+## <a id="create-wizard">Exercise 3.2 Build a wizard based on a guided process from SAP Build Process Automation
 
 After completing these steps you will have created the skeleton for your wizard with some pre-defined stages and steps.
 
-### Exercise 2.2.1 Add a wizard to your page
+### Exercise 3.2.1 Add a wizard to your page
 
 1. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
 
@@ -71,7 +72,7 @@ Below, you can see a preview of the Stages and Steps that will be part of the ne
 5. Click **Save** to create the wizard.
 
 
-### Exercise 2.2.2 Edit steps in stage Idea Generation & Refinement
+### Exercise 3.2.2 Edit steps in stage Idea Generation & Refinement
 
 After completing these steps you will have assigned widgets to allow users to execute all steps in the first stage.
 
@@ -96,7 +97,7 @@ After completing these steps you will have assigned widgets to allow users to ex
 8. Navigate to the last step of this stage **Done**. No need to do anything here, as it has already been populated.
    
 
-### Exercise 2.2.3 Edit steps in stage Idea to Implementation
+### Exercise 3.2.3 Edit steps in stage Idea to Implementation
 
 After completing these steps you will have completed and published the full guided experience wizard.
 

@@ -33,10 +33,28 @@ Note the navigation menu on top of the screen. It contains some default entries 
 
 After completing these steps you will have created a Center of Excellence workspace and made some initial settings. This step does not need to be done by an administrator, but according to their preferences, customers can allow every user or only a specific group of key users to create workspaces to share knowledge and collaborate with colleagues.
 
+
 > [!NOTE]
-> Workspaces can be created from template or from scratch. SAP Build Work Zone comes with a number of pre-configured workspace templates for different use cases to give users a jumpstart when they build their own workspaces. The Digital Center of Excellence template is not part of the standard templates that SAP delivers, but it can be downloaded from the [SAP Build Governance Resource Center](https://workzone.one.int.sap/site#workzone-home&/groups/dfHGUSyc55Z70bNJiHhIsR/workpage_tabs/u4QN8ZTukJEYfR1SXxfMPQ). This is a public workspace open to everyone - please refer to this script ??? for getting access.
+> Understanding SAP Build Work Zone: Workspaces
 >
-> There are many options when creating a workspace that you should be aware of. First, there are public workspaces where everyone can join, view, and collaborate in compared to private workspaces that are usually hidden and only accessible to users who have been invited to it. When you create a workspace, you automatically become the workspace administrator. However, you can designate other members to be an admin too. As an admin, you can define what members or non members should be allowed to do in your workspace.
+>**Workspace Creation:**
+>
+>- Workspaces can be created from scratch or using templates.
+>- SAP Build Work Zone provides pre-configured templates for various use cases to help users get started quickly.
+>- The Digital Center of Excellence template is not included in the standard SAP templates but can be downloaded from the [SAP Build Governance >Resource Center](https://workzone.one.int.sap/site#workzone-home&/groups/dfHGUSyc55Z70bNJiHhIsR/workpage_tabs/u4QN8ZTukJEYfR1SXxfMPQ). This is >a public workspace open to everyone. Please refer to this script??? for access details.
+>
+>**Workspace Types:**
+>
+>- **Public Workspaces**: Open to everyone for viewing, joining, and collaborating.
+>- **Private Workspaces**: Hidden and accessible only to invited users.
+>
+>**Workspace Administration:**
+>
+>- The creator of a workspace automatically becomes its administrator.
+>- Additional members can be designated as admins.
+>- Admin privileges include defining permissions for members and non-members, such as what actions they can perform within the workspace.
+
+STEPS: 
 
 1.	In the menu bar, navigate to *Workspaces > New Workspace*.
 <p align="center"><img src="./images/ex1_02_01_0000.png" width="70%" alt="New Workspace"/></p>

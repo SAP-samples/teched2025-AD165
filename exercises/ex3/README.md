@@ -35,7 +35,7 @@ It gives you a single, structured tab where users can: read a short intro, add s
 <br>![Create Page](/exercises/ex3/images/03_01_0030.png)
 
 The new page is created and you should see an empty **Workpage** in edit mode, where you start populating content.
-<br>![Add section](/exercises/ex3/images/02_01_0035.png)
+<br>![Add section](/exercises/ex3/images/03_01_0035.png)
 
 ---
 
@@ -44,10 +44,10 @@ The new page is created and you should see an empty **Workpage** in edit mode, w
 Before you add the **Guiided Experience** wizard to the page, you add an text block to explain what the use case repository is about.
 
 1. In the middle of the page, click **Add**. This way a freestyle section with one cell is created. You could also click the dropdown link and select **Freestyle** there.
-<br>![Add section](/exercises/ex3/images/02_01_0040.png)
+<br>![Add section](/exercises/ex3/images/03_01_0040.png)
 
 2. You will now create a text message for the users with AI Assistance. Inside the section, click the dropdown on the **Add** button.
-<br>![Add text with AI](/exercises/ex3/images/02_01_0050.png)
+<br>![Add text with AI](/exercises/ex3/images/03_01_0050.png)
    
 3. This will open a **Generate Text** pop-up which allows you to enter aAI  prompt. Type in the following text - 
 ```
@@ -59,16 +59,16 @@ Generate in a markdown format with a Bold and large Title and content that is we
 Click on the blue **Send** icon button.
    
 4. AI should respond with the **Generated Text**. You can review the text and decide to **Retry** with the same prompt or **Discard** the text completely to modify your Prompt and try fresh. For now, you can Click on **Accept** since you will have oppotunity to edit it further with AI Assistance.
-<br>![generate text](/exercises/ex3/images/02_01_0060.png)
+<br>![generate text](/exercises/ex3/images/03_01_0060.png)
 
 > [!TIP]
 > If the response is not well formatted with large title and bullet points, you can retry to make AI respond as per the prompt.
 
 5. The generated text should now be in the Page, With the rich text formatting. You can further edit the text by adding your own content or format it differently using the hovering text format menu which appears when you select a part of the text, as shown in the image below.
-<br>![text in page](/exercises/ex3/images/02_01_0070.png)
+<br>![text in page](/exercises/ex3/images/03_01_0070.png)
 
 6. You can edit the text further use AI assistance using the last **AI Assistance** button on the hovering text format menu. As an option, you select the last line and ask AI to make it a bit more casual. 
-<br>![text format options](/exercises/ex3/images/02_01_0080.png)
+<br>![text format options](/exercises/ex3/images/03_01_0080.png)
 
 7. It should again load the prompt window, but this time you don't have to define the prompt as it already creates the prompt based on the AI assistance option you selected. Select Accept
    

@@ -67,7 +67,7 @@ In the meantime, you can download some images that you can use when editing your
 7. Click the content.zip file and use the download button to download the zip file to your local computer.
 8. Extract the zip file into a folder of your choice.
 
-<p align="center"><img src="./images/ex1_02_07_0000.png" width="60%" alt="WorkspaceReady"/></p>
+<p align="center"><img src="./images/ex1_02_07_0001.png" width="60%" alt="WorkspaceReady"/></p>
 
 Once your workspace is fully loaded, you can get started by making yourself familiar with the content it already contains.
 
@@ -135,7 +135,6 @@ Workpages can be structured using various layout elements that offer a flexible 
 <p align="center"><img src="./images/ex1_03_03_0002.png" width="70%" alt="Hover structure"/></p>
 
 3. In the first step, you will add a banner image to the upmost section of the workpage. This section already contains an image widget, so you can either drag and drop the 'Overview_banner.png' onto the **Drop an image here to upload it** or click **Or click here to upload an image** and select the 'Overview_banner.png' for upload.
-<p align="center"><img src="./images/ex1_03_03_0003.png" width="70%" alt="Hover structure"/></p>
 
 4. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/Settings_icon.png).
 <p align="center"><img src="./images/ex1_03_03_0004.png" width="70%" alt="Edit cell settings"/></p>
@@ -165,39 +164,43 @@ Hover the section till you see the grey section frame and select the **Delete se
 
 #### Exercise 1.3.5   Edit the News section
 
-This news section was built with text widgets. There are other widgets available for that as well, e.g. the Rotating Banner widget which you will see later in exercise 3 or the News Feed which displays news from an RSS feed.
+This news section was built with text widgets. You might also use the Rotating Banner widget for this purpose which you will see later in exercise 3.
 
 1. In the **News** section, change the title to **Current News**.
 <p align="center"><img src="./images/ex1_03_05_0001.png" width="70%" alt="News section"/></p>
 
-2. In the leftmost text widget, you will now change the text to announce a new submission tool. You can use the text generation capability of SAP Build Work Zone to help you generate a text quickly. Click on Add > Generate Text 
-<p align="center"><img src="./images/ex1_03_05_0002.png" width="70%" alt="Delete section"/></p>
+2. In the leftmost text widget, you will now change the text to announce a new submission tool.
 
-3. Enter a prompt, e.g. Share some exciting news about AI usage at ACME Corp.
-<p align="center"><img src="./images/ex1_03_05_0003.png" width="70%" alt="Enter a prompt"/></p>
+Click into the text field and replace the headline with **Submit your AI Ideas!** and the paragraph with this text
 
-Wait for the text to be generated, then accept or discard (to enter a new prompt) or retry with the same prompt
-<p align="center"><img src="./images/ex1_03_05_0031.png" width="70%" alt="Accept or Discard"/></p>
+````
+We're excited to introduce a new wizard that lets you share your AI ideas to boost work efficiency. Your insights are key to refining our processes and keeping us at the forefront of the industry. You can find this wizard on the Use Case Repository page in this workspace. We truly appreciate your contributions!
+````
+Make sure to keep the same font sizes as in the other text widgets: 14pt for the headline and 12pt for the paragraph.
+<p align="center"><img src="./images/ex1_03_05_0032.png" width="70%" alt="Changed News"/></p>
 
-4. Finally share the news.
-<p align="center"><img src="./images/ex1_03_05_0004.png" width="70%" alt="Share News"/></p>
+Your changes are saved as soon as you move the mouse away from the text widget.
 
 
 ---
 
 #### Exercise 1.3.6   Add a Feed widget to the page
 
+You will now add a new section that shall contain a full width feed widget. There are two options when creating sections in Work Zone: **Freestyle sections and wizard sections to host Guided Experiences**. Freestyle sections are automatically created with one column and one cell, so you can immediately add content to it or extend the structure by adding further columns and cells. 
+
 1. Hover the **News** section again until an **Add section** button appears below it. Click the button and select **Freestyle** in the pop-up window.
 <p align="center"><img src="./images/ex1_03_06_0001.png" width="90%" alt="Add section"/></p>
 
-2. Click the **Add Content** button in the new section.
+There is now a new option besides adding a tile, card, or other widget from the widget gallery to a cell: You can also use AI to generate a text to put into the cell. You will do this later in exercise 4. Now you will put an SAP delivered Feed widget.
+
+2. Click the left side of the **Add** button in the new section or click the dropdown icon and select **Add Content**. 
 <p align="center"><img src="./images/ex1_03_06_0002.png" width="90%" alt="Add Content"/></p>
   
 3. Select the **Feed** widget.
-<p align="center"><img src="./images/ex1_03_06_0003.png" width="90%" alt="Feed Widget"/></p>
+<p align="center"><img src="./images/ex1_03_06_0003.png" width="60%" alt="Feed Widget"/></p>
 
 4. In the Feed widget properties, select **Workspace Status Only** in the *Filter By* field. Change the *Widget Title* to **Workspace Feed**. Then click **Save**.
-<p align="center"><img src="./images/ex1_03_06_0004.png" width="70%" alt="Feed Widget Properties"/></p>
+<p align="center"><img src="./images/ex1_03_06_0004.png" width="60%" alt="Feed Widget Properties"/></p>
 
 ---
 

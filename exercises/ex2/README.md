@@ -408,10 +408,32 @@ To allow end users to put the card on a page, you also need to enable it.
 7. In the menu, open **UI Integrations** > **Cards**.
 8. Enter your user number into the Search field to find your card. Then turn the switch to **On** to enable it for end user usage.
 
-![Asign to everyone](/exercises/ex2/images/02_05_0010.png)
+![enable card in admin console](/exercises/ex2/images/02_05_0010.png)
+
+## Exercise 2.6 Add the UI Card into AI CoE workspace
+
+1. Using the top menu, **Workspaces** navigate to the Workspace you created in Exercise #1 - **AI Center of Excellence ###**.
+2. Using the pencil icon from the floating action strip on the mid-right margin, enter the edit mode for the workspace.
+3. Add a new **Frestyle** section at the end of the overview page (see screenshot below)
+   
+![add freestyle section](/exercises/ex2/images/02_06_0010.png)
+
+4.  In this newly added section, click on **add** or **add content** from the dropdown.
+
+![add content](/exercises/ex2/images/02_06_0020.png)
+   
+5.  You should see a list of widgets. Select **cards**.
+
+6. Search for the card with your user ID `###` and select the UI card which you created in previous exercises 2.1 to 2.5.
+
+![add content](/exercises/ex2/images/02_06_0030.png)
+
+7.   The card should appear in the section. Click on publish to confirm the UI ard addition to the workspace.
+
+---
 
 ## Summary
 
-You've now added a **UI integration card** to Work Zone so that you can use it during page design. your workspace that contains a wizard that guides users throught he process of submitting an idea for an AI use case at ACME Corp, defining the MVP, and initiating the implementation. 
+You've now created a **UI integration card** and added it to Work Zone workspace.
 
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)

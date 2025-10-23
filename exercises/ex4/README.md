@@ -5,10 +5,12 @@ In this exercise, you will submit an AI use case using the wizard you just creat
 
 ## <a id="ai-feed"></a> Exercise 4.1 Use generative AI to create a status update
 
+AI integration in SAP Build Work Zone can help users and administrators to work more efficiently. Let's see how text generation can support users in writing texts. 
+
 After completing these steps you will have sent a status update to all users.
 
 1. Navigate back to the Home page of SAP Build Work Zone by clicking Home in the Work Zone menu.
-<br>![Go to Home](/exercises/ex3/images/03_01_0010.png)
+<image src='/exercises/ex4/images/03_01_0010.png' width='70%'></image>
 2. On the right side of the Home page beneath the banner, there is a feed widget where users with the required permission can share an update with the whole company. 
 <br>![Workpage tile](/exercises/ex3/images/03_01_0020.png)
 3. Click the **Generate text with AI** icon to get some help with writing your feed.

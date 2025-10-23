@@ -314,14 +314,13 @@ The manifest JSON at the very bottom should look like this now -
 6. Now change the card properties so that we can identify while adding the UI card to workspace later.
 
    <br> - Change the *`title`* and *`shortTitle`* properties into `Standard AI Agents List Card by AD165-###`
-   <br> - Change the *`subTitle`* into `Delivered by SAP`
+   <br> - Change the *`subTitle`* and *`description`* properties into `Delivered by SAP`
    <br> - Change the *`info`* into `Custom Card for Teched Hands-On`
-   <br> - Change the *`description`* into `Delivered by SAP`
 
-The `sap.app` section starting in lines 3 should look like this now:
+The `sap.app` section starting in line 3 should look like this now:
 
 <p align="center">
-<image src='/exercises/ex2/images/02_02_0040.png' width='600px'></image>
+<image src='/exercises/ex2/images/02_02_0039.png' width='600px'></image>
 </p>
 
 These are only metadata changes to the UI Card. These fields are used to identify the card while adding to Work Zone and does not have any impact on the UI of the card.
@@ -333,10 +332,10 @@ These are only metadata changes to the UI Card. These fields are used to identif
    <br> - Change the *`subtitle`* property into `List Card by AD165-###` (line 26)
    <br> - Change the *`icon`* property into SAP AI icon by using the src of `"sap-icon://ai"` (ine 27)
    
-The `sap.card` `header` section starting in lines 24 should look like this now:
+The `sap.card` `header` section starting in line 24 should look like this now:
 
 <p align="center">
-<image src='/exercises/ex2/images/02_02_0050.png' width='500px'></image>
+<image src='/exercises/ex2/images/02_02_0040.png' width='500px'></image>
 </p>
 
 At this point, we are done with all changes in the card manifest. Your card should look like this in the preview - 

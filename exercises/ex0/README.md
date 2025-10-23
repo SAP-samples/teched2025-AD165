@@ -1,8 +1,7 @@
-# Level 1 Heading
+# Getting Started
 
-In this exercise, you will...
+Please find here the slides that were presented as an introduction to the hands-on workshop AD165 at SAP TechEd 2025.
 
-## Level 2 Heading
 
 After completing these steps you will have....
 

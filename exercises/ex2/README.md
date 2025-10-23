@@ -400,7 +400,7 @@ After completing these steps you will have added the card to SAP Build Work Zone
 
 ---
 
-## Exercise 2.5 Enable to card for usage in administrator console
+## Exercise 2.5 Enable the card for usage in administrator console
 
 To allow end users to put the card on a page, you also need to enable it.
 
@@ -409,6 +409,8 @@ To allow end users to put the card on a page, you also need to enable it.
 8. Enter your user number into the Search field to find your card. Then turn the switch to **On** to enable it for end user usage.
 
 ![enable card in admin console](/exercises/ex2/images/02_05_0010.png)
+
+---
 
 ## Exercise 2.6 Add the UI Card into AI CoE workspace
 

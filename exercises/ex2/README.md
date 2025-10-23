@@ -428,7 +428,7 @@ To allow end users to put the card on a page, you also need to enable it.
 
 ![add content](/exercises/ex2/images/02_06_0030.png)
 
-7.   The card should appear in the section. Click on publish to confirm the UI ard addition to the workspace.
+7.   The card should appear in the section. Click on publish to confirm the UI card addition to the workspace.
 
 ---
 

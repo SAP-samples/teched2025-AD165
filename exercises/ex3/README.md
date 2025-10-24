@@ -73,7 +73,7 @@ Click on the blue **Send** icon button.
 7. It should again load the prompt window, but this time you don't have to define the prompt as it already creates the prompt based on the AI assistance option you selected. Select Accept
 <br>![text format options](/exercises/ex3/images/03_01_0090.png)
 
-You are done with creating the Welcome explanatory text. Stay in the edit mode for the next exercise.
+You have now complete this exercise of creating the Welcome explanatory text for the new workpage. Stay in the edit mode for the next exercise.
 
 <!-- ### Exercise 3.1.3 (optional) Add a rotating banner to the page 
 

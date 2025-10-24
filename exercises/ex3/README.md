@@ -94,6 +94,11 @@ After completing these steps you will have created the skeleton for your wizard 
 
 ### Exercise 3.2.1 Add a wizard to your page
 
+In this exercise you will create a **[Guided Experience](https://community.sap.com/t5/technology-blog-posts-by-sap/guided-experiences-powered-by-sap-build/ba-p/13898694)** using pre-created **Guided Process** in **SAP Build Process Automation**.
+
+#### So what are Guided Experiences?
+
+
 1. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
 
 > [!NOTE]

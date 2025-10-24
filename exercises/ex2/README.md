@@ -1,4 +1,4 @@
-<img width="538" height="213" alt="image" src="https://github.com/user-attachments/assets/010afedf-ddcb-4a2f-a6fa-3aaf22cfc090" /># Exercise 2 - Add a UI integration card to your workspace
+# Exercise 2 - Add a UI integration card to your workspace
 
 In this exercise, you will learn what are UI integration cards, you will modify a sample card, connect it with real data, download the card bundle, upload it to Work Zone, enable the card access via administration activities and finally add it to a workspage in your workspace.
 

@@ -97,7 +97,7 @@ After completing these steps you will have created the skeleton for your wizard 
 In this exercise you will create a **[Guided Experience](https://community.sap.com/t5/technology-blog-posts-by-sap/guided-experiences-powered-by-sap-build/ba-p/13898694)** using pre-created **Guided Process** in **SAP Build Process Automation**.
 
 #### So what are Guided Experiences?
-
+[Click here to download background image for the Guided Experience](https://github.com/SAP-samples/teched2025-AD165/raw/refs/heads/main/exercises/ex3/images/03_02_0010.jpeg)
 
 1. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
 

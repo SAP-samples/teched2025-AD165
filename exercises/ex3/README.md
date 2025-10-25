@@ -147,7 +147,7 @@ Below, you can see a preview of the Stages and Steps that will be part of this *
 > You can either create a wizard from scratch by defining stages and steps manually or you can model a complex multi-step process as a *Guided Process* in SAP Build Process Automation and use it as a basis for your wizard. When you select the *Guided Process* to fetch and auto-generate the stages and steps in the wizard, you cannot modify the stages and steps configuration in Work Zone. Such changes, if required, must be done in the *Guided Process* itself.
 
 6. (Optional) Change the cover image of the Guided Experience.
-   [right click on this link and save to local computer](/exercise/ex3/images/GuidedExperienceBackground.jpeg)
+   [right click on this link and save to local computer](https://github.com/SAP-samples/teched2025-AD165/blob/main/exercises/ex3/images/GuidedExperienceBackground.jpeg?raw=true)
 
 Once you have saved the image (default download location should C:\Users\<Your Username>\Downloads), you can click on the image icon the top-right of the Guided Experience preview as shown in the image below. 
 <p align="center"><img src="/exercises/ex3/images/03_02_0050.png" width="700"/></p>

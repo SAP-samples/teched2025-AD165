@@ -231,12 +231,23 @@ optionally, you can add a feed update message, which will inform all users that 
 
 ## 3.3 (Optional) Add a UI card to view the submitted ideas
 
-You have created the workpage **Use Case Repository** where employees of your organization can manage their AI specific ideas in the overall **AI Center of Excellence** workspace. 
-You have added a **Guided Experience** to this new workpage which enables the employees to create new ideas and take it towards realization.
+In Exercise 3.1, you have created the workpage **Use Case Repository** where employees of your organization can manage their AI specific ideas in the overall **AI Center of Excellence** workspace. 
+Then in Exercise 3.2, You have added a **Guided Experience** to this new workpage which enables the employees to create new ideas and take it towards realization.
 Now, you will add a UI card that shows all the AI based ideas / usecases that all employees have added and their respective status. You can interact with these ideas, vote or add comments on them.
 
-1. Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. This is exactly same as Exercise 3.2.3 step 1 above.
-2. 
+1. Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. Gettinginto edit mode is exactly same as Exercise 3.2.3 step 1 above. You use the pencil icon from the floating toolbar on the right-middle margin of the workpage.
+
+2.  Create a new section at the bottom of the page. Hover over the **Wizard** section, that you created in Exercise 3.2, and click on the **Add Section** at the bottom-middle border of this section. Select **Freestyle** this time, since you will add a UI integration card in this section.
+<br>![add card section](/exercises/ex3/images/03_03_0010.png)
+
+3.  In the newly created section, click on the **add** button (or the **add content** within the drop-down of the add option).
+<br>![add card section](/exercises/ex3/images/03_03_0020.png)
+
+4.  Select the **cards** tile, search for **All Ideas** card, select the card and in the next screen click **save** to add it to the section.
+<br>![add card section](/exercises/ex3/images/03_03_0010.png)
+
+5.  
+6.  
 
 ---
 

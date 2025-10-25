@@ -243,16 +243,16 @@ Now, you will add a UI card that shows all the AI based ideas / usecases that al
 3.  In the newly created section, click on the **add** button (or the **add content** within the drop-down of the add option).
 <br>![add card section](/exercises/ex3/images/03_03_0020.png)
 
-4.  Select the **cards** tile, search for **All Ideas** card, select the card and in the next screen click **save** to add it to the section.
-<br>![add card section](/exercises/ex3/images/03_03_0010.png)
+4.  Select the **cards** tile, search for **All Ideas** card, select the card listed there and in the next screen click **save** to add it to the section.
+<br>![add card section](/exercises/ex3/images/03_03_0030.png)
 
-5.  
-6.  
+5.  You would see the added card at the bottom of the workpage with some existing ideas (pre-created as examples) and as and when users will create new ideas (in Exercise 4), these ideas will start appearing in this UI card.
+<br>![add card section](/exercises/ex3/images/03_03_0040.png)
 
 ---
 
 ## Summary
 
-You've now added a **Use case repository** page to your workspace that contains a wizard that guides users throught he process of submitting an idea for an AI use case at ACME Corp, defining the MVP, and initiating the implementation. In the next exercise, you will experience your workspace from a user perspective.
+You've now added a **Use case repository** page to your workspace that contains a wizard that guides users throught he process of submitting an idea for an AI use cases sand a card that lists all the ideas and their respective status. In the next exercise, you will experience your workspace from a user perspective.
 
 Continue to - [Exercise 4 - Experience SAP Build Work Zone and your workspace as an end user](../ex4/README.md)

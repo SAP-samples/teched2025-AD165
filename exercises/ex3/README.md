@@ -121,26 +121,51 @@ Below, you can see a preview of the Stages and Steps that will be part of this *
 > [!NOTE]
 > You can either create a wizard from scratch by defining stages and steps manually or you can model a complex multi-step process as a *Guided Process* in SAP Build Process Automation and use it as a basis for your wizard. When you select the *Guided Process* to fetch and auto-generate the stages and steps in the wizard, you cannot modify the stages and steps configuration in Work Zone. Such changes, if required, must be done in the *Guided Process* itself.
 
-6. (Optional) Change the cover image of the Guided Experience. You can customize the 
-  
+6. (Optional) Change the cover image of the Guided Experience.
+   [right click on this link and save to local computer](/exercise/ex3/images/GuidedExperienceBackground.jpeg)
+
+Once you have saved the image (default download location should C:\Users\<Your Username>\Downloads), you can click on the image icon the top-right of the Guided Experience preview as shown in the image below. 
+
+<br>![multi-instance process](/exercises/ex3/images/03_02_0050.png)
+
+Navigate to the Downloads folder in your system and select the downloaded image from step 6. You should see a new background in the Guided Experience preview. This is how the Guided experience would look like to all users of this workspace after you save and submit the workpage changes.
+
 8. Click **Save** to create the wizard.
 
-### Exercise 3.2.4 Edit steps in stage Idea Generation & Refinement
+### Exercise 3.2.4 Edit steps in stage Idea Creation & Refinement
 
-After completing these steps you will have assigned widgets to allow users to execute all steps in the first stage.
+For each In each of the steps below, 
 
-1. In the **Persona and Problem Description** step, click **Add widget**.
-<br>![Add widget](/exercises/ex3/images/02_04_0010.png)
+you will be required to click on the **Add widget** button in the middle of the step UI.
+<br>![Add widget](/exercises/ex3/images/03_04_0010.png)
 
-2. Select the **Cards** tile and choose card **Refine Problem Statement**.
-3. You do not need to make any additional settings, just click **Save**.
+And select the **cards** tile.
+<br>![Add card](/exercises/ex3/images/03_04_0020.png)
+
+1. In the first step, **Problem Description** step, click **Add widget**, go to **cards** tile and search for `Refine Problem`. You should see the **Refine Problem Statement**, select it to add as the step UI.
+<br>![search and add card](/exercises/ex3/images/03_04_0030.png)
+   
+You do not need to make any additional settings, just click **Save**.
+<br>![save step UI](/exercises/ex3/images/03_04_0040.png)
 
 > [!NOTE]
-> SAP UI Integration cards can easily be created and made available for usage in SAP Build Work Zone with SAP Business Application Studio.
+> You have already created a SAP UI Integration card in Exercise 2. Similarly, UI integration cards were already pre-created for ease of this **Guided Experience** exercise.
+> While creating the Guided Experience, you will not be able to interact with the card, even though the cards are visible in the wizard steps. Once you sibmit the overall guided experience, the users will be able to interact with the step UIs when they initiate the wizard flow.
 
-4. Now move on to the next step. Click **Review Matching Proposals**. In this step, the users should check if their proposal is really a new idea or if something very similar or identical has already been submitted or maybe even implemented. To support this step, we created a card that uses AI to identify such duplicate ideas.
+In this step, the user is asked to define the problem statement, who is affected by the problem and what would be the impact of the AI driven solution idea that he wants to capture through this wizard. This will help AI to find matching standard solution or ideas submitted by other users.
 
-5. Add the card  **Matching Solutions** in the same way as before.
+2. Now move on to the next step. Click **Review Matching Proposals** on the top wizard breadcrumb.
+<br>![save step UI](/exercises/ex3/images/03_04_0050.png)
+
+Following the step 1 instructions, add the widget --> card --> **Matching Solutions**.
+
+> [!IMPORTANT]
+> You will see an error when you save the card configuration and add the card to the step. This is because, even while creating the **Guided Experience**, the card is rendered triggering it's actions. This card expects that a problem statement is defined in the previous step but that's not true during the wizard creation. You can click on **close** on the error message and continue. During actual usage of the guided experience, this error shouldn't come as the user can only come to the second step after completing the first step - which should already capture the required input to this card.
+> <br>![save step UI](/exercises/ex3/images/03_04_0060.png)
+
+In this step, the users should check if their proposal is really a new idea or if something very similar or identical has already been submitted or maybe even implemented. To support this step, we created a card that uses AI to identify such matching standard AI capabilities or other ideas submitted in the **AI Center Of Excellence workspace** through this wizard.
+
+3. Now move on to the next step. Click **Review Matching Proposals** on the top wizard breadcrumb.
 
 > Don't worry about the error message about an undefined problem statement. This will not happen during runtime, as the first step was defined as a mandatory step, so users cannot reach this step without having entered a description of the problem.
 

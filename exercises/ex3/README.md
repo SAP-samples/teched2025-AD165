@@ -31,10 +31,10 @@ It gives you a single, structured tab where users can: read a short intro, add s
 <br>![Add menu entry](/exercises/ex3/images/03_01_0010.png)
 
 3. You should see a pop-up with all options that you can add to the Workspace - **Workpage**, **Feed Update**, **Members**, **Content**, etc. The **Workpage** option allow you to add a freestyle workpage which you can design as per your purpose; all other options are pre-defined page from Work Zone. In this case, the new menu entry should lead users to a a new custom designed **Workpage**, so click on the **Workpage** tile.
-<p align="center"><img src="/exercises/ex3/images/03_01_0020.png" width="700"/></p>
+<p align="center"><img src="/exercises/ex3/images/03_01_0020.png" width="600"/></p>
 
 5. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as **Tab Name**, and click **Add**.
-<p align="center"><img src="/exercises/ex3/images/03_01_0030.png" width="700"/></p>
+<p align="center"><img src="/exercises/ex3/images/03_01_0030.png" width="600"/></p>
 
 The new page is created and you should see an empty **Workpage** in edit mode, where you start populating content.
 <br>![Add section](/exercises/ex3/images/03_01_0035.png)
@@ -91,6 +91,10 @@ In this exercise you will create a **Guided Experience** using pre-created **Gui
 > [!TIP]
 > This exercise is more for learning and knowledge. You can skip this section since you don't have to take any action in this section.
 
+<details>
+  <summary><b>Reading content on Guided Experience and Guided Process</b></summary>
+<br>
+   
 **Guided Experiences** in SAP Build Work Zone are **step-by-step**, **self-service journeys** that package the right content and tools—videos, documents, apps, and UI Integration Cards—into clear stages and steps. They support mandatory/optional steps, **save progress** so users can resume later, and can run multiple instances in parallel or be restarted when needed—making complex processes like onboarding, benefits enrollment, or solution rollouts simpler, consistent, and measurable. In short: they reduce change-management overhead and help users complete work correctly the first time.  
 
 When you design the flow as a **Guided Process** in SAP Build Process Automation (SBPA), you visually model stages, steps, forms, decisions, approvals, and automations, then publish that process to Work Zone as the blueprint for your Guided Experience. This gives you **governance** (versioning, change control), **reuse across workspaces**, and faster rollout—because updates to the process can be redeployed without rebuilding the Work Zone UI.
@@ -114,6 +118,9 @@ Phase 1: **Idea Creation and Refinement** - this has 4 steps - to capture the pr
 
 Phase 2: **Idea to Implementation** this has 3 steps - to define the initial implementation scope, plan the implementation steps and fianlly initiating the implementation bringing the idea towards realization.
 <br>![phase 2](/exercises/ex3/images/03_02_0004.png)
+
+This was brief glimpse of **Guided Process** to help you understand the subsequent exercises. 
+</details>
 
 ### Exercise 3.2.3 Add a wizard to your workpage and select the pre-defined guided process
 

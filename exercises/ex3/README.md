@@ -7,7 +7,7 @@ In this exercise, you will create a new page **Use Case Repository** in your **A
 
 ---
 
-## </a> 3.1 Create a new workpage in your workspace
+## 3.1 Create a new workpage in your workspace
 
 #### What is a Workpage (in a Workspace)?
 
@@ -88,6 +88,9 @@ In this exercise you will create a **Guided Experience** using pre-created **Gui
 
 ### Exercise 3.2.1 Understand Guided Experiences
 
+> [!TIP]
+> This exercise is more for learning and knowledge. You can skip this section since you don't have to take any action in this section.
+
 **Guided Experiences** in SAP Build Work Zone are **step-by-step**, **self-service journeys** that package the right content and tools—videos, documents, apps, and UI Integration Cards—into clear stages and steps. They support mandatory/optional steps, **save progress** so users can resume later, and can run multiple instances in parallel or be restarted when needed—making complex processes like onboarding, benefits enrollment, or solution rollouts simpler, consistent, and measurable. In short: they reduce change-management overhead and help users complete work correctly the first time.  
 
 When you design the flow as a **Guided Process** in SAP Build Process Automation (SBPA), you visually model stages, steps, forms, decisions, approvals, and automations, then publish that process to Work Zone as the blueprint for your Guided Experience. This gives you **governance** (versioning, change control), **reuse across workspaces**, and faster rollout—because updates to the process can be redeployed without rebuilding the Work Zone UI.
@@ -96,9 +99,25 @@ If you are interested, you can read more about it in [Blog 1](https://community.
 
 ### Exercise 3.2.2 Understand the "Idea Management Guided Process" which is created for this exercise
 
+Guided Process are created within [**SAP Build Process Automation**](https://www.sap.com/products/technology-platform/process-automation/features.html) which can be accessed via  SAP *Build Lobby*.
+<br>![switch to edit mode](/exercises/ex3/images/03_02_0001.png)
+
+In a **Process Automation** project in SAP Build Lobby, you can create **Guided Processes** which are used to define the flow (stages, steps, etc) of **Guided Experience**. Guided 
+<br>![switch to edit mode](/exercises/ex3/images/03_02_0002.png)
+
+One such **Guided Process** is already created in the same sub-account which you will use to create the **Guided Experience** in the subsequent expercise below. Let us see the details of this **Idea Management Guided Process** is setup. Guided Processes are setup in multiple **phases** and each phase have multiple **steps**.
+
+In this case, there are 2 phases - 
+
+Phase 1: **Idea Creation and Refinement** - this has 4 steps - to capture the problem space, match existing solutions and ideas, refining the solution and finally publishing the idea.
+<br>![phase 1](/exercises/ex3/images/03_02_0003.png)
+
+Phase 2: **Idea to Implementation** this has 3 steps - to define the initial implementation scope, plan the implementation steps and fianlly initiating the implementation bringing the idea towards realization.
+<br>![phase 2](/exercises/ex3/images/03_02_0004.png)
+
 ### Exercise 3.2.3 Add a wizard to your workpage and select the pre-defined guided process
 
-1.Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. You may already be familiar with the edit-mode option from Exercise 1. To refresh, you can click on the pencil icon (as shown below) to get into the edit mode - where you can make changes to the workpage.
+1. Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. You may already be familiar with the edit-mode option from Exercise 1. To refresh, you can click on the pencil icon (as shown below) to get into the edit mode - where you can make changes to the workpage.
 
 <br>![switch to edit mode](/exercises/ex3/images/03_02_0010.png)
 
@@ -200,6 +219,19 @@ You might of course add further cards or widgets to the different steps, for exa
 
 optionally, you can add a feed update message, which will inform all users that you have added a Guided Experience to your workspace.
 <br>![feed update](/exercises/ex3/images/03_04_0140.png)
+
+---
+
+## 3.3 (Optional) Add a UI card to view the submitted ideas
+
+You have created the workpage **Use Case Repository** where employees of your organization can manage their AI specific ideas in the overall **AI Center of Excellence** workspace. 
+You have added a **Guided Experience** to this new workpage which enables the employees to create new ideas and take it towards realization.
+Now, you will add a UI card that shows all the AI based ideas / usecases that all employees have added and their respective status. You can interact with these ideas, vote or add comments on them.
+
+1. Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. This is exactly same as Exercise 3.2.3 step 1 above.
+2. 
+
+---
 
 ## Summary
 

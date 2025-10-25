@@ -79,7 +79,7 @@ You have now complete this exercise of creating the Welcome explanatory text for
 
 ---
 
-## Exercise 3.2 Build a wizard based on a guided process from SAP Build Process Automation
+## Exercise 3.2 Build a Guided Experience based on a guided process from SAP Build Process Automation
 
 In this exercise you will create a **Guided Experience** using pre-created **Guided Process** in **SAP Build Process Automation**.
 

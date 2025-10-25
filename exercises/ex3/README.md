@@ -90,16 +90,19 @@ After completing these steps you will have added a widget that describes the ste
 
 ## <a id="create-wizard">Exercise 3.2 Build a wizard based on a guided process from SAP Build Process Automation
 
-After completing these steps you will have created the skeleton for your wizard with some pre-defined stages and steps.
+In this exercise you will create a **Guided Experience** using pre-created **Guided Process** in **SAP Build Process Automation**.
 
-### Exercise 3.2.1 Add a wizard to your page
+### Exercise 3.2.1 Understand Guided Experiences
 
-In this exercise you will create a **[Guided Experience](https://community.sap.com/t5/technology-blog-posts-by-sap/guided-experiences-powered-by-sap-build/ba-p/13898694)** using pre-created **Guided Process** in **SAP Build Process Automation**.
+**Guided Experiences** in SAP Build Work Zone are **step-by-step**, **self-service journeys** that package the right content and tools—videos, documents, apps, and UI Integration Cards—into clear stages and steps. They support mandatory/optional steps, **save progress** so users can resume later, and can run multiple instances in parallel or be restarted when needed—making complex processes like onboarding, benefits enrollment, or solution rollouts simpler, consistent, and measurable. In short: they reduce change-management overhead and help users complete work correctly the first time.  
 
-#### So what are Guided Experiences?
+When you design the flow as a **Guided Process** in SAP Build Process Automation (SBPA), you visually model stages, steps, forms, decisions, approvals, and automations, then publish that process to Work Zone as the blueprint for your Guided Experience. This gives you **governance** (versioning, change control), **reuse across workspaces**, and faster rollout—because updates to the process can be redeployed without rebuilding the Work Zone UI.
 
-<a href="https://github.com/SAP-samples/teched2025-AD165/raw/refs/heads/main/exercises/ex3/images/03_02_0010.jpeg" download>Download this</a>
-[Click here to download background image for the Guided Experience](https://github.com/SAP-samples/teched2025-AD165/raw/refs/heads/main/exercises/ex3/images/03_02_0010.jpeg)
+If you are interested, you can read more about it in [Blog 1](https://community.sap.com/t5/technology-blogs-by-sap/what-s-new-with-sap-build-work-zone-guided-experiences/ba-p/13717701) and [Blog 2](https://community.sap.com/t5/technology-blog-posts-by-sap/guided-experiences-powered-by-sap-build/ba-p/13898694).
+
+### Exercise 3.2.2 Understand the "Idea Management Guided Process" which is created for this exercise
+
+### Exercise 3.2.3 Add a wizard to your page
 
 1. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
 

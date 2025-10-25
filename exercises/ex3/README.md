@@ -180,16 +180,28 @@ The last step of this stage is **Done** which is automatically generated at the 
 
 ### Exercise 3.2.3 Edit steps in stage Idea to Implementation
 
-After completing these steps you will have completed and published the full guided experience wizard.
+1. Select the **Idea to Implementation** stage from the top level tab within the Guided Experience. You will see the steps of this stage as defined in the Guided Process - *Define BVP Scope*, *Implementation Plan* and *Initiate MVP Implementation*.
+<br>![select 2nd stage](/exercises/ex3/images/03_04_0090.png)
 
-1.	In the same way as before, fill the steps of this stage as well. First, add the card **Define MVP Scope** to the step with the same name.
-2.	Next, add the card **Implementation Plan** to the second step.
-3.	Finally, add the card **Initiate MVP** to the step **Initiate MVP implementation**.
+2.	In the same way as before, fill the steps of this stage as well. First, for the step **Define MVP Scope** step, add the card with the same name.
+<br>![add step 1 UI](/exercises/ex3/images/03_04_0100.png)
 
-Now, you are done. The wizard is completely configured. You might of course add further cards or widgets to the different steps, for example to provide the users with additional help and information like how-to videos and instructions.
+3.	Next, add the card **Implementation Plan** to the second step with the same name.
+<br>![add step 2 UI](/exercises/ex3/images/03_04_0110.png)
 
-6.	Click **Publish** to make your new page available to workspace users. Permissions??? In the pop-up, click **Publish** again.
-<br>![](/exercises/ex3/images/02_02_0010.png)
+4.	Finally, add the card **Initiate MVP** to the step **Initiate MVP implementation**.
+<br>![add step 3 UI](/exercises/ex3/images/03_04_0120.png)
+
+Like the previous stage, the last step of this stage is too **Done**. There is no action needed from your side as it's auto-generated and pre-configured.
+
+Now, you are done with adding the step UIs for each step of the Guided Experience. 
+You might of course add further cards or widgets to the different steps, for example to provide the users with additional help and information like how-to videos and instructions.
+
+6.	Click **Publish** to make your new page available to workspace users. Permissions??? In the pop-up, click **Publish** to submit all changes in the workpage including the whole Guided Experience configuration and setup.
+<br>![publish wizard](/exercises/ex3/images/03_04_0130.png)
+
+optionally, you can add a feed update message, which will inform all users that you have added a Guided Experience to your workspace.
+<br>![feed update](/exercises/ex3/images/03_04_0140.png)
 
 ## Summary
 

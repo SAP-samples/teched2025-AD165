@@ -7,7 +7,7 @@ In this exercise, you will create a new page **Use Case Repository** in your **A
 
 ---
 
-## <a id="create-page"></a> 3.1 Create a new workpage in your workspace
+## </a> 3.1 Create a new workpage in your workspace
 
 #### What is a Workpage (in a Workspace)?
 
@@ -31,10 +31,10 @@ It gives you a single, structured tab where users can: read a short intro, add s
 <br>![Add menu entry](/exercises/ex3/images/03_01_0010.png)
 
 3. You should see a pop-up with all options that you can add to the Workspace - **Workpage**, **Feed Update**, **Members**, **Content**, etc. The **Workpage** option allow you to add a freestyle workpage which you can design as per your purpose; all other options are pre-defined page from Work Zone. In this case, the new menu entry should lead users to a a new custom designed **Workpage**, so click on the **Workpage** tile.
-<br>![Workpage tile](/exercises/ex3/images/03_01_0020.png)
+<p align="center"><img src="/exercises/ex3/images/03_01_0020.png" width="700"/></p>
 
 5. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as **Tab Name**, and click **Add**.
-<br>![Create Page](/exercises/ex3/images/03_01_0030.png)
+<p align="center"><img src="/exercises/ex3/images/03_01_0030.png" width="700"/></p>
 
 The new page is created and you should see an empty **Workpage** in edit mode, where you start populating content.
 <br>![Add section](/exercises/ex3/images/03_01_0035.png)
@@ -61,7 +61,7 @@ Generate in a markdown format with a Bold and large Title and content that is we
 Click on the blue **Send** icon button.
    
 4. AI should respond with the **Generated Text**. You can review the text and decide to **Retry** with the same prompt or **Discard** the text completely to modify your Prompt and try fresh. For now, you can Click on **Accept** since you will have oppotunity to edit it further with AI Assistance.
-<br>![generate text](/exercises/ex3/images/03_01_0060.png)
+<p align="center"><img src="/exercises/ex3/images/03_01_0060.png" width="600"/></p>
 
 > [!TIP]
 > If the response is not well formatted with large title and bullet points, you can retry to make AI respond as per the prompt.
@@ -113,8 +113,7 @@ If you are interested, you can read more about it in [Blog 1](https://community.
 4. Leave the *Display Option* to default - **Embedded in Workpage**.
  
 5. As you would like to allow users to submit additional ideas in parallel to already active ones, check both checkboxes for **Allow wizard to be used multiple times** and **Run the wizard multiple times in parallel**.
-
-<br>![multi-instance process](/exercises/ex3/images/03_02_0040.png)
+<p align="center"><img src="/exercises/ex3/images/03_02_0040.png" width="700"/></p>
 
 Below, you can see a preview of the Stages and Steps that will be part of this **Guided Experience** as fetched from the **Idea Management Guided Process**.
 
@@ -125,8 +124,7 @@ Below, you can see a preview of the Stages and Steps that will be part of this *
    [right click on this link and save to local computer](/exercise/ex3/images/GuidedExperienceBackground.jpeg)
 
 Once you have saved the image (default download location should C:\Users\<Your Username>\Downloads), you can click on the image icon the top-right of the Guided Experience preview as shown in the image below. 
-
-<br>![multi-instance process](/exercises/ex3/images/03_02_0050.png)
+<p align="center"><img src="/exercises/ex3/images/03_02_0050.png" width="700"/></p>
 
 Navigate to the Downloads folder in your system and select the downloaded image from step 6. You should see a new background in the Guided Experience preview. This is how the Guided experience would look like to all users of this workspace after you save and submit the workpage changes.
 
@@ -140,10 +138,10 @@ you will be required to click on the **Add widget** button in the middle of the 
 <br>![Add widget](/exercises/ex3/images/03_04_0010.png)
 
 And select the **cards** tile.
-<br>![Add card](/exercises/ex3/images/03_04_0020.png)
+<p align="center"><img src="/exercises/ex3/images/03_04_0020.png" width="600"/></p>
 
 1. In the first step, **Problem Description** step, click **Add widget**, go to **cards** tile and search for `Refine Problem`. You should see the **Refine Problem Statement**, select it to add as the step UI.
-<br>![search and add card](/exercises/ex3/images/03_04_0030.png)
+<p align="center"><img src="/exercises/ex3/images/03_04_0030.png" width="600"/></p>
    
 You do not need to make any additional settings, just click **Save**.
 <br>![save step UI](/exercises/ex3/images/03_04_0040.png)

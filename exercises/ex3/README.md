@@ -228,7 +228,7 @@ optionally, you can add a feed update message, which will inform all users that 
 
 ---
 
-## 3.3 (Optional) Add a UI card to view the submitted ideas
+## 3.3 Add a UI card to view the submitted ideas
 
 In Exercise 3.1, you have created the workpage **Use Case Repository** where employees of your organization can manage their AI specific ideas in the overall **AI Center of Excellence** workspace. 
 Then in Exercise 3.2, You have added a **Guided Experience** to this new workpage which enables the employees to create new ideas and take it towards realization.

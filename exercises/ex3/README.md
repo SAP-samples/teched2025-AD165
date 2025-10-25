@@ -98,19 +98,32 @@ If you are interested, you can read more about it in [Blog 1](https://community.
 
 ### Exercise 3.2.3 Add a wizard to your workpage and select the pre-defined guided process
 
-1.Ensure that you are in edit mode on your workpage.
-2. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
+1.Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. You may already be familiar with the edit-mode option from Exercise 1. To refresh, you can click on the pencil icon (as shown below) to get into the edit mode - where you can make changes to the workpage.
+
+<br>![switch to edit mode](/exercises/ex3/images/03_02_0010.png)
+
+2. Hover the section that you just filled with content and click the **Add section** button below. You should see 2 options in the pop-up **FreeStyle** and **Wizard**. Select **Wizard** to start creating the **Guided Experience**.   
+
+<br>![add a section](/exercises/ex3/images/03_02_0020.png)
+
+3. You should see the **Add Wizard** popup. Select the **Idea Management Guided Process** from the that has been preconfigured in SAP Build Process Automation - which we saw briefly in Exercise 3.2.2 above. You will observe that `Title` and `Description` fields are automatically set as defind in the Guided Process.
+
+<br>![Select guided process](/exercises/ex3/images/03_02_0030.png)
+
+4. Leave the *Display Option* to default - **Embedded in Workpage**.
+ 
+5. As you would like to allow users to submit additional ideas in parallel to already active ones, check both checkboxes for **Allow wizard to be used multiple times** and **Run the wizard multiple times in parallel**.
+
+<br>![multi-instance process](/exercises/ex3/images/03_02_0040.png)
+
+Below, you can see a preview of the Stages and Steps that will be part of this **Guided Experience** as fetched from the **Idea Management Guided Process**.
 
 > [!NOTE]
-> You can either create a wizard from scratch by defining stages and steps manually or you can model a complex multi-step process as a *Guided Process* in SAP Build Process Automation and use it as a basis for your wizard. This accelerates the entire process from building to rolling out the experience for production.
+> You can either create a wizard from scratch by defining stages and steps manually or you can model a complex multi-step process as a *Guided Process* in SAP Build Process Automation and use it as a basis for your wizard. When you select the *Guided Process* to fetch and auto-generate the stages and steps in the wizard, you cannot modify the stages and steps configuration in Work Zone. Such changes, if required, must be done in the *Guided Process* itself.
 
-2. Select the **Idea Management Guided Process** that has been preconfigured in SAP Build Process Automation.
-3. Select *Display Option* **Embedded in Workpage**.
-4. As you would like to allow users to submit additional ideas while waiting for approval of already submitted ones, check both checkboxes for **Allow wizard to be used multiple times** and **Run the wizard multiple times in parallel**.
-
-Below, you can see a preview of the Stages and Steps that will be part of the new wizard and of the wizard cover.
-
-5. Click **Save** to create the wizard.
+6. (Optional) Change the cover image of the Guided Experience. You can customize the 
+  
+8. Click **Save** to create the wizard.
 
 ### Exercise 3.2.4 Edit steps in stage Idea Generation & Refinement
 

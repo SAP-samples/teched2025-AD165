@@ -160,19 +160,22 @@ In this step, the user is asked to define the problem statement, who is affected
 Following the step 1 instructions, add the widget --> card --> **Matching Solutions**.
 
 > [!IMPORTANT]
-> You will see an error when you save the card configuration and add the card to the step. This is because, even while creating the **Guided Experience**, the card is rendered triggering it's actions. This card expects that a problem statement is defined in the previous step but that's not true during the wizard creation. You can click on **close** on the error message and continue. During actual usage of the guided experience, this error shouldn't come as the user can only come to the second step after completing the first step - which should already capture the required input to this card.
+> You will see an *error message* when you save the card configuration and add the card to the step, but you can ignore it.
+> This is because, even while creating the **Guided Experience**, the card is rendered triggering it's actions. This card expects that a problem statement is defined in the previous step but that's not true during the wizard creation.
+> You can click on **close** on the error message and continue. During actual usage of the guided experience, this error shouldn't come as the user can only come to the second step after completing the first step - which should already capture the required input to this card.
 > <br>![save step UI](/exercises/ex3/images/03_04_0060.png)
 
 In this step, the users should check if their proposal is really a new idea or if something very similar or identical has already been submitted or maybe even implemented. To support this step, we created a card that uses AI to identify such matching standard AI capabilities or other ideas submitted in the **AI Center Of Excellence workspace** through this wizard.
 
-3. Now move on to the next step. Click **Review Matching Proposals** on the top wizard breadcrumb.
+3. Now move on to the 3rd step **Refine Solution Proposal** by clicking on it in the top wizard breadcrumb. Similar to last 2 steps, add the widget --> card --> **Refined Solution**.
+<br>![save step UI](/exercises/ex3/images/03_04_0070.png)
 
-> Don't worry about the error message about an undefined problem statement. This will not happen during runtime, as the first step was defined as a mandatory step, so users cannot reach this step without having entered a description of the problem.
+In this step, the users should refine the **Solution Proposal** with the help of AI which pre-generates the solution text for the user to make their respective changes.
 
-6. Move on to step **Define the AI based solution** and add the **Refined solution** card to is as before. This card also uses generative AI to suggest a solution that could then be adapted by the user.
-
-7. Navigate to step **Review and Publish Idea** and add the **Publish idea** card to it.
-8. Navigate to the last step of this stage **Done**. No need to do anything here, as it has already been populated.
+4. Navigate to next and final step **Review and Publish Idea** and add the **Publish idea** card to it, similar to all the steps above. 
+<br>![save step UI](/exercises/ex3/images/03_04_0080.png)
+   
+The last step of this stage is **Done** which is automatically generated at the end of every phase. No need to do anything here, as it has already been populated.
    
 
 ### Exercise 3.2.3 Edit steps in stage Idea to Implementation

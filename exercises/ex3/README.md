@@ -1,4 +1,4 @@
-# Exercise 3 - Create a workpage to manage AI Ideas within AI Center Of Excellence Workspace
+# Exercise 3 - Create a workpage to create and manage AI Ideas
 In this exercise, you will create a new page **Use Case Repository** in your **AI Center of Excellence** workspace and a **Guided Experience** that lets users curate and submit AI use-case ideas in step by step AI-guided flow. 
 
 > [!NOTE]

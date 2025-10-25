@@ -23,6 +23,8 @@ A **workpage** is a content page inside an SAP Build Work Zone **workspace**. Ea
 **Why use a workpage for the Use Case Repository?**  
 It gives you a single, structured tab where users can: read a short intro, add specific **cards** around Idea Submission (like existing idea list), and complete a **wizard** (Guided Experience) — all in one place for specific purpose of managing ideas within the AI Center Of Excellence.
 
+---
+
 ### Exercise 3.1.1 Add a workpage from workspace menu
 
 1. On the right side of the **workspace menu** which you would find in the content section of the workspace (below the workspace banner image), click the + icon to add a new tab to the navigation bar.
@@ -73,24 +75,16 @@ Click on the blue **Send** icon button.
 7. It should again load the prompt window, but this time you don't have to define the prompt as it already creates the prompt based on the AI assistance option you selected. Select Accept
 <br>![text format options](/exercises/ex3/images/03_01_0090.png)
 
-You have now complete this exercise of creating the Welcome explanatory text for the new workpage. Stay in the edit mode for the next exercise.
+You have now complete this exercise of creating the Welcome explanatory text for the new workpage. Press on the publish button to persist this text widget in the work page.
+<br>![publish text generation](/exercises/ex3/images/03_01_0100.png)
 
-<!-- ### Exercise 3.1.3 (optional) Add a rotating banner to the page 
+---
 
-After completing these steps you will have added a widget that describes the steps necessary to submit an AI use case in a nice visual way.
-
-1. Click **Add Content** below your text widget and add a **Rotating Banner** widget to the same section.
-2. Upload the **start.jpg** image to the rotating banner and enter **Step 1** as *Title* and **Start the Use Case submission process below** as *Description*. Feel free to adjust the image zoom or display window.
-3. Move the *Text placement* to the **Top Left**
-4. Then click the **+Slide** button on the upper left side of the *Rotating Banner Widget* pop-up.
-5. Upload the **answer.jpg** image to the rotating banner and enter **Step 2** as *Title* and **Answer the questions with your best knowledge** as *Description*. Select *Text placement* as **Top Left** again.
-6. Finally, add another slide in the same way, upload the **IT.jpg** image to the rotating banner and enter **Step 3** as *Title* and **Wait for IT to approve / come back at your idea and see it represented down below** as *Description*.
-7. Now click **Save**.
--->   
-
-## <a id="create-wizard">Exercise 3.2 Build a wizard based on a guided process from SAP Build Process Automation
+## Exercise 3.2 Build a wizard based on a guided process from SAP Build Process Automation
 
 In this exercise you will create a **Guided Experience** using pre-created **Guided Process** in **SAP Build Process Automation**.
+
+---
 
 ### Exercise 3.2.1 Understand Guided Experiences
 
@@ -102,14 +96,15 @@ If you are interested, you can read more about it in [Blog 1](https://community.
 
 ### Exercise 3.2.2 Understand the "Idea Management Guided Process" which is created for this exercise
 
-### Exercise 3.2.3 Add a wizard to your page
+### Exercise 3.2.3 Add a wizard to your workpage and select the pre-defined guided process
 
-1. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
+1.Ensure that you are in edit mode on your workpage.
+2. Hover the section that you just filled with content and click the **Add section** button below it to add the wizard. Select **Wizard** in the pop-up.
 
 > [!NOTE]
 > You can either create a wizard from scratch by defining stages and steps manually or you can model a complex multi-step process as a *Guided Process* in SAP Build Process Automation and use it as a basis for your wizard. This accelerates the entire process from building to rolling out the experience for production.
 
-2. Select the **IdeaMgmtGuidedProcess** that has been preconfigured in SAP Build Process Automation.
+2. Select the **Idea Management Guided Process** that has been preconfigured in SAP Build Process Automation.
 3. Select *Display Option* **Embedded in Workpage**.
 4. As you would like to allow users to submit additional ideas while waiting for approval of already submitted ones, check both checkboxes for **Allow wizard to be used multiple times** and **Run the wizard multiple times in parallel**.
 
@@ -117,8 +112,7 @@ Below, you can see a preview of the Stages and Steps that will be part of the ne
 
 5. Click **Save** to create the wizard.
 
-
-### Exercise 3.2.2 Edit steps in stage Idea Generation & Refinement
+### Exercise 3.2.4 Edit steps in stage Idea Generation & Refinement
 
 After completing these steps you will have assigned widgets to allow users to execute all steps in the first stage.
 

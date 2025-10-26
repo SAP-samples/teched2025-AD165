@@ -2,6 +2,7 @@
 
 In this exercise, you will submit an AI use case using the wizard you just created. You will also use SAP Build Work Zone AI capabilities to generate texts more easily, summarize a blog post, and interact with Joule. 
 
+---
 
 ## <a id="ai-feed"></a> Exercise 4.1 Use generative AI to create a status update
 
@@ -31,6 +32,8 @@ After completing these steps you will have sent a status update to all users.
 <p align="center"><img src="./images/04_01_0050.png" width="90%" /></p>
 <br>
 
+---
+
 ## <a id="ai-summarization"></a> Exercise 4.2 Use text summarization to quickly grasp the content of a blog post
 
 After completing these steps you will have created a summary of a blog post with the help of AI. To try this functionality, we created another workspace with some sample blog posts for you. You can simply find them via the search.
@@ -47,45 +50,64 @@ After completing these steps you will have created a summary of a blog post with
 
 <p align="center"><img src="./images/04_02_0030.png" width="90%" /></p>
 
-4. Read the summary.
+4. Read the summary. It allows you to understand the main message of the text much faster.
    
 <p align="center"><img src="./images/04_02_0040.png" width="90%" /></p>
 
+---
 
 ## <a id="ai-doc-grounding"></a> Exercise 4.3 Experience document grounding in SAP Joule
 
 Document Grounding is the process of making a LLM refer to specific documents to generate more accurate and relevant responses. This way you can feed Joule with specific documents of your company (like internal policies, reports and documents), so that Joule can give more accurate and relevant answers.
 
-1. 
 
 
-## <a id="run-wizard"></a> Exercise 2.4 Use the Guided Experience to submit an AI Use Case
+---
+
+## <a id="run-wizard"></a> Exercise 4.4 Use the Guided Experience to submit an AI Use Case
 
 After completing these steps you will have submitted an AI Use case using the wizard you created in exercise 3.
 
-1. In the **Persona and Problem Description** step, click **Add widget**.
-<br>![Add widget](/exercises/ex4/images/02_04_0010.png)
+1. Go to the **Use Case Repository** page of your workspace.
 
-2. Select the **Cards** tile and choose card **Refine Problem Statement**.
-3. You do not need to make any additional settings, just click **Save**.
+2. Scroll down to the **Idea Management Guided Process** and click **Create**.
 
-> **&#9432;** SAP UI Integration cards can easily be created and made available for usage in SAP Build Work Zone with SAP Business Application Studio.
+<p align="center"><img src="./images/04_04_0010.png" width="90%" /></p>
 
-4. Now move on to the next step. Click **Review Matching Proposals**. In this step, the users should check if their proposal is really a new idea or if something very similar or identical has already been submitted or maybe even implemented. To support this step, we created a card that uses AI to identify such duplicate ideas.
+3. In this step, AI should support you in formulating your use case idea describing a persona and a specific problem that your use case is going to solve. Feel free to add your own idea or use the examples given here.
 
-5. Add the card  **Matching Solutions** in the same way as before.
+First, give your instance of the Guided Experience a name, e.g. Marketing Data Analysis ###. Then enter a rough problem statement into the corresponding input field. For example:
 
-> Don't worry about the error message about an undefined problem statement. This will not happen during runtime, as the first step was defined as a mandatory step, so users cannot reach this step without having entered a description of the problem.
+````
+My persona works in Marketing. They have lots of data to analyze and would need help in analyzing it (e.g. sales data, market data, usage data). AI should gather data from various sources, identify patterns and predict how different measures will impact customer behavior
+````
 
-6. Move on to step **Define the AI based solution** and add the **Refined solution** card to is as before. This card also uses generative AI to suggest a solution that could then be adapted by the user.
+<p align="center"><img src="./images/04_04_0020.png" width="90%" /></p>
 
-7. Navigate to step **Review and Publish Idea** and add the **Publish idea** card to it.
-8. Navigate to the last step of this stage **Done**. No need to do anything here, as it has already been populated.
+4. Now click **Refine problem statement** to trigger the AI enhancement of the problem you entered. Check the result once it is available. You could now further adapt the refined statement or simply click **Next Step** to move on to the check for existing standard solutions for similar problems.
+
+<p align="center"><img src="./images/04_04_0030.png" width="90%" /></p>
+
+5. In this step, the AI compares your problem statement with existing AI Agents provided by SAP Business AI. The data for the existing agents is retrieved from the SAP Discovery Center. You will find a list of proposals and review them whether there is already an agent available that would solve your current issue. In this case, it would not be required to invest into developing a custom AI solution and you would decide at this point to stop the submission of this use case and turn the *Continue creating the new idea* switch to *Off*  at the bottom of the section.
+
+As you cannot find a solution that solves the problem you plan to submit, keep the default **Not relevant** for all (possibly) matching solutions and click **Next Step**
+
+<p align="center"><img src="./images/04_04_0035.png" width="90%" /></p>
+
+5. The AI has further elaborated on your idea and proposed a solution summary. Feel free to click **Regenerate** if you do not like the proposal or to use the **Refine with my Input** button to add further aspects that should be reflected in the summary. Check the SAP tooling recommendations and adapt the business value and implementation cost entries if required. Then go on to the **Next Step**. 
+
+<p align="center"><img src="./images/04_04_0040.png" width="90%" /></p>
+
+6. Check the final summary that has been created and decide how you want to publish your idea, i.e. if you want to publish it for review and voting etc. Then click **Next Step**.
+
+<p align="center"><img src="./images/04_04_0050.png" width="90%" /></p>
+
+8. Your idea is published. Other users can now find it in the **Idea Library** card below. You have not reached the end of the first stage. You could now click **Complete Stage** to finalize it and move on to the next stage *Idea to Implementation*. Feel free to explore the steps of this stage as well or go to exercise 5 to learn about application integration and get to know the SAP Mobile Start app for mobile access to SAP Build Work Zone. 
    
 
 
 ## Summary
 
-You've now added a **Use case repository** page to your workspace that contains a wizard that guides users throught he process of submitting an idea for an AI use case at ACME Corp, defining the MVP, and initiating the implementation. In the next exercise, you will experience your workspace from a user perspective.
+You've now tested some of the AI capabilities of SAP Build Work Zone: text generation, text summarization, and the usage of AI in custom UI integration cards. SAP Build Work Zone also supports document grounding with SAP Joule which allows you to add information gathered from corporate documents and information in workspaces as a resource for SAP Joule. This allows SAP Joule to provide more relevant and useful information to users and to refer to internal corporate information. 
 
 Continue to - [Exercise 5 - Excercise 5 ](../ex5/README.md)

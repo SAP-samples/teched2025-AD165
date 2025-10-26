@@ -184,9 +184,10 @@ In this step, the user is asked to define the problem statement, who is affected
 Following the step 1 instructions, add the widget --> card --> **Matching Solutions**.
 
 > [!IMPORTANT]
-> You will see an *error message* when you save the card configuration and add the card to the step, but you can ignore it.
-> This is because, even while creating the **Guided Experience**, the card is rendered triggering it's actions. This card expects that a problem statement is defined in the previous step but that's not true during the wizard creation.
-> You can click on **close** on the error message and continue. During actual usage of the guided experience, this error shouldn't come as the user can only come to the second step after completing the first step - which should already capture the required input to this card.
+> Ignore the **error message** when you save and add this card. It pops up because, during the setup process, the card is trying to do its AI based matching but hasn't received the necessary *problem definition* from the previous step yet.
+> 
+> Simply click **Close** and keep going. This error is just a quirk of the design tool and will not appear for the end-user. The end-user can only reach this card after they've completed the previous step, so all the required information will be there at runtime.
+> 
 > <br>![save step UI](/exercises/ex3/images/03_04_0060.png)
 
 In this step, the users should check if their proposal is really a new idea or if something very similar or identical has already been submitted or maybe even implemented. To support this step, we created a card that uses AI to identify such matching standard AI capabilities or other ideas submitted in the **AI Center Of Excellence workspace** through this wizard.
@@ -194,7 +195,10 @@ In this step, the users should check if their proposal is really a new idea or i
 3. Now move on to the 3rd step **Refine Solution Proposal** by clicking on it in the top wizard breadcrumb. Similar to last 2 steps, add the widget --> card --> **Refined Solution**.
 <br>![save step UI](/exercises/ex3/images/03_04_0070.png)
 
-In this step, the users should refine the **Solution Proposal** with the help of AI which pre-generates the solution text for the user to make their respective changes.
+> [!NOTE]
+> Ignore any error messages (error strip) you see on the UI card during the design process (in this step or subsequent steps). These warnings are expected because the card validation logic lacks the full context of prior steps. The errors will not appear at runtime for the end-user.
+
+In this step, the users would refine the **Solution Proposal** with the help of AI which pre-generates the solution text for the user to make their respective changes.
 
 4. Navigate to next and final step **Review and Publish Idea** and add the **Publish idea** card to it, similar to all the steps above. 
 <br>![save step UI](/exercises/ex3/images/03_04_0080.png)

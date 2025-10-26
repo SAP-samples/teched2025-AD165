@@ -186,7 +186,7 @@ At this stage your card looks like this -
 </p>
 
 > [!NOTE]
-> Ofcourse, this is not the end-state - The data is not shown correctly since the UI field mapping is missing the card UI will be fixed in the next step when you will bind the attributes of the fetched data to the UI properties of the list row.
+> Of course, this is not the end-state - The data is not shown correctly since the UI field mapping is missing the card UI will be fixed in the next step when you will bind the attributes of the fetched data to the UI properties of the list row.
 
 #### Let us understand what changes were made and why
 
@@ -444,4 +444,4 @@ To allow end users to put the card on a page, you also need to enable it.
 
 You've now created a **UI integration card** and added it to Work Zone workspace.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Create a workpage with guided experience](../ex3/README.md)

@@ -344,8 +344,12 @@ At this point, we are done with all changes in the card manifest. Your card shou
 <image src='/exercises/ex2/images/02_02_0060.png' height='500px'></image>
 </p>
 
+---
+
 > [!TIP]
 > If you see errors still or can't get the card to show as per the above screenshots, you can view the [finished manifest.json](/exercises/ex2/manifest.json).
+> You may compare your Manifest.json or even copy the manifest directly into card explorer - but be sure to change the `###` with your own 3 digit user number wherever marked with `<--`.
+> Once you have replaced the `###` correctly, don't forget to remove the marker text `<--` on each of those lines as well.
 
 ---
 

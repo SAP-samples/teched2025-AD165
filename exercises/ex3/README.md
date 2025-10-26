@@ -27,16 +27,16 @@ It gives you a single, structured tab where users can: read a short intro, add s
 ### Exercise 3.1.1 Add a workpage from workspace menu
 
 1. On the right side of the **workspace menu** which you would find in the content section of the workspace (below the workspace banner image), click the + icon to add a new tab to the navigation bar.
-<br>![Add menu entry](/exercises/ex3/images/03_01_0010.png)
+<br><br>![Add menu entry](/exercises/ex3/images/03_01_0010.png)
 
-3. You should see a pop-up with all options that you can add to the Workspace - **Workpage**, **Feed Update**, **Members**, **Content**, etc. The **Workpage** option allow you to add a freestyle workpage which you can design as per your purpose; all other options are pre-defined page from Work Zone. In this case, the new menu entry should lead users to a a new custom designed **Workpage**, so click on the **Workpage** tile.
+2. You should see a pop-up with all options that you can add to the Workspace - **Workpage**, **Feed Update**, **Members**, **Content**, etc. The **Workpage** option allow you to add a freestyle workpage which you can design as per your purpose; all other options are pre-defined page from Work Zone. In this case, the new menu entry should lead users to a a new custom designed **Workpage**, so click on the **Workpage** tile.
 <p align="center"><img src="/exercises/ex3/images/03_01_0020.png" width="600"/></p>
 
-5. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as **Tab Name**, and click **Add**.
-<p align="center"><img src="/exercises/ex3/images/03_01_0030.png" width="600"/></p>
+3. In the pop-up, keep **New Page**, select folder **Workpages** to store your new page, enter **Use Case Repository** as **Tab Name**, and click **Add**.
+<br><p align="center"><img src="/exercises/ex3/images/03_01_0030.png" width="600"/></p>
 
 The new page is created and you should see an empty **Workpage** in edit mode, where you start populating content.
-<br>![Add section](/exercises/ex3/images/03_01_0035.png)
+<br><br>![Add section](/exercises/ex3/images/03_01_0035.png)
 
 ---
 
@@ -45,10 +45,10 @@ The new page is created and you should see an empty **Workpage** in edit mode, w
 Before you add the **Guiided Experience** wizard to the page, you add an text block to explain what the use case repository is about.
 
 1. In the middle of the page, click **Add**. This way a freestyle section with one cell is created. You could also click the dropdown link and select **Freestyle** there.
-<br>![Add section](/exercises/ex3/images/03_01_0040.png)
+<br><br>![Add section](/exercises/ex3/images/03_01_0040.png)
 
 2. You will now create a text message for the users with AI Assistance. Inside the section, click the dropdown on the **Add** button.
-<br>![Add text with AI](/exercises/ex3/images/03_01_0050.png)
+<br><br>![Add text with AI](/exercises/ex3/images/03_01_0050.png)
    
 3. This will open a **Generate Text** pop-up which allows you to enter aAI  prompt. Type in the following text - 
 ```
@@ -66,16 +66,16 @@ Click on the blue **Send** icon button.
 > If the response is not well formatted with large title and bullet points, you can retry to make AI respond as per the prompt.
 
 5. The generated text should now be in the Page, With the rich text formatting. You can further edit the text by adding your own content or format it differently using the hovering text format menu which appears when you select a part of the text, as shown in the image below.
-<br>![text in page](/exercises/ex3/images/03_01_0070.png)
+<br><br>![text in page](/exercises/ex3/images/03_01_0070.png)
 
 6. You can edit the text further use AI assistance using the last **AI Assistance** button on the hovering text format menu. As an option, you select the last line and ask AI to make it a bit more casual. 
-<br>![text format options](/exercises/ex3/images/03_01_0080.png)
+<br><br>![text format options](/exercises/ex3/images/03_01_0080.png)
 
 7. It should again load the prompt window, but this time you don't have to define the prompt as it already creates the prompt based on the AI assistance option you selected. Select Accept
-<br>![text format options](/exercises/ex3/images/03_01_0090.png)
+<br><br>![text format options](/exercises/ex3/images/03_01_0090.png)
 
 You have now complete this exercise of creating the Welcome explanatory text for the new workpage. Press on the publish button to persist this text widget in the work page.
-<br>![publish text generation](/exercises/ex3/images/03_01_0100.png)
+<br><br>![publish text generation](/exercises/ex3/images/03_01_0100.png)
 
 ---
 
@@ -125,21 +125,18 @@ This was brief glimpse of **Guided Process** to help you understand the subseque
 ### Exercise 3.2.1 Add a wizard to your workpage and select the pre-defined guided process
 
 1. Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. You may already be familiar with the edit-mode option from Exercise 1. To refresh, you can click on the pencil icon (as shown below) to get into the edit mode - where you can make changes to the workpage.
+<br><br>![switch to edit mode](/exercises/ex3/images/03_02_0010.png)
 
-<br>![switch to edit mode](/exercises/ex3/images/03_02_0010.png)
-
-2. Hover the section that you just filled with content and click the **Add section** button below. You should see 2 options in the pop-up **FreeStyle** and **Wizard**. Select **Wizard** to start creating the **Guided Experience**.   
-
-<br>![add a section](/exercises/ex3/images/03_02_0020.png)
+2. Hover the section that you just filled with content and click the **Add section** button below. You should see 2 options in the pop-up **FreeStyle** and **Wizard**. Select **Wizard** to start creating the **Guided Experience**.
+<br><br>![add a section](/exercises/ex3/images/03_02_0020.png)
 
 3. You should see the **Add Wizard** popup. Select the **Idea Management Guided Process** from the that has been preconfigured in SAP Build Process Automation - which we saw briefly in Exercise 3.2.2 above. You will observe that `Title` and `Description` fields are automatically set as defind in the Guided Process.
-
-<br>![Select guided process](/exercises/ex3/images/03_02_0030.png)
+<br><br>![Select guided process](/exercises/ex3/images/03_02_0030.png)
 
 4. Leave the *Display Option* to default - **Embedded in Workpage**.
  
 5. As you would like to allow users to submit additional ideas in parallel to already active ones, check both checkboxes for **Allow wizard to be used multiple times** and **Run the wizard multiple times in parallel**.
-<p align="center"><img src="/exercises/ex3/images/03_02_0040.png" width="700"/></p>
+<br><p align="center"><img src="/exercises/ex3/images/03_02_0040.png" width="700"/></p>
 
 Below, you can see a preview of the Stages and Steps that will be part of this **Guided Experience** as fetched from the **Idea Management Guided Process**.
 
@@ -150,27 +147,27 @@ Below, you can see a preview of the Stages and Steps that will be part of this *
    [right click on this link and save to local computer](https://github.com/SAP-samples/teched2025-AD165/blob/main/exercises/ex3/images/GuidedExperienceBackground.jpeg?raw=true)
 
 Once you have saved the image (default download location should C:\Users\<Your Username>\Downloads), you can click on the image icon the top-right of the Guided Experience preview as shown in the image below. 
-<p align="center"><img src="/exercises/ex3/images/03_02_0050.png" width="700"/></p>
+<br><p align="center"><img src="/exercises/ex3/images/03_02_0050.png" width="700"/></p>
 
 Navigate to the Downloads folder in your system and select the downloaded image from step 6. You should see a new background in the Guided Experience preview. This is how the Guided experience would look like to all users of this workspace after you save and submit the workpage changes.
 
-8. Click **Save** to create the wizard.
+7. Click **Save** to create the wizard.
 
 ### Exercise 3.2.2 Edit steps in stage Idea Creation & Refinement
 
 For each of the steps below, 
 
 you will be required to click on the **Add widget** button in the middle of the step UI.
-<br>![Add widget](/exercises/ex3/images/03_04_0010.png)
+<br><br>![Add widget](/exercises/ex3/images/03_04_0010.png)
 
 And select the **cards** tile.
-<p align="center"><img src="/exercises/ex3/images/03_04_0020.png" width="600"/></p>
+<br><p align="center"><img src="/exercises/ex3/images/03_04_0020.png" width="600"/></p>
 
 1. In the first step, **Problem Description** step, click **Add widget**, go to **cards** tile and search for `Refine Problem`. You should see the **Refine Problem Statement**, select it to add as the step UI.
-<p align="center"><img src="/exercises/ex3/images/03_04_0030.png" width="600"/></p>
+<br><p align="center"><img src="/exercises/ex3/images/03_04_0030.png" width="600"/></p>
    
 You do not need to make any additional settings, just click **Save**.
-<br>![save step UI](/exercises/ex3/images/03_04_0040.png)
+<br><br>![save step UI](/exercises/ex3/images/03_04_0040.png)
 
 > [!NOTE]
 > You have already created a SAP UI Integration card in Exercise 2. Similarly, UI integration cards were already pre-created for ease of this **Guided Experience** exercise.
@@ -179,7 +176,7 @@ You do not need to make any additional settings, just click **Save**.
 In this step, the user is asked to define the problem statement, who is affected by the problem and what would be the impact of the AI driven solution idea that he wants to capture through this wizard. This will help AI to find matching standard solution or ideas submitted by other users.
 
 2. Now move on to the next step. Click **Review Matching Proposals** on the top wizard breadcrumb.
-<br>![save step UI](/exercises/ex3/images/03_04_0050.png)
+<br><br>![save step UI](/exercises/ex3/images/03_04_0050.png)
 
 Following the step 1 instructions, add the widget --> card --> **Matching Solutions**.
 
@@ -192,8 +189,9 @@ Following the step 1 instructions, add the widget --> card --> **Matching Soluti
 
 In this step, the users should check if their proposal is really a new idea or if something very similar or identical has already been submitted or maybe even implemented. To support this step, we created a card that uses AI to identify such matching standard AI capabilities or other ideas submitted in the **AI Center Of Excellence workspace** through this wizard.
 
-3. Now move on to the 3rd step **Refine Solution Proposal** by clicking on it in the top wizard breadcrumb. Similar to last 2 steps, add the widget --> card --> **Refined Solution**.
-<br>![save step UI](/exercises/ex3/images/03_04_0070.png)
+3. Now move on to the 3rd step **Refine Solution Proposal** by clicking on it in the top wizard breadcrumb. Similar to last 2 steps, add the **widget** --> **cards** --> **Refined Solution**.
+
+<br><br>![save step UI](/exercises/ex3/images/03_04_0070.png)
 
 > [!NOTE]
 > Ignore any error messages (error strip) you see on the UI card during the design process (in this step or subsequent steps). These warnings are expected because the card validation logic lacks the full context of prior steps. The errors will not appear at runtime for the end-user.
@@ -201,7 +199,7 @@ In this step, the users should check if their proposal is really a new idea or i
 In this step, the users would refine the **Solution Proposal** with the help of AI which pre-generates the solution text for the user to make their respective changes.
 
 4. Navigate to next and final step **Review and Publish Idea** and add the **Publish idea** card to it, similar to all the steps above. 
-<br>![save step UI](/exercises/ex3/images/03_04_0080.png)
+<br><br>![save step UI](/exercises/ex3/images/03_04_0080.png)
    
 The last step of this stage is **Done** which is automatically generated at the end of every phase. No need to do anything here, as it has already been populated.
    
@@ -209,16 +207,16 @@ The last step of this stage is **Done** which is automatically generated at the 
 ### Exercise 3.2.3 Edit steps in stage Idea to Implementation
 
 1. Select the **Idea to Implementation** stage from the top level tab within the Guided Experience. You will see the steps of this stage as defined in the Guided Process - *Define BVP Scope*, *Implementation Plan* and *Initiate MVP Implementation*.
-<br>![select 2nd stage](/exercises/ex3/images/03_04_0090.png)
+<br><br>![select 2nd stage](/exercises/ex3/images/03_04_0090.png)
 
 2.	In the same way as before, fill the steps of this stage as well. First, for the step **Define MVP Scope** step, add the card with the same name.
-<br>![add step 1 UI](/exercises/ex3/images/03_04_0100.png)
+<br><br>![add step 1 UI](/exercises/ex3/images/03_04_0100.png)
 
 3.	Next, add the card **Implementation Plan** to the second step with the same name.
-<br>![add step 2 UI](/exercises/ex3/images/03_04_0110.png)
+<br><br>![add step 2 UI](/exercises/ex3/images/03_04_0110.png)
 
 4.	Finally, add the card **Initiate MVP** to the step **Initiate MVP implementation**.
-<br>![add step 3 UI](/exercises/ex3/images/03_04_0120.png)
+<br><br>![add step 3 UI](/exercises/ex3/images/03_04_0120.png)
 
 Like the previous stage, the last step of this stage is too **Done**. There is no action needed from your side as it's auto-generated and pre-configured.
 
@@ -226,10 +224,10 @@ Now, you are done with adding the step UIs for each step of the Guided Experienc
 You might of course add further cards or widgets to the different steps, for example to provide the users with additional help and information like how-to videos and instructions.
 
 6.	Click **Publish** to make your new page available to workspace users. Permissions??? In the pop-up, click **Publish** to submit all changes in the workpage including the whole Guided Experience configuration and setup.
-<br>![publish wizard](/exercises/ex3/images/03_04_0130.png)
+<br><br>![publish wizard](/exercises/ex3/images/03_04_0130.png)
 
 optionally, you can add a feed update message, which will inform all users that you have added a Guided Experience to your workspace.
-<br>![feed update](/exercises/ex3/images/03_04_0140.png)
+<br><br>![feed update](/exercises/ex3/images/03_04_0140.png)
 
 ---
 
@@ -242,18 +240,18 @@ Now, you will add a UI card that shows all the AI based ideas / usecases that al
 1. Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. Getting into edit mode is exactly same as Exercise 3.2.3 step 1 above. You use the pencil icon from the floating toolbar on the right-middle margin of the workpage.
 
 2.  Create a new section at the bottom of the page. Hover over the **Wizard** section, that you created in Exercise 3.2, and click on the **Add Section** at the bottom-middle border of this section. Select **Freestyle** this time, since you will add a UI integration card in this section.
-<br>![add card section](/exercises/ex3/images/03_03_0010.png)
+<br><br>![add card section](/exercises/ex3/images/03_03_0010.png)
 
 3.  In the newly created section, click on the **add** button (or the **add content** within the drop-down of the add option).
-<br>![add card section](/exercises/ex3/images/03_03_0020.png)
+<br><br>![add card section](/exercises/ex3/images/03_03_0020.png)
 
 4.  Select the **cards** tile, search for **All Ideas** card, select the card listed there and in the next screen click **save** to add it to the section.
-<br>![add card section](/exercises/ex3/images/03_03_0030.png)
+<br><br>![add card section](/exercises/ex3/images/03_03_0030.png)
 
 5. Now that you have added the *all ideas card* to the workpage, submit the changes to the workspage by clicking on the **Publish** button on the top-right.
 
 6.  You would see the added card at the bottom of the workpage with some existing ideas (pre-created as examples) and as when users will create new ideas (in Exercise 4), these ideas will start appearing in this UI card.
-<br>![add card section](/exercises/ex3/images/03_03_0040.png)
+<br><br>![add card section](/exercises/ex3/images/03_03_0040.png)
 
 ---
 

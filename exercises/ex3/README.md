@@ -246,7 +246,9 @@ Now, you will add a UI card that shows all the AI based ideas / usecases that al
 4.  Select the **cards** tile, search for **All Ideas** card, select the card listed there and in the next screen click **save** to add it to the section.
 <br>![add card section](/exercises/ex3/images/03_03_0030.png)
 
-5.  You would see the added card at the bottom of the workpage with some existing ideas (pre-created as examples) and as when users will create new ideas (in Exercise 4), these ideas will start appearing in this UI card.
+5. Now that you have added the *all ideas card* to the workpage, submit the changes to the workspage by clicking on the **Publish** button on the top-right.
+
+6.  You would see the added card at the bottom of the workpage with some existing ideas (pre-created as examples) and as when users will create new ideas (in Exercise 4), these ideas will start appearing in this UI card.
 <br>![add card section](/exercises/ex3/images/03_03_0040.png)
 
 ---

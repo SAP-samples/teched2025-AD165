@@ -157,7 +157,7 @@ Navigate to the Downloads folder in your system and select the downloaded image 
 
 ### Exercise 3.2.4 Edit steps in stage Idea Creation & Refinement
 
-For each In each of the steps below, 
+For each of the steps below, 
 
 you will be required to click on the **Add widget** button in the middle of the step UI.
 <br>![Add widget](/exercises/ex3/images/03_04_0010.png)
@@ -173,7 +173,7 @@ You do not need to make any additional settings, just click **Save**.
 
 > [!NOTE]
 > You have already created a SAP UI Integration card in Exercise 2. Similarly, UI integration cards were already pre-created for ease of this **Guided Experience** exercise.
-> While creating the Guided Experience, you will not be able to interact with the card, even though the cards are visible in the wizard steps. Once you sibmit the overall guided experience, the users will be able to interact with the step UIs when they initiate the wizard flow.
+> While creating the Guided Experience, you will not be able to interact with the card, even though the cards are visible in the wizard steps. Once you submit the overall guided experience, the users will be able to interact with the step UIs when they initiate the wizard flow.
 
 In this step, the user is asked to define the problem statement, who is affected by the problem and what would be the impact of the AI driven solution idea that he wants to capture through this wizard. This will help AI to find matching standard solution or ideas submitted by other users.
 
@@ -234,7 +234,7 @@ In Exercise 3.1, you have created the workpage **Use Case Repository** where emp
 Then in Exercise 3.2, You have added a **Guided Experience** to this new workpage which enables the employees to create new ideas and take it towards realization.
 Now, you will add a UI card that shows all the AI based ideas / usecases that all employees have added and their respective status. You can interact with these ideas, vote or add comments on them.
 
-1. Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. Gettinginto edit mode is exactly same as Exercise 3.2.3 step 1 above. You use the pencil icon from the floating toolbar on the right-middle margin of the workpage.
+1. Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. Getting into edit mode is exactly same as Exercise 3.2.3 step 1 above. You use the pencil icon from the floating toolbar on the right-middle margin of the workpage.
 
 2.  Create a new section at the bottom of the page. Hover over the **Wizard** section, that you created in Exercise 3.2, and click on the **Add Section** at the bottom-middle border of this section. Select **Freestyle** this time, since you will add a UI integration card in this section.
 <br>![add card section](/exercises/ex3/images/03_03_0010.png)
@@ -245,13 +245,13 @@ Now, you will add a UI card that shows all the AI based ideas / usecases that al
 4.  Select the **cards** tile, search for **All Ideas** card, select the card listed there and in the next screen click **save** to add it to the section.
 <br>![add card section](/exercises/ex3/images/03_03_0030.png)
 
-5.  You would see the added card at the bottom of the workpage with some existing ideas (pre-created as examples) and as and when users will create new ideas (in Exercise 4), these ideas will start appearing in this UI card.
+5.  You would see the added card at the bottom of the workpage with some existing ideas (pre-created as examples) and as when users will create new ideas (in Exercise 4), these ideas will start appearing in this UI card.
 <br>![add card section](/exercises/ex3/images/03_03_0040.png)
 
 ---
 
 ## Summary
 
-You've now added a **Use case repository** page to your workspace that contains a wizard that guides users throught he process of submitting an idea for an AI use cases sand a card that lists all the ideas and their respective status. In the next exercise, you will experience your workspace from a user perspective.
+You've now added a **Use case repository** page to your workspace that contains a wizard that guides users throught the process of submitting an idea for an AI use cases and a card that lists all the ideas and their respective status. In the next exercise, you will experience your workspace from a user perspective.
 
 Continue to - [Exercise 4 - Experience SAP Build Work Zone and your workspace as an end user](../ex4/README.md)

@@ -64,6 +64,7 @@ Document Grounding is the process of making a LLM refer to specific documents to
 
 ---
 
+
 ## <a id="run-wizard"></a> Exercise 4.4 Use the Guided Experience to submit an AI Use Case
 
 After completing these steps you will have submitted an AI Use case using the wizard you created in exercise 3.

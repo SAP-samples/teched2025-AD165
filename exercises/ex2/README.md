@@ -344,6 +344,9 @@ At this point, we are done with all changes in the card manifest. Your card shou
 <image src='/exercises/ex2/images/02_02_0060.png' height='500px'></image>
 </p>
 
+> [!TIP]
+> If you see errors still or can't get the card to show as per the above screenshots, you can view the [finished manifest.json](/exercises/ex2/manifest.json).
+
 ---
 
 8. Download the Card you've created. Click on the Download button on the top right and download Bundle as card.zip

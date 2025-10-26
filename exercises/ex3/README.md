@@ -84,14 +84,10 @@ You have now complete this exercise of creating the Welcome explanatory text for
 In this exercise you will create a **Guided Experience** using pre-created **Guided Process** in **SAP Build Process Automation**.
 
 ---
-
-### Exercise 3.2.1 Understand Guided Experiences
-
-> [!TIP]
-> This exercise is more for learning and knowledge. You can skip this section since you don't have to take any action in this section.
+### Learning content for this exercise
 
 <details>
-  <summary><b>Reading content on Guided Experience and Guided Process</b></summary>
+  <summary><b>What are Guided Experiences wizard in Work Zone?</b></summary>
 <br>
    
 **Guided Experiences** in SAP Build Work Zone are **step-by-step**, **self-service journeys** that package the right content and tools—videos, documents, apps, and UI Integration Cards—into clear stages and steps. They support mandatory/optional steps, **save progress** so users can resume later, and can run multiple instances in parallel or be restarted when needed—making complex processes like onboarding, benefits enrollment, or solution rollouts simpler, consistent, and measurable. In short: they reduce change-management overhead and help users complete work correctly the first time.  
@@ -99,8 +95,11 @@ In this exercise you will create a **Guided Experience** using pre-created **Gui
 When you design the flow as a **Guided Process** in SAP Build Process Automation (SBPA), you visually model stages, steps, forms, decisions, approvals, and automations, then publish that process to Work Zone as the blueprint for your Guided Experience. This gives you **governance** (versioning, change control), **reuse across workspaces**, and faster rollout—because updates to the process can be redeployed without rebuilding the Work Zone UI.
 
 If you are interested, you can read more about it in [Blog 1](https://community.sap.com/t5/technology-blogs-by-sap/what-s-new-with-sap-build-work-zone-guided-experiences/ba-p/13717701) and [Blog 2](https://community.sap.com/t5/technology-blog-posts-by-sap/guided-experiences-powered-by-sap-build/ba-p/13898694).
+</details>
 
-### Exercise 3.2.2 Understand the "Idea Management Guided Process" which is created for this exercise
+<details>
+  <summary><b>What are Guided Processes in SAP Build Process Automation?</b></summary>
+<br>
 
 Guided Process are created within [**SAP Build Process Automation**](https://www.sap.com/products/technology-platform/process-automation/features.html) which can be accessed via  SAP *Build Lobby*.
 <br>![switch to edit mode](/exercises/ex3/images/03_02_0001.png)
@@ -121,7 +120,9 @@ Phase 2: **Idea to Implementation** this has 3 steps - to define the initial imp
 This was brief glimpse of **Guided Process** to help you understand the subsequent exercises. 
 </details>
 
-### Exercise 3.2.3 Add a wizard to your workpage and select the pre-defined guided process
+---
+
+### Exercise 3.2.1 Add a wizard to your workpage and select the pre-defined guided process
 
 1. Ensure that you are in the newly created **Use Case Repository** workpage and you have switched into the edit mode. You may already be familiar with the edit-mode option from Exercise 1. To refresh, you can click on the pencil icon (as shown below) to get into the edit mode - where you can make changes to the workpage.
 
@@ -155,7 +156,7 @@ Navigate to the Downloads folder in your system and select the downloaded image 
 
 8. Click **Save** to create the wizard.
 
-### Exercise 3.2.4 Edit steps in stage Idea Creation & Refinement
+### Exercise 3.2.2 Edit steps in stage Idea Creation & Refinement
 
 For each of the steps below, 
 

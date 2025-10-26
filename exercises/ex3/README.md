@@ -223,7 +223,7 @@ Like the previous stage, the last step of this stage is too **Done**. There is n
 Now, you are done with adding the step UIs for each step of the Guided Experience. 
 You might of course add further cards or widgets to the different steps, for example to provide the users with additional help and information like how-to videos and instructions.
 
-6.	Click **Publish** to make your new page available to workspace users. Permissions??? In the pop-up, click **Publish** to submit all changes in the workpage including the whole Guided Experience configuration and setup.
+6.	Click **Publish** to make your new page available to workspace users. In the pop-up, click **Publish** to submit all changes in the workpage including the whole Guided Experience configuration and setup.
 <br><br>![publish wizard](/exercises/ex3/images/03_04_0130.png)
 
 optionally, you can add a feed update message, which will inform all users that you have added a Guided Experience to your workspace.

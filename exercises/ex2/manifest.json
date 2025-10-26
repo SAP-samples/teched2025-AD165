@@ -1,0 +1,64 @@
+{
+	"_version": "1.14.0",
+	"sap.app": {
+		"id": "com.sap.teched.ad165.###", <--
+		"type": "card",
+		"title": "Standard AI Agents List Card by AD165-###", <--
+		"subTitle": "Delivered by SAP",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"shortTitle": "Standard AI Agents List Card by AD165-###", <--
+		"info": "Custom Card for Teched Hands-On",
+		"description": "Delivered by SAP",
+		"tags": {
+			"keywords": [
+				"Data",
+				"Card",
+				"Sample"
+			]
+		}
+	},
+	"sap.card": {
+		"type": "List",
+		"header": {
+			"title": "Standard SAP AI Agents",
+			"subtitle": "List Card by AD165-###", <--
+			"icon": {
+				"src": "sap-icon://ai"
+			}
+		},
+		"content": {
+			"data": {
+				"request": {
+					"url": "https://simplenodebackend-chipper-kob-zy.cfapps.eu10-004.hana.ondemand.com/IdeaManagementDB/api/v1/list",
+					"method": "POST",
+					"headers": {"Content-Type": "application/json"},
+					"parameters": {
+						 "collectionName":"SAPAIAgents"
+					}
+				},
+				"path": "/"
+			},
+			"item": {
+				"title": "{AgentName}",
+				"description": "{AgentDescription}",
+				"actions": [
+					{
+						"type": "Navigation",
+						"enabled": "{= ${DiscoveryCenterLink}}",
+						"parameters": {
+							"url": "{DiscoveryCenterLink}"
+						}
+					}
+				]
+		    },
+			"maxItems": 5
+		},
+		"footer": {
+		    "paginator": {
+    			"pageSize": 5
+		    }
+	    }	
+	}
+}

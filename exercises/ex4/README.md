@@ -9,29 +9,48 @@ AI integration in SAP Build Work Zone can help users and administrators to work 
 
 After completing these steps you will have sent a status update to all users.
 
-1. Navigate back to the Home page of SAP Build Work Zone by clicking Home in the Work Zone menu.
-<image src='/exercises/ex4/images/03_01_0010.png' width='70%'></image>
-2. On the right side of the Home page beneath the banner, there is a feed widget where users with the required permission can share an update with the whole company. 
-<br>![Workpage tile](/exercises/ex3/images/03_01_0020.png)
-3. Click the **Generate text with AI** icon to get some help with writing your feed.
-<br>![Create Page](/exercises/ex3/images/03_01_0030.png)
+1. Navigate back to the **Overview** page of your AI Center of Excellence workspace.
+2. Scroll down to the feed widget where workspace users can share an update with other members and click the **Generate text with AI** icon to get some help with writing your feed.
+   
+<p align="center"><img src="./images/04_01_0010.png" width="90%" /></p>
 
-4. Enter a prompt of your choice into the Ask AI field, e.g. "write a short announcement that SAP TechEd has started in Berlin and virtually and there are amazing sessions to be followed online" and click the **Send** icon. 
-<br>![Add section](/exercises/ex4/images/02_01_0040.png)
-5. Read the generated text and decide if that is what you would like to post (maybe after some adjustments). In this case, click **Accept**. Otherwise, you can either click **Retry** which will make AI generate a new text from the same prompt, or **Discard** which will remove the prompt, so you can start again from scratch.
-6. Once you accept a text, it is added to the input field. You can now further edit it or simply click the **Share** button.
-7. You can also use text generation when commenting. Choose one of the entries in the feed and click the **Comment** button. Create a comment using text generation in the same way as the status update.
+3. Enter a prompt of your choice into the Ask AI field, e.g. "Write a status message that you are happy to be part of this AI community" or another prompt about SAP TechEd and click the **Send** icon.
+   
+<p align="center"><img src="./images/04_01_0020.png" width="90%" /></p>
 
+4. Read the generated text and decide if that is what you would like to post (maybe after some adjustments). In this case, click **Accept**. Otherwise, you can either click **Retry** which will make AI generate a new text from the same prompt, or **Discard** which will remove the prompt, so you can start again from scratch.
+
+<p align="center"><img src="./images/04_01_0030.png" width="70%" /></p>
+
+5. Once you accept a text, it is added to the input field. You can now further edit it or simply click the **Share** button.
+
+<p align="center"><img src="./images/04_01_0040.png" width="90%" /></p>
+
+6. You can also use text generation when commenting. Choose one of the entries in the feed and click the **Comment** button. Create and post a comment using text generation in the same way as the status update.
+
+<p align="center"><img src="./images/04_01_0050.png" width="90%" /></p>
+<br>
 
 ## <a id="ai-summarization"></a> Exercise 4.2 Use text summarization to quickly grasp the content of a blog post
 
-After completing these steps you will have created a summary of a blog post with the help of AI.
+After completing these steps you will have created a summary of a blog post with the help of AI. To try this functionality, we created another workspace with some sample blog posts for you. You can simply find them via the search.
 
-1. Click on the **Build, Deploy, and Extend AI Agents with Joule Studio** blog post in the Feed. If you cannot see it there, you could also just search for it by typing **Joule Studio** into the search window and clicking on the blog post or knowledge base entry in the search results list. 
-  
-2. After the blog post opens, click the **Summarize** button.
-3. Read the summary.
+1. In the search window in the Work Zone shell enter the search term Joule and change the search scope to **Content**, so you do not only search in the current workspace, but in Work Zone content overall.
    
+<p align="center"><img src="./images/04_02_0010.png" width="90%" /></p>
+
+2. Click on one of the blog posts in the search result, e.g. the **Build, Deploy, and Extend AI Agents with Joule Studio** blog post. The blog post is opened in the Public workspace where it is stored.
+
+<p align="center"><img src="./images/04_02_0020.png" width="90%" /></p>
+  
+3. Click the **Summarize** button to receive an AI generated summary of the blog post contents.
+
+<p align="center"><img src="./images/04_02_0030.png" width="90%" /></p>
+
+4. Read the summary.
+   
+<p align="center"><img src="./images/04_02_0040.png" width="90%" /></p>
+
 
 ## <a id="ai-doc-grounding"></a> Exercise 4.3 Experience document grounding in SAP Joule
 

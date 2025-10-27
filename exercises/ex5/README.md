@@ -107,17 +107,31 @@ The exposed content can not only be accessed from a desktop browser but also usi
 
 <p align="center"><img src="./images/ex5_03_0020.png" width="60%" /></p>
 
-6. Open the *SAP Mobile Start* app on your smartphone.
-7. Click on `Scan QR Code` and scan your *Site's* QR.
+5. Open the *SAP Mobile Start* app on your smartphone.
+6. Click on `Scan QR Code` and scan your *Site's* QR.
 <p align="center"><img src="./images/ex5_03_0030.png" width="20%" /></p>
 
 > [!CAUTION]
 > If you freshly installed *SAP Mobile Start* to your device, your operating system will prompt you whether you want to allow to receive push notifications. Make sure to select **Yes** in order to allow receiving push notification. Exercise 2.5 will make use of that. If you declined the alert before or just now by accident, you can later allow push notifications for *SAP Mobile Start* in your device's settings.
 
-8. Sign in with the provided credentials.
-9. By switching to the *Apps* tab on the bottom, you will be able to see *Site's* content structure equivalently to what you saw on the Applications tab in the desktop version.
-   <p align="center"><img src="./images/ex5_03_0050.png" width="20%" style="margin:10px" /><img src="./images/ex5_03_0060.png" width="20%" style="margin:10px" /></p>
+7. Sign in with the provided credentials.
 
-Other Work Zone content, such as workspaces or workpages, available on SAP Mobile Start as web views. To achieve this, an administrator can create a URL application in the Content Manager using the URLs of the workspace or workpage. This was already pre-configured here for you so that you can now...
+On the bottom of the page, you see two tabs: Start and Apps. If SAP Task Center which is part of the SAP Build Work Zone license were configured, you would see a To-Dos tab with your open workflow tasks. 
+
+> [!NOTE]
+>- **Start**: You find your most relevant content on the Start screen and receive important information such as your latest to-dos (if SAP Task Center is configured) or company news. You can customize this page by adding favorites to the Favorites section on top of the page and by scrolling to the bottom and tapping Edit Start Page.
+>- **Apps**: You find an exhaustive list of all your native and web-optimized apps on the Apps tab. The apps are displayed based on your assigned roles and the content corresponds to the apps that you see in the Apps area in the web experience of SAP Build Work Zone. Apps that do not support rendering on mobile devices are filtered.
+
+You should now see a **My Workspaces** app in the app suggestions. Tab on it to see a  web view of all workspaces, use the search to find your workspace and navigate into it. 
+<p align="center"><img src="./images/ex5_03_0040.png" width="20%" style="margin:10px" />  <img src="./images/ex5_03_0050.png" width="20%" style="margin:10px" /></p>
+
+8. By switching to the *Apps* tab on the bottom, you will be able to see *Site's* content structure with spaces and pages that were federated from the SAP S/4HANA system. You see the spaces as headlines (e.g. Purchasing, Sourcing and Contracting) and below the assigned pages of each space. Tab one of the pages to open it and see the assigned apps.
+    
+   <p align="center"><img src="./images/ex5_03_0060.png" width="20%" style="margin:10px" />
 
 
+> [!IMPORTANT]
+> **Wow!** :clap: :clap:
+> You have now completed the final exercise of AD165 as part of SAP TechEd 2025.
+> We hope that you got a good overview of how you can build great user experience with SAP Build Work Zone.  
+> **Congratulations!** :clap: :clap:

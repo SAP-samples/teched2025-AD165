@@ -83,6 +83,24 @@ First, give your instance of the Guided Experience a name, e.g. Marketing Data A
 My persona works in Marketing. They have lots of data to analyze and would need help in analyzing it (e.g. sales data, market data, usage data). AI should gather data from various sources, identify patterns and predict how different measures will impact customer behavior
 ````
 
+> [!TIP]
+> You can use other 'Problem Statements' from the examples below:
+> ````
+>Store managers cannot predict the dynamic demand and hence cannot manage their stocks optimally. This when solved should reduce over stocking or stock outages which will in turn increase business efficiency of the store.
+> ````
+> ````
+>Customer Experts in Service Teams cannot keep pace with inbound questions across channels making many missed opportunities and AI can help them keep tab on all fronts.
+> ````
+> ````
+>Sales Agents who travel often find submitting expenses as slow and error-prone, wasting their valuable time; receipts get misread/miscategorized and bounce back for fixes.
+> ````
+> ````
+>For every employee of the company, goal check-ins and 1:1s slip through the cracks, leaving employees without timely feedback or guidance. Performance review of employees suffer and often result in delayed feedback and drop in engagement.
+> ````
+> ````
+>Support experts waste time hunting across wikis, chats, and PDFs for routine answers, slowing daily work.
+> ````
+
 <p align="center"><img src="./images/04_04_0020.png" width="90%" /></p>
 
 4. Now click **Refine problem statement** to trigger the AI enhancement of the problem you entered. Check the result once it is available. You could now further adapt the refined statement or simply click **Next Step** to move on to the check for existing standard solutions for similar problems.

@@ -77,16 +77,16 @@ After completing these steps you will have submitted an AI Use case using the wi
 
 3. In this step, AI should support you in formulating your use case idea describing a persona and a specific problem that your use case is going to solve. Feel free to add your own idea or use the examples given here.
 
-First, give your instance of the Guided Experience a name, e.g. Marketing Data Analysis ###. Then enter a rough problem statement into the corresponding input field. For example:
+First, give your instance of the Guided Experience a name containing your participant number, e.g. Stock prediction ###. Then enter a rough problem statement into the corresponding input field. For example:
 
 ````
-My persona works in Marketing. They have lots of data to analyze and would need help in analyzing it (e.g. sales data, market data, usage data). AI should gather data from various sources, identify patterns and predict how different measures will impact customer behavior
+Store managers cannot predict the dynamic demand and hence cannot manage their stocks optimally. This when solved should reduce over stocking or stock outages which will in turn increase business efficiency of the store.
 ````
 
 > [!TIP]
-> You can use other 'Problem Statements' from the examples below:
+> You can use other 'Problem Statements' from the examples below as well:
 > ````
->Store managers cannot predict the dynamic demand and hence cannot manage their stocks optimally. This when solved should reduce over stocking or stock outages which will in turn increase business efficiency of the store.
+>Marketing Analysts need help to analyze large amounts of data they gather from various sources (e.g. sales data, market data, usage data). AI should collect data, identify patterns and predict how different measures will impact customer behavior
 > ````
 > ````
 >Customer Experts in Service Teams cannot keep pace with inbound questions across channels making many missed opportunities and AI can help them keep tab on all fronts.
@@ -107,17 +107,17 @@ My persona works in Marketing. They have lots of data to analyze and would need 
 
 <p align="center"><img src="./images/04_04_0030.png" width="90%" /></p>
 
-5. In this step, the AI compares your problem statement with existing AI Agents provided by SAP Business AI. The data for the existing agents is retrieved from the SAP Discovery Center. You will find a list of proposals and review them whether there is already an agent available that would solve your current issue. In this case, it would not be required to invest into developing a custom AI solution and you would decide at this point to stop the submission of this use case and turn the *Continue creating the new idea* switch to *Off*  at the bottom of the section.
+5. In this step, the AI compares your problem statement with existing AI Agents provided by SAP Business AI and other idea proposals. The data for the existing agents is retrieved from the SAP Discovery Center. You will find a list of matching solutions and you can review them and decide if any of the proposed solutions would solve your current use case or that could be reused when implementing your solution or if the proposed solutions are not relevant. If one of the proposed solutions fully supported your use case, it would not be required to invest into developing a custom AI solution and you would decide at this point to stop the submission of this use case and turn the *Continue creating the new idea* switch to *Off*  at the bottom of the section.
 
-As you cannot find a solution that solves the problem you plan to submit, keep the default **Not relevant** for all (possibly) matching solutions and click **Next Step**
+If you find a solution that might be useful input for your use case, select **Reuse**. Keep the default **Not relevant** for all other (not matching) solution proposals and click **Next Step**.
 
 <p align="center"><img src="./images/04_04_0035.png" width="90%" /></p>
 
-5. The AI has further elaborated on your idea and proposed a solution summary. Feel free to click **Regenerate** if you do not like the proposal or to use the **Refine with my Input** button to add further aspects that should be reflected in the summary. Check the SAP tooling recommendations and adapt the business value and implementation cost entries if required. Then go on to the **Next Step**. 
+6. The AI has further elaborated on your idea and proposed a solution summary. Feel free to click **Regenerate** if you do not like the proposal or to use the **Refine with my Input** button to add further aspects that should be reflected in the summary. Check the SAP tooling recommendations and adapt the business value and implementation cost entries if required. Then go on to the **Next Step**. 
 
 <p align="center"><img src="./images/04_04_0040.png" width="90%" /></p>
 
-6. Check the final summary that has been created and decide how you want to publish your idea, i.e. if you want to publish it for review and voting etc. Then click **Next Step**.
+7. Check the final summary that has been created and decide how you want to publish your idea, i.e. if you want to publish it for review and voting etc. Then click **Next Step**.
 
 <p align="center"><img src="./images/04_04_0050.png" width="90%" /></p>
 

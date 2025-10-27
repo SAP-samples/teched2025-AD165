@@ -46,9 +46,11 @@ There are no specific requirements to follow the exercises 1-4 in this repositor
     - [Exercise 4.2 - Use text summarization to quickly grasp the content of a blog post](exercises/ex4#ai-summarization)
     - ~~[Exercise 4.3 - Experience document grounding in SAP Joule](exercises/ex4#ai-doc-grounding)~~
     - [Exercise 4.4 - Use the Guided Experience to submit an AI Use Case](exercises/ex4#run-wizard)
-- [Exercise 5 (optional) - Experience SAP Build Work Zone on a mobile device](exercises/ex5/)
-    - [Exercise 5.1 - Understand application integration in SAP Build Work Zone](exercises/ex5#app-integration)
-    - [Exercise 5.2 - Access your site on a mobile device](exercises/ex5#mobile-access)
+- [Exercise 5 (optional) - Learn about Business Content integration and access SAP Build Work Zone from a mobile device](exercises/ex5/)
+    - [Exercise 5.1 Download SAP Mobile Start](exercises/ex5#download-sms)
+    - [Exercise 5.2 Explore the administration environment for Business Content integration](exercises/ex5#business-content-integration)
+    - [Exercise 5.3 Access SAP Build Work Zone on a mobile device](exercises/ex5#access-sbwz-in-mobile)
+
  
 ## System Access
 

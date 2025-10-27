@@ -87,6 +87,8 @@ In the meantime, you can download some images that you can use when editing your
 
 <p align="center"><img src="./images/ex1_02_07_0001.png" width="60%" alt="WorkspaceReady"/></p>
 
+If you do not see the fully loaded workspace, try refreshing the brower. If that does not help, you might also do [Exercise 2.1 What is the Card Explorer](../ex2#what-is-the-card-explorer) and [Exercise 2.2 Select an advanced UI card and adapt it to your needs](../ex2#exercise-22-select-an-advanced-ui-card-and-adapt-it-to-your-needs) before coming back to this exercise.
+
 Once your workspace is fully loaded, you can get started by making yourself familiar with the content it already contains.
 
 As you can see in the workspace menu, there are already a couple of pages available in the workspace. Explore the different pages that were created from the template, e.g. the Overview page, the Forum, the Knowledge Base and other pages. Before publishing your workspace, you will add some more content to these pages or adapt the existing content to the specific use case of a Digital Center of Excellence for AI. 

@@ -13,7 +13,8 @@ In this exercise, you will learn how business content from an SAP system can be 
 >
 >It’s important to note that the applications are not replicated or transported to SAP BTP. Instead, the exposure provides metadata that allows SAP Build Work Zone to launch the applications, which continue to run in the provider system.
 
-## Exercise 5.1 Download SAP Mobile Start
+
+## <a id="download-sms"></a> Exercise 5.1 Download SAP Mobile Start
 
 Later in this exercise, you will need the app *SAP Start* on our smartphone or tablet.
 Since the download may take a moment depending on the network conditions, please start the download and installation of *SAP Mobile Start* to your smartphone or tablet already now.
@@ -28,8 +29,8 @@ Since the download may take a moment depending on the network conditions, please
 
 2. Start the download & installation of SAP Mobile Start while continuing with the next steps in this exercise.
 
-   
-## Exercise 5.2 Explore the administration environment for Business Content integration
+
+## <a id="business-content-integration"></a> Exercise 5.2 Explore the administration environment for Business Content integration
 
 After completing this exercise, you’ll be familiar with the administration of business content in SAP Build Work Zone. You already used this environment, when you were creating an app for your UI integration card in exercise 2. So let us go back there.
 
@@ -92,7 +93,7 @@ Please do not change the existing settings in this area.
 
 ---
 
-## Exercise 5.3 Access SAP Build Work Zone on a mobile device
+## <a id="access-sbwz-in-mobile"></a> Exercise 5.3 Access SAP Build Work Zone on a mobile device
 
 
 The exposed content can not only be accessed from a desktop browser but also using the native mobile app *SAP Mobile Start*.

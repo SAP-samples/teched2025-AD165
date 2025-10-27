@@ -129,4 +129,7 @@ If you find a solution that might be useful input for your use case, select **Re
 
 You've now tested some of the AI capabilities of SAP Build Work Zone: text generation, text summarization, and the usage of AI in custom UI integration cards. SAP Build Work Zone also supports document grounding with SAP Joule which allows you to add information gathered from corporate documents and information in workspaces as a resource for SAP Joule. This allows SAP Joule to provide more relevant and useful information to users and to refer to internal corporate information. 
 
-Continue to - [Exercise 5 - Excercise 5 ](../ex5/README.md)
+> **Congratulations!** :clap: :clap:
+> You have completed the main exercises of AD165 as part of SAP TechEd 2025.
+
+If you still have some time left, we recommend that you continue to the optional [Exercise 5 - Learn about Business Content integration and access SAP Build Work Zone from a mobile device](../ex5/README.md).

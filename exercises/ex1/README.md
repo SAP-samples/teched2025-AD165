@@ -263,7 +263,7 @@ You would like to move the video to the right of the two elements (text and pink
 <p align="center"><img src="./images/ex1_03_08_0003.png" width="90%" alt="Delete empty cell"/></p>
 
 4. Now adjust the width of the columns: To do this, you need to move the mouse over the separation between the columns until the section is selected. This is the case, when the *Add Section* button appears on top of the section. The cursor then changes its look and can be used to drag the separation between the columns to the left or right. The size of the widgets in the sections adapts automatically to fill the available space in an optimal way.
-<p align="center"><img src="./images/ex1_03_08_0003.png" width="90%" alt="Adapt column width"/></p>
+<p align="center"><img src="./images/ex1_03_08_0004.png" width="90%" alt="Adapt column width"/></p>
 
 ---
 

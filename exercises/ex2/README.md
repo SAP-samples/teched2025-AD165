@@ -201,8 +201,8 @@ At this stage your card looks like this -
 2. Now let us fix the UI and make it show the correct data by mapping the list item properties to correct data row attributes. This needs to be done in the `items` node (line 43 to 47) of the `content` right below the `data` which you changed previous.
    
    <br> - First, remove the last proprty `"highlight"` as it is not necessary for the list of sap AI Agents to differentiate row with green, orange and red row markers.
-   <br> - Change the `title` property into `"{ProblemStatement}",` 
-   <br> - Change the `description` property into `"{RefinedSolution}"`
+   <br> - Change the `title` property into `"{AgentName}",` 
+   <br> - Change the `description` property into `"{AgentDescription}"`
 
 We map the title and description to these attributes becuase the service response returns the json in a format where these attributes are filled for each row of data for the SAP AI Agent details. 
 
@@ -263,8 +263,8 @@ At this point, the card should show the footer and it should look like this -
 The "item" section starting in line 43 should look like this now:
 ````json
 		"item": {
-				"title": "{RefinedSolution}",
-				"description": "{ProblemStatement}",
+				"title": "{AgentName}",
+				"description": "{AgentDescription}",
 				"actions": [
 					{
 						"type": "Navigation",
@@ -289,8 +289,8 @@ The manifest JSON at the very bottom should look like this now -
 
 #### Let us understand what changes were made and why
 - [Actions](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/cardActions) are a way to add interactivity to the card elements like line items, header or footer. In this case, you added a action of type `Navigation` which initiates a browser redirect. 
-<br> - The url parameter of the navigation action is bound to the _IdeaLinks_ attribute of the row data like _ProblemStatement_ and _RefinedSolution_ binding for `title` and `description`.
-<br> - Observe how the `enabled` property of the `action` is bound to an expression that evaluates whether _IdeaLinks_ attribute has any value. If it doesn't have any value, the navigation action on this row will be disabled as the ${IdeaLinks} expression would evaluate to `false`. Hence, the use of expression binding.
+<br> - The url parameter of the navigation action is bound to the _DiscoveryCenterLink_ attribute of the row data like _AgentName_ and _AgentDescription_ binding for `title` and `description`.
+<br> - Observe how the `enabled` property of the `action` is bound to an expression that evaluates whether _DiscoveryCenterLink_ attribute has any value. If it doesn't have any value, the navigation action on this row will be disabled as the ${DiscoveryCenterLink} expression would evaluate to `false`. Hence, the use of expression binding.
 
 ---
 

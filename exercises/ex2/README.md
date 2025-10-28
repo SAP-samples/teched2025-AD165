@@ -338,7 +338,7 @@ These are only metadata changes to the UI Card. These fields are used to identif
 7. But, the card header still shows _Products_ as *`title`* and _In Stock Information_ as *`subtitle`*. Let us change that. Make the `header` node in the `sap.card` section as following -
    <br> - Change the *`title`* property into `Standard SAP AI Agents` (line 25)
    <br> - Change the *`subtitle`* property into `List Card by AD165-###` (line 26)
-   <br> - Change the *`icon`* property into SAP AI icon by using the src of `"sap-icon://ai"` (ine 27)
+   <br> - Change the *`icon`* property into SAP AI icon by using the src of `sap-icon://ai` (line 28)
    
 The `sap.card` `header` section starting in line 24 should look like this now:
 

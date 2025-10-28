@@ -54,7 +54,7 @@ After completing these steps you will have created a Center of Excellence worksp
 >- Additional members can be designated as admins.
 >- Admin privileges include defining permissions for members and non-members, such as what actions they can perform within the workspace.
 
-STEPS: 
+### Steps
 
 1.	In the menu bar, navigate to *Workspaces > New Workspace*.
 <p align="center"><img src="./images/ex1_02_01_0000.png" width="70%" alt="New Workspace"/></p>
@@ -162,13 +162,13 @@ Workpages can be structured using various layout elements that offer a flexible 
 
 3. In the first step, you will add a banner image to the upmost section of the workpage. This section already contains an image widget, so you can either drag and drop the 'Overview_banner.png' onto the **Drop an image here to upload it** or click **Or click here to upload a new image** and select the 'Overview_banner.png' for upload.
 
-4. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/Settings_icon.png).
+4. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon.
 <p align="center"><img src="./images/ex1_03_03_0004.png" width="90%" alt="Edit cell settings"/></p>
 
 5. Change **Padding Bottom (px)** to 20 and set all switches to *On*, so the section is collapsible and open by default and to extend the background to full width. Add **#21275B** as background color. Then click **Save**.
 <p align="center"><img src="./images/ex1_03_03_0005.png" width="90%" alt="Change cell settings"/></p>
 
-6. Now open the cell settings for editing by clicking the **Edit cell settings** icon [settings icon](/exercises/ex1/images/Settings_icon.png).
+6. Now open the cell settings for editing by clicking the **Edit cell settings** icon.
 <p align="center"><img src="./images/ex1_03_03_0006.png" width="90%" alt="Change cell settings"/></p>
 
 7. Turn **Background** on to get a white frame around the image and click **Save**.

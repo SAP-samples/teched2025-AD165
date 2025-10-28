@@ -145,7 +145,7 @@ By the end of this exercise, you will have:
 2. **Replace the data source**: point the card’s `sap.card.data.request` to the provided **Node.js backend** (simple REST API) that returns a list of SAP AI Agents.
 3. **Bind the list fields**: map the list item properties (e.g., `title`, `description`, `actions`) to properties returned by the API.
 4. **show list all button in footer**: add the footer with the paginator button to show a popup that lists all SAP AI Agents.
-5. **Update card propoerties**: change the card id, title, subtitle, etc to make it unique for each participant for conflict-free deployment & unique identification of card at runtime.
+5. **Update card properties**: change the card id, title, subtitle, etc to make it unique for each participant for conflict-free deployment & unique identification of card at runtime.
 6. **Download the bundle**: export your customized card as `card.zip` for import into SAP Build Work Zone.
 
 ### Steps

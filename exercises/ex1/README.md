@@ -78,7 +78,12 @@ STEPS:
 
 5. On the *Non-Member Participation* page, keep *Collaboration Level* to **Same as Members: Limited** to allow users to collaborate even without joining the workspace. You could also limit the access to certain user lists or roles, but you want to make this workspace available to everyone, so just click **Finish**.
 
-The workspace is created and you automatically navigate to it. It can take some minutes for the workspace to be fully set up, so please wait before continuing until your workspace looks like the image below. 
+The workspace is created and you automatically navigate to it. It can take some minutes for the workspace to be fully set up, so please wait before continuing until your workspace looks like the image with the pink checkmark a bit further below. 
+
+> [!IMPORTANT]
+> The workspace will first show up empty and only after a while, you will see it with the template content applied. So, as long as you still see this screen, the workspace is not yet fully loaded. 
+> <p align="center"><img src="./images/ex1_02_06_0001.png" width="40%" alt="WorkspaceNotReady"/></p>
+
 In the meantime, you can download some images that you can use when editing your workspace.
 
 6. Right-click the link [exercises/ex1/samples](https://github.com/SAP-samples/teched2025-AD165/tree/main/exercises/ex1/samples) and open the folder in a new browser tab.
@@ -115,7 +120,7 @@ As a first step, you will change the cover photo to something that fits the purp
 1. Click **Edit Cover Photo**, then select **Upload Photo** from the dropdown list.
 <p align="center"><img src="./images/ex1_03_01_0001.png" width="70%" alt="Edit Cover Photo"/></p>
 
-2. Select the 'AI_Banner.jpg' from the folder to which you extracted the image files.
+2. Select the 'AI_Banner.jpg' from the folder to which you extracted the image files. The picture looks different from the screenshot below, as initially its upper part shows up, while in the screenshot a different part was selected for display.
 
 3. If you want, you can zoom into the image by using the slider. Select a beautiful display window by dragging the image up / down or left / right. Then click **Save**.
 <p align="center"><img src="./images/ex1_03_01_0003.png" width="90%" alt="Zoom reposition & Save"/></p>
@@ -155,7 +160,7 @@ Workpages can be structured using various layout elements that offer a flexible 
    
 <p align="center"><img src="./images/ex1_03_03_0002.png" width="90%" alt="Hover structure"/></p>
 
-3. In the first step, you will add a banner image to the upmost section of the workpage. This section already contains an image widget, so you can either drag and drop the 'Overview_banner.png' onto the **Drop an image here to upload it** or click **Or click here to upload an image** and select the 'Overview_banner.png' for upload.
+3. In the first step, you will add a banner image to the upmost section of the workpage. This section already contains an image widget, so you can either drag and drop the 'Overview_banner.png' onto the **Drop an image here to upload it** or click **Or click here to upload a new image** and select the 'Overview_banner.png' for upload.
 
 4. Now, change some properties of the section to make it collapsible, so users can save some space on the screen if they want. Move the mouse a bit up till you see the grey frame of the section and click the **Edit section settings** icon [settings icon](/exercises/ex1/images/Settings_icon.png).
 <p align="center"><img src="./images/ex1_03_03_0004.png" width="90%" alt="Edit cell settings"/></p>

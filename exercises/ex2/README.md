@@ -150,7 +150,7 @@ By the end of this exercise, you will have:
 
 ### Steps
 
-1. Esure that you are already in **Explore** tab of [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list). Find and select the **Card Features** > **Data** from the _left navigation panel_ and ensure that the default **Basic Data Request** card is selected in the drop-down as shown in the screenshot below. To adapt the card, you can adjust its *`manifest.json`* file on the right.
+1. Ensure that you are already in **Explore** tab of [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list). Find and select the **Card Features** > **Data** from the _left navigation panel_ and ensure that the default **Basic Data Request** card is selected in the drop-down as shown in the screenshot below. To adapt the card, you can adjust its *`manifest.json`* file on the right.
    
 <br> ![Select Card Type](/exercises/ex2/images/02_02_0010.png)
 <br>
@@ -200,7 +200,7 @@ At this stage your card looks like this -
 
 2. Now let us fix the UI and make it show the correct data by mapping the list item properties to correct data row attributes. This needs to be done in the `items` node (line 43 to 47) of the `content` right below the `data` which you changed previous.
    
-   <br> - First, remove the last proprty `"highlight"` as it is not necessary for the list of sap AI Agents to differentiate row with green, orange and red row markers.
+   <br> - First, remove the last property `"highlight"` as it is not necessary for the list of sap AI Agents to differentiate row with green, orange and red row markers.
    <br> - Change the `title` property into `"{AgentName}",` 
    <br> - Change the `description` property into `"{AgentDescription}"`
 
@@ -233,6 +233,8 @@ At this point, the card should look like
 		    }
 	    }				
 ````
+> [!TIP]
+> If you run into json formatting issue, ensure to add a `,` at the end of line 48 after `}`
 
 The manifest JSON at the very bottom should look like this now -
 
@@ -277,15 +279,21 @@ The "item" section starting in line 43 should look like this now:
 			},			
 ````
 
+> [!TIP]
+> If you run into json formatting issue, ensure to add a `,` at the end of line 45.
+> <br> Line 45 should look like - ````json "description": "{AgentDescription}",````
+
+
 The manifest JSON at the very bottom should look like this now -
 
 <p align="center">
 <image src='/exercises/ex2/images/02_02_0026.png' width='500px'></image>
 </p>
 
-> [!TIP]
+> [!NOTE]
 > You can see the change immediately on the card preview and the list items are now clickable.
-> click on any line in the list to see that the action is working and leads to the AI Agent page in SAP Discovery Center. 
+> <br> click on any line in the list to see that the action is working and you will see a toast message.
+> <br> An runtime, when you add the card into Work Zone, it will lead you to the AI Agent page in SAP Discovery Center. 
 
 #### Let us understand what changes were made and why
 - [Actions](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/cardActions) are a way to add interactivity to the card elements like line items, header or footer. In this case, you added a action of type `Navigation` which initiates a browser redirect. 

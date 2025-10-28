@@ -251,13 +251,19 @@ Then click **Save**.
 
 #### Exercise 1.3.8   Move a widget to a new cell
 
-You would like to move the two elements (text and pink cell) to the left of the video.
+You would like to move the video to the right of the two elements (text and pink button).
 
-1. Hover the section with the video until you see a plus sign to the left of the video. Click the plus icon to add another column to the section.
-<p align="center"><img src="./images/ex1_03_08_0001.png" width="60%" alt="Add Column"/></p>
+1. Hover the section with the two elements until you see the section frame including a plus sign to the right of the section. Click the plus icon to add another column to the section.
+<p align="center"><img src="./images/ex1_03_08_0001.png" width="70%" alt="Add Column"/></p>
 
-2. Drag and drop the two widgets from the right column to the new column. You can drop them as soon as a blue line appears. Remove the empty column on the right in case it is not automatically deleted.
-<p align="center"><img src="./images/ex1_03_08_0002.png" width="90%" alt="Remove column"/></p>
+2. Drag and drop the video widget from the left column to the upper part of the new column. You can drop it as soon as a blue line appears. 
+<p align="center"><img src="./images/ex1_03_08_0002.png" width="60%" alt="Move video widget"/></p>
+
+3. Delete the empty cell on the right by clicking the  in case it is not automatically deleted.
+<p align="center"><img src="./images/ex1_03_08_0003.png" width="90%" alt="Delete empty cell"/></p>
+
+4. Now adjust the width of the columns: To do this, you need to move the mouse over the separation between the columns until the section is selected. This is the case, when the *Add Section* button appears on top of the section. The cursor then changes its look and can be used to drag the separation between the columns to the left or right. The size of the widgets in the sections adapts automatically to fill the available space in an optimal way.
+<p align="center"><img src="./images/ex1_03_08_0003.png" width="90%" alt="Adapt column width"/></p>
 
 ---
 

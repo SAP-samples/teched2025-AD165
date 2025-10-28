@@ -121,7 +121,15 @@ If you find a solution that might be useful input for your use case, select **Re
 
 <p align="center"><img src="./images/04_04_0050.png" width="90%" /></p>
 
-8. Your idea is published. Other users can now find it in the **Idea Library** card below. You have not reached the end of the first stage. You could now click **Complete Stage** to finalize it and move on to the next stage *Idea to Implementation*. Feel free to explore the steps of this stage as well or go to exercise 5 to learn about application integration and get to know the SAP Mobile Start app for mobile access to SAP Build Work Zone. 
+8. Your idea is published and will become available in the **Idea Library** card below. You have now reached the end of the first stage. Click **Complete Stage** to finalize it.
+
+<p align="center"><img src="./images/04_04_0060.png" width="80%" /></p>
+
+9. Scroll down to the **Idea Library** card and click the **Refresh** button. You should now see your idea as part of the list. You can identify it best by the **Created by** column.
+
+<p align="center"><img src="./images/04_04_0070.png" width="80%" /></p>
+
+10. Now, you could move on to the next stage **Idea to Implementation** and explore the steps of this stage as well. Depending on the time you have left, you can also go to the optional exercise 5 to learn about application integration and get to know the SAP Mobile Start app for mobile access to SAP Build Work Zone. 
    
 
 

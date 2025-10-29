@@ -259,7 +259,7 @@ You would like to move the video to the right of the two elements (text and pink
 2. Drag and drop the video widget from the left column to the upper part of the new column. You can drop it as soon as a blue line appears. 
 <p align="center"><img src="./images/ex1_03_08_0002.png" width="60%" alt="Move video widget"/></p>
 
-3. Delete the empty cell on the right by clicking the  in case it is not automatically deleted.
+3. Delete the empty cell on the right by clicking the **Delete cell** icon.
 <p align="center"><img src="./images/ex1_03_08_0003.png" width="90%" alt="Delete empty cell"/></p>
 
 4. Now adjust the width of the columns: To do this, you need to move the mouse over the separation between the columns until the section is selected. This is the case, when the *Add Section* button appears on top of the section. The cursor then changes its look and can be used to drag the separation between the columns to the left or right. The size of the widgets in the sections adapts automatically to fill the available space in an optimal way.
@@ -279,9 +279,9 @@ You would like to move the video to the right of the two elements (text and pink
 
 ## Summary
 
-You've now created a first version of a Center of Excellence workspace for AI topics based on a template. Now you can enhance it with a guided experience in Exercise 2.
+You've now created a first version of a Center of Excellence workspace for AI topics based on a template. Now you can enhance it with a **UI Integration Card in Exercise 2**.
 
 
 
-Continue to - [Exercise 2 - Add a Guided Experience to your workspace](../ex2/README.md)
+Continue to - [Exercise 2 - Add a UI integration card to your workspace](../ex2/README.md)
 

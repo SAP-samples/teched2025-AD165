@@ -236,7 +236,7 @@ There is now a new option besides adding a tile, card, or other widget from the 
 
 You would like to exchange the video for an AI related one. 
 
-1. Hover the video and click the **Edit widget** icon [settings icon](/exercises/ex1/images/Setting_icon.png).
+1. Hover the video and click the **Edit widget** icon.
 <p align="center"><img src="./images/ex1_03_07_0001.png" width="70%" alt="Edit Video"/></p>
 
 2. Paste the following URL into the input field beneath **Paste URL**: 

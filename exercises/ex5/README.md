@@ -1,15 +1,15 @@
 # Exercise 5 (optional) - Learn about Business Content integration and access SAP Build Work Zone from a mobile device
 
-In this exercise, you will learn how business content from an SAP system can be integrated into SAP Build Work Zone. Finally, you will download the native SAP Mobile Start app to your own smartphone and open your SAP Build Work Zone site there.
+In this exercise, you will learn how business content from an SAP system can be integrated into SAP Build Work Zone. In addition, you will download the native SAP Mobile Start app to your own smartphone and open your SAP Build Work Zone site there.
 
 > [!NOTE]
 > Business content can be integrated in several ways within SAP Build Work Zone. One method is by creating UI integration cards that consume content from an OData service in an SAP system, utilizing the connectivity services of SAP Business Technology Platform (SAP BTP).
 >
 >Another integration method is called **Content Federation**. This scenario consists of two main steps:
 >
->- **Content Exposure**: An administrator selects what content should be available in SAP Build Work Zone. This is typically done on the content provider side, for example, within an SAP S/4HANA system. The exposure usually happens at the role level and includes all content entities assigned to the selected roles, such as groups, catalogs, pages, and spaces.
+>- **Content Exposure**: An administrator selects what content should be available in SAP Build Work Zone. This is typically done on the content provider side, for example, within an SAP S/4HANA system. The exposure usually happens at the role level and includes all content entities assigned to the selected roles, such as apps, groups, catalogs, pages, and spaces.
 >
->- **Content Consumption**: This step occurs within SAP Build Work Zone, where the exposed content is consumed.
+>- **Content Consumption**: This step occurs within SAP Build Work Zone, where a content channel is created and the exposed content is consumed.
 >
 >It’s important to note that the applications are not replicated or transported to SAP BTP. Instead, the exposure provides metadata that allows SAP Build Work Zone to launch the applications, which continue to run in the provider system.
 
@@ -32,9 +32,9 @@ Since the download may take a moment depending on the network conditions, please
 
 ## <a id="business-content-integration"></a> Exercise 5.2 Explore the administration environment for Business Content integration
 
-After completing this exercise, you’ll be familiar with the administration of business content in SAP Build Work Zone. You already used this environment, when you were creating an app for your UI integration card in exercise 2. So let us go back there.
+After completing this exercise, you’ll be familiar with the administration of business content in SAP Build Work Zone. You already used this environment in exercise 2, when you created an app for your UI integration card. So let us go back there.
 
-1. Click the user avatar in the upper right corner and select **Administration Console**.
+1. Click your user avatar in the upper right corner and select **Administration Console**.
 
 <p align="center"><img src="./images/ex5_02_0010.png" width="60%" /></p>
 
@@ -45,7 +45,7 @@ After completing this exercise, you’ll be familiar with the administration of 
 ---
 
 ### What is the Content Manager?
-The Content Manager is the tool you use to manage the business content items for your subaccount: apps, catalogs, groups, roles, spaces and pages, and shell plugins). It lets you:
+The Content Manager is the tool for managing all business content items for your subaccount: apps, catalogs, groups, roles, spaces and pages, and shell plugins. It lets you:
 - Create different content entities, e.g. apps, spaces, pages, roles.
 - Open content entities for editing
 - Search for content entities
@@ -53,9 +53,9 @@ The Content Manager is the tool you use to manage the business content items for
 
 To try it: 
 
-3. Click the **Create** button to see the list of content entities you could create here in the dropdown.
+3. Click the **Create** button to check out the types of content entities you could create here in the dropdown.
 
-4. If you want, scroll down and click on any of the S/4HANA roles to open it and check out the apps and spaces assigned to it. Navigate back to the Content Manager using the breadcrumb.
+4. If you want, scroll down the content entities table and click on any of the S/4HANA roles to open it and view the apps and spaces assigned to it. Navigate back to the Content Manager using the breadcrumb.
 
 5. Navigate to the Content Explorer by clicking the **Content Explorer** button.
 
@@ -66,7 +66,7 @@ To try it:
 ### What is the Content Explorer?
 The Content Explorer displays the available content providers and allows administrators to inspect the content items provided by them, such as apps and shell plugins, and add them to the content which is available for usage in the Content Manager.
 
-In general, it is recommended to automatically add all content items to the subaccount, when you setup a new content provider, but you might also decide that you prefer to pick and choose only specific roles to be available using the Content Explorer.  
+In general, it is recommended to automatically add all content items from a content channel automatically to the Content Manager, when setting up a new content provider, but you might also decide that you prefer to pick and choose only specific roles to be available using the Content Explorer.  
 
 
 6. Click the **S4HANA_TechED_AD165** tile to open the S/4HANA Content Provider and see the exposed roles. Notice that 24 roles have been exposed from the SAP S/4HANA public cloud system. Also from here, you can navigate into the roles to check which apps and spaces belong to them.
@@ -80,16 +80,17 @@ In general, it is recommended to automatically add all content items to the suba
 ---
 
 ### What is the Channel Manager?
-Administrators use the Channel Manager to define, edit, and get updates from remote content providers. When a new subaccount is configured, the *HTML5 Apps* content channel is available by default. It enables administrators to easily integrate apps deployed on SAP BTP to Work Zone. The Channel Manager lets you:
+Administrators use the Channel Manager to define, edit, and update content consumed from remote content providers. After the setup of Work Zone, the *HTML5 Apps* content channel is available by default out of the box. It enables administrators to easily integrate apps deployed on SAP BTP to Work Zone. The Channel Manager lets you:
 - Define new content channels based on SAP BTP destinations
 - Configure settings for content channels
 - Update a content channel manually. However, setting up automatic updates is usually the prefered solution.
 
 <p align="center"><img src="./images/ex5_02_0060.png" width="80%" /></p>   
 
+**Please do not change the existing settings in this area.**
+
 1. Clicking the **New** button, you see that you can configure new content providers here, but also add an HTML5 Business Solution. This scenario enables providers of business solutions (SaaS) to share their business solution across subaccounts, by defining them as content providers. Both multi- and single-tenant business solutions are supported.
 
-Please do not change the existing settings in this area.
 
 ---
 

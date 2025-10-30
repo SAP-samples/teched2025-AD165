@@ -74,7 +74,7 @@ Generate in a markdown format with a Bold and large Title and content that is we
 7. It should again load the prompt window, but this time you don't have to define a prompt as it is already created based on the AI assistance option you selected. Select **Accept**.
 <br><br>![text format options](/exercises/ex3/images/03_01_0090.png)
 
-You have now completed this exercise of creating a Welcome explanatory text for the new workpage. Press on the publish button to persist this text widget in the workpage.
+You have now completed this exercise of creating a Welcome explanatory text for the new workpage. Press on the **Publish** button to persist this text widget in the workpage and click **Publish** again in the pop-up. If you want, deselect **Show in Feed Updates** as you would rather show it in Feed Updates, when the page is final.
 <p align="center"><img src="/exercises/ex3/images/03_01_0100.png" width="85%"/></p>
 
 ---

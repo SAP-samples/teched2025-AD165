@@ -131,7 +131,7 @@ This was brief glimpse of **Guided Process** to help you understand the subseque
 2. Hover the section that you just filled with content and click the **Add section** button below. You should see 2 options in the pop-up **FreeStyle** and **Wizard**. Select **Wizard** to start creating the **Guided Experience**.
 <br><br>![add a section](/exercises/ex3/images/03_02_0020.png)
 
-3. You should see the **Add Wizard** popup. Select the **Idea Management Guided Process** from the **Select process** drop-down. This Guided Process has been preconfigured in SAP Build Process Automation - which we saw briefly in Exercise 3.2.2 above. You will observe that `Title` and `Description` fields are automatically set as defind in the Guided Process.
+3. You should see the **Add Wizard** popup. Select the **Idea Management Guided Process** from the **Select process** drop-down. This Guided Process has been preconfigured in SAP Build Process Automation - as described briefly in the item *What are Guided Processes in SAP Build Process Automation?* at the beginning of exericse 3.2. You will observe that `Title` and `Description` fields are automatically set as defined in the Guided Process.
 <br><br>![Select guided process](/exercises/ex3/images/03_02_0030.png)
 
 4. Leave the *Display Option* to default - **Embedded in Workpage**.

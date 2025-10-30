@@ -25,6 +25,8 @@ Note the navigation menu on top of the screen. It contains some default entries 
 
 4. Click the back icon to come back to the My Workspace. Now navigate to the **Workspaces** tab.
 
+<p align="center"><img src="./images/ex1_01_01_0010.png" width="90%" /></p>
+
 > [!NOTE]
 > A workspace is a collaborative environment that is designed to encourage users to share and communicate with each other about a specific subject, project, event, goal, or a team from a specific department. Workspaces are a very important concept in SAP Build Work Zone, as they allow users to engage with each other and contribute to creating the right work environment for themselves and the people they collaborate with.
 

@@ -97,37 +97,37 @@ Administrators use the Channel Manager to define, edit, and update content consu
 ## <a id="access-sbwz-in-mobile"></a> Exercise 5.3 Access SAP Build Work Zone on a mobile device
 
 
-The exposed content can not only be accessed from a desktop browser but also using the native mobile app *SAP Mobile Start*.
+SAP Build Work Zone content can not only be accessed from a desktop browser, but also using the native mobile app *SAP Mobile Start*.
 
 1. Go back to the tab with *SAP Build Work Zone*, click on your user-initials on the top right of the Shell Bar.
-2. Click on `Settings` to open the user settings.
+2. Click on **Settings** to open the user settings.
 
 <p align="center"><img src="./images/ex5_03_0010.png" width="80%" /></p>
 
-3. Select the setting entry `SAP Mobile Start Application`.
-4. Toggle the switch to `Register`. Depending on the screen resolution, you might need to scroll down to make the full QR Code visible.
+3. Select the setting entry **SAP Mobile Start Application**.
+4. Because you have already downloaded the app before, you can now directly to the registration. Toggle the switch to **Register**. Depending on the screen resolution, you might need to scroll down to make the full QR Code visible.
 
 <p align="center"><img src="./images/ex5_03_0020.png" width="60%" /></p>
 
 5. Open the *SAP Mobile Start* app on your smartphone.
-6. Click on `Scan QR Code` and scan your *Site's* QR.
+6. Click on **Scan QR Code** and scan your *Site's* QR.
 <p align="center"><img src="./images/ex5_03_0030.png" width="20%" /></p>
 
 > [!CAUTION]
-> If you freshly installed *SAP Mobile Start* to your device, your operating system will prompt you whether you want to allow to receive push notifications. Make sure to select **Yes** in order to allow receiving push notification. Exercise 2.5 will make use of that. If you declined the alert before or just now by accident, you can later allow push notifications for *SAP Mobile Start* in your device's settings.
+> If you freshly installed *SAP Mobile Start* to your device, your operating system will prompt you whether you want to allow to receive push notifications. You can later change your decision in your device's settings.
 
 7. Sign in with the provided credentials.
 
-On the bottom of the page, you see two tabs: Start and Apps. If SAP Task Center which is part of the SAP Build Work Zone license were configured, you would see a To-Dos tab with your open workflow tasks. 
+On the bottom of the page, you see two tabs: Start and Apps. If SAP Task Center, which is part of the SAP Build Work Zone license, were configured, you would see an additional *To-Dos* tab with your open workflow tasks. 
 
 > [!NOTE]
->- **Start**: You find your most relevant content on the Start screen and receive important information such as your latest to-dos (if SAP Task Center is configured) or company news. You can customize this page by adding favorites to the Favorites section on top of the page and by scrolling to the bottom and tapping Edit Start Page.
+>- **Start**: You find your most relevant content on the Start screen and receive important information such as your latest to-dos (if SAP Task Center is configured) or company news. You can customize this page by adding favorites to the Favorites section on top of the page and by scrolling to the bottom and tapping *Edit Start Page*.
 >- **Apps**: You find an exhaustive list of all your native and web-optimized apps on the Apps tab. The apps are displayed based on your assigned roles and the content corresponds to the apps that you see in the Apps area in the web experience of SAP Build Work Zone. Apps that do not support rendering on mobile devices are filtered.
 
-You should now see a **My Workspaces** app in the app suggestions. Tab on it to see a  web view of all workspaces, use the search to find your workspace and navigate into it. 
+You should also see a **My Workspaces** app in the app suggestions. Tab on it to see a web view of all workspaces, use the search to find your workspace and navigate into it. 
 <p align="center"><img src="./images/ex5_03_0040.png" width="20%" style="margin:10px" />  <img src="./images/ex5_03_0050.png" width="20%" style="margin:10px" /></p>
 
-8. By switching to the *Apps* tab on the bottom, you will be able to see *Site's* content structure with spaces and pages that were federated from the SAP S/4HANA system. You see the spaces as headlines (e.g. Purchasing, Sourcing and Contracting) and below the assigned pages of each space. Tab one of the pages to open it and see the assigned apps.
+8. By switching to the *Apps* tab on the bottom, you will be able to see the content structure which in this case, contains spaces and pages that were federated from the SAP S/4HANA system. You see the spaces as headlines (e.g. Purchasing, Sourcing and Contracting) and below the assigned pages of each space. Tab one of the pages to open it and see the assigned apps.
     
    <p align="center"><img src="./images/ex5_03_0060.png" width="20%" style="margin:10px" />
 

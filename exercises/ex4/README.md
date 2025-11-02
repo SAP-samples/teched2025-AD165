@@ -30,7 +30,6 @@ After completing these steps you will have sent a status update to all users.
 6. You can also use text generation when commenting. Choose one of the entries in the feed and click the **Comment** button. Create and post a comment using text generation in the same way as the status update.
 
 <p align="center"><img src="./images/04_01_0050.png" width="90%" /></p>
-<br>
 
 ---
 
@@ -56,16 +55,8 @@ After completing these steps you will have created a summary of a blog post with
 
 ---
 
-## <a id="ai-doc-grounding"></a> Exercise 4.3 Experience document grounding in SAP Joule
 
-Document Grounding is the process of making a LLM refer to specific documents to generate more accurate and relevant responses. This way you can feed Joule with specific documents of your company (like internal policies, reports and documents), so that Joule can give more accurate and relevant answers.
-
-
-
----
-
-
-## <a id="run-wizard"></a> Exercise 4.4 Use the Guided Experience to submit an AI Use Case
+## <a id="run-wizard"></a> Exercise 4.3 Use the Guided Experience to submit an AI Use Case
 
 After completing these steps you will have submitted an AI Use case using the wizard you created in exercise 3.
 
@@ -130,8 +121,8 @@ If you find a solution that might be useful input for your use case, select **Re
 <p align="center"><img src="./images/04_04_0070.png" width="80%" /></p>
 
 10. Now, you could move on to the next stage **Idea to Implementation** and explore the steps of this stage as well. Depending on the time you have left, you can also go to the optional exercise 5 to learn about application integration and get to know the SAP Mobile Start app for mobile access to SAP Build Work Zone. 
-   
 
+---
 
 ## Summary
 

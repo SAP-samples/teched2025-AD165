@@ -1,4 +1,6 @@
+
 # AD165 - Build It Yourself: Your Modern Digital Workplace
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2025-AD165)](https://api.reuse.software/info/github.com/SAP-samples/teched2025-AD165)
 
 <p align="center"><img src="./exercises/ex1/images/AD165.png" width="80%" /></p>
 

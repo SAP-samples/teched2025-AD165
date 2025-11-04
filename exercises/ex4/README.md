@@ -60,7 +60,7 @@ After completing these steps you will have created a summary of a blog post with
 
 After completing these steps you will have submitted an AI Use case using the wizard you created in exercise 3.
 
-1. Go to the **Use Case Repository** page of your workspace.
+1. Go back to your workspace via the **Workspaces** entry in the top level menu and open the **Use Case Repository** page. Alternatively, you could navigate to your workspace with search in the shell header by searching for your participant number in search scope *Workspaces*.
 
 2. Scroll down to the **Idea Management Guided Process** and click **Create**.
 

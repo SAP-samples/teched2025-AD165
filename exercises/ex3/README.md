@@ -77,6 +77,8 @@ Generate in a markdown format with a Bold and large Title and content that is we
 You have now completed this exercise of creating a Welcome explanatory text for the new workpage. Press on the **Publish** button to persist this text widget in the workpage and click **Publish** again in the pop-up. If you want, deselect **Show in Feed Updates** as you would rather show it in Feed Updates, when the page is final.
 <p align="center"><img src="/exercises/ex3/images/03_01_0100.png" width="85%"/></p>
 
+You will see a Publish popup, leave all options as is and click on the **Publish** button on the popup to submit your changes to the page. You will see that the page is not in edit mode anymore.
+
 ---
 
 ## Exercise 3.2 Build a Guided Experience based on a guided process from SAP Build Process Automation

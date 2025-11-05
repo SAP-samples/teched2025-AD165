@@ -17,6 +17,7 @@ In this exercise, you will first access SAP Build Work Zone.
 > You can keep this github chrome window in your primary laptop screen and move the SAP Build Work Zone chrome window you just opened in the second screen (monitor).
 > It would make it easier to follow the instructions and take actions without switching windows.
 
+You should see the SAP Build Work Zone home screen like this -
 <p align="center"><img src="./images/ex1_01_01_0000.png" width="90%" /></p>
 
 <!--<br>![SAP Build Work Zone](/exercises/ex1/images/01_01_0010.png) -->

@@ -62,7 +62,6 @@ Login credentials will be provided by the instructor.
 > [!IMPORTANT]
 > Make sure to replace `###` throughout the excercise with your participant number.
 
-- [SAP Build Lobby](https://ad165-m3ep4xn0.eu10.build.cloud.sap/lobby)
 - [SAP Build Work Zone site](https://ad165-m3ep4xn0.workzone.cfapps.eu10.hana.ondemand.com/site)
 
 

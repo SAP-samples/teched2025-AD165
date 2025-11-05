@@ -96,7 +96,7 @@ In the meantime, you can download some images that you can use when editing your
 6. Open the link 👉 [Content.zip](https://github.com/SAP-samples/teched2025-AD165/blob/main/exercises/ex1/samples/Content.zip) 👈 in a new browser tab (Right Click + Open Link in New Tab)
 7. Download the "Content.zip" file using the github "Download Raw file" icon
 
-![download raw file](./images/01_06_1000.png))
+![download raw file](./images/01_06_1000.png)
    
 9. Open the folder you have downloaded the zip into
 11. Right click on the zip and select "Extract All"

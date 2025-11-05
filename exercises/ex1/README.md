@@ -93,13 +93,13 @@ The workspace is created and you automatically navigate to it. It can take some 
 
 In the meantime, you can download some images that you can use when editing your workspace.
 
-6. Open the link in a new tab (`Right Click` + `Open link in new tab`) 👉 [Content.zip](https://github.com/SAP-samples/teched2025-AD165/blob/main/exercises/ex1/samples/Content.zip) in a new browser tab 
-7. Download the "Content.zip" file using the github "Download Raw file" icon
+6. Open the link in a new browser tab (`Right Click` + `Open link in new tab`) 👉 [Content.zip](https://github.com/SAP-samples/teched2025-AD165/blob/main/exercises/ex1/samples/Content.zip).
+7. Download the "Content.zip" file using the github "Download Raw file" icon.
 
 ![download raw file](./images/01_06_1000.png)
    
-9. Open the folder you have downloaded the zip into
-11. Right click on the zip and select "Extract All"
+8. Open the folder you have downloaded the zip into.
+9. Right click on the zip and select "Extract All".
 
 <p align="center"><img src="./images/ex1_02_07_0001.png" width="60%" alt="WorkspaceReady"/></p>
 
@@ -145,7 +145,7 @@ Now, you will change the avatar of the workspace, so you can recognize it more e
 1. Hover the little image next to the workspace titel, then click the **Upload workspace avatar** icon that appears.
 <p align="center"><img src="./images/ex1_03_02_0001.png" width="90%" alt="Upload avatar"/></p>
 
-2. Upload any image from the images folder.
+2. Upload any image (e.g. 'female-face.jpg') from the folder to which you extracted the image files.
    
 4. Then deselect **Autofit** to be able to zoom and adjust the display window.
 

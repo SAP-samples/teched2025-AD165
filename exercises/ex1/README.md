@@ -43,7 +43,7 @@ After completing these steps you will have created a Center of Excellence worksp
 >
 >- Workspaces can be created from scratch or using templates.
 >- SAP Build Work Zone provides pre-configured templates for various use cases to help users get started quickly.
->- The Digital Center of Excellence template is not included in the standard SAP templates but can be downloaded from the [SAP Build Governance >Resource Center](https://workzone.one.int.sap/site#workzone-home&/groups/dfHGUSyc55Z70bNJiHhIsR/workpage_tabs/u4QN8ZTukJEYfR1SXxfMPQ). This is >a public workspace open to everyone. Please refer to this script??? for access details.
+>- The Digital Center of Excellence template is not included in the standard SAP templates but can be downloaded from the [SAP Build Governance >Resource Center](https://workzone.one.int.sap/site#workzone-home&/groups/dfHGUSyc55Z70bNJiHhIsR/workpage_tabs/u4QN8ZTukJEYfR1SXxfMPQ). This is a public workspace open to everyone after registration. Please refer to this [tutorial](https://developers.sap.com/tutorials/build-digital-coe..html) for details on how to access and use it.
 >
 >**Workspace Types:**
 >

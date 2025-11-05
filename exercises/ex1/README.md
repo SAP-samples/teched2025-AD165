@@ -10,8 +10,12 @@ In this exercise, you will first access SAP Build Work Zone.
 
 > [!IMPORTANT]
 > Please make sure to open the link below with the browser context menu, right-click and 'Open Link in New Tab' in order to keep this tab (Github exercise) opened.  
-1. Open <a href="https://ad165-m3ep4xn0.workzone.cfapps.eu10.hana.ondemand.com/site#workzone-home&/home" target="_blank">SAP Build Work Zone</a> and login with the user that is available on your desk and the password provided by your instructors.
+1. Open (in a new window `shift` + `left click`) 👉 <a href="https://ad165-m3ep4xn0.workzone.cfapps.eu10.hana.ondemand.com/site#workzone-home&/home" target="_blank">SAP Build Work Zone</a> and login with the user that is available on your desk and the password provided by your instructors.
 
+
+> [!TIP]
+> You can keep this github chrome window in your primary laptop screen and move the SAP Build Work Zone chrome window you just opened in the second screen (monitor).
+> It would make it easier to follow the instructions and take actions without switching windows.
 
 <p align="center"><img src="./images/ex1_01_01_0000.png" width="90%" /></p>
 

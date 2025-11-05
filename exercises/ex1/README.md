@@ -74,7 +74,7 @@ After completing these steps you will have created a Center of Excellence worksp
 
 3. On the first screen, make the following settings:
    - Enter name: **AI Center of Excellence ###** and a description of your choice.
-   - Select the **Digital Center of Excellence workspace template**. You could also preview the template to see what it contains.
+   - Select the row **Digital Center of Excellence workspace template**. You may also `preview` the template to see what it contains.
    - **Keep the checkmarks** to make the workspace freely accessible to all employees in the demo company.
    - Click **Next**.
 

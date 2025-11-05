@@ -15,7 +15,13 @@ After completing these steps you will have sent a status update to all users.
    
 <p align="center"><img src="./images/04_01_0010.png" width="90%" /></p>
 
-3. Enter a prompt of your choice into the Ask AI field, e.g. "Write a status message that you are happy to be part of this AI community" or another prompt about SAP TechEd and click the **Send** icon.
+3. Enter a prompt of your choice into the Ask AI field, e.g.
+
+```
+Write a status message that you are happy to be part of this AI community
+```
+
+or another prompt of your choice about SAP TechEd and click the **Send** icon.
    
 <p align="center"><img src="./images/04_01_0020.png" width="90%" /></p>
 

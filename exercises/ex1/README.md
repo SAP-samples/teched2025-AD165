@@ -93,7 +93,7 @@ The workspace is created and you automatically navigate to it. It can take some 
 
 In the meantime, you can download some images that you can use when editing your workspace.
 
-6. Open the link in a new tab (Right Click + Open Link in New Tab) 👉 [Content.zip](https://github.com/SAP-samples/teched2025-AD165/blob/main/exercises/ex1/samples/Content.zip) in a new browser tab 
+6. Open the link in a new tab (`Right Click` + `Open link in new tab`) 👉 [Content.zip](https://github.com/SAP-samples/teched2025-AD165/blob/main/exercises/ex1/samples/Content.zip) in a new browser tab 
 7. Download the "Content.zip" file using the github "Download Raw file" icon
 
 ![download raw file](./images/01_06_1000.png)

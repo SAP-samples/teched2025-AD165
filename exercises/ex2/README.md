@@ -31,9 +31,7 @@ _The “Explore” tab showing: left navigation (Card Types & Card Features), ce
 
 ### Steps
 
-1. Right click on the link below and **Open the link in a new tab**. This will open the [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html) with **_Explore_.** tab selected.
-
-	Go to:  [https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list)
+1. `Right Click` + `Open this link in new tab` 👉  [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list). This will open the **Card Explorer** with **_Explore_** tab selected.
    
    The page has three main areas:  
    - **Left navigation:** _Card Types_ (e.g., **List**, Object, Table, Analytical, Calendar, Timeline, WebPage, Component, Adaptive) and _Card Features_ (Data, Actions, Configuration, Filters, etc.).  

@@ -42,7 +42,7 @@ After completing these steps you will have created a Center of Excellence worksp
 
 
 > [!NOTE]
-> Understanding SAP Build Work Zone: Workspaces
+> Understanding SAP Build Work Zone: Workspaces (for information only, no action required from participants)
 >
 >**Workspace Creation:**
 >

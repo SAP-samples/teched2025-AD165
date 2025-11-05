@@ -43,7 +43,7 @@ or another prompt of your choice about SAP TechEd and click the **Send** icon.
 
 After completing these steps you will have created a summary of a blog post with the help of AI. To try this functionality, we created another workspace with some sample blog posts for you. You can simply find them via the search.
 
-1. In the search window in the Work Zone shell enter the search term Joule and change the search scope to **Content**, so you do not only search in the current workspace, but in Work Zone content overall.
+1. Click on the 🔍︎ (magnifying glass icon) on the top right toolbar. In the search window in the Work Zone shell enter the search term Joule and change the search scope to **Content**, so you do not only search in the current workspace, but in Work Zone content overall.
    
 <p align="center"><img src="./images/04_02_0010.png" width="90%" /></p>
 
